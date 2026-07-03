@@ -1,8 +1,8 @@
 // ─── Digital Sanctuary PWA Service Worker ────────────────────────────────────
 // Cache-first for shell assets, Network-first for data files.
 
-const CACHE_NAME = 'ds-shell-v3';
-const DATA_CACHE_NAME = 'ds-data-v3';
+const CACHE_NAME = 'ds-shell-v4';
+const DATA_CACHE_NAME = 'ds-data-v4';
 
 // Core app shell files — cached on install
 const SHELL_ASSETS = [
@@ -53,8 +53,11 @@ self.addEventListener('fetch', event => {
   // Only handle same-origin GET requests
   if (event.request.method !== 'GET') return;
 
-  // ── Strategy: Network First for index.html / root to prevent outdated caching ──
-  const isHtml = url.pathname === '/' || url.pathname.endsWith('index.html');
+  // ── Strategy: Network First for HTML / navigation requests ──
+  const isHtml = event.request.mode === 'navigate' ||
+                 (event.request.headers.get('accept') && event.request.headers.get('accept').includes('text/html')) ||
+                 url.pathname.endsWith('/') ||
+                 url.pathname.endsWith('.html');
   if (isHtml) {
     event.respondWith(networkFirst(event.request, CACHE_NAME));
     return;
