@@ -1,0 +1,8 @@
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+pdfminer.six>=20221105
+indic-transliteration>=2.3
+PyMuPDF
+pdf2image
+pytesseract

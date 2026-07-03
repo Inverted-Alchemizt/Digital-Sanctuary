@@ -1,0 +1,37 @@
+name: CG Jobs Scrape
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # Every 30 minutes
+  workflow_dispatch:         # allow manual trigger
+
+permissions:
+  contents: write            # required to push data files back
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pdf2image pytesseract PyMuPDF
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: routine scrape [skip ci]"
+          file_pattern: "*.json *.js"

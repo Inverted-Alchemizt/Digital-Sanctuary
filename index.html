@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ─── PWA / Installability ──────────────────────────────────────── -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#257575">
+
+    <!-- iOS Safari full-screen / icon support -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="DS Jobs">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+
+    <!-- Android / PWA install hint -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
+    <title>Digital Sanctuary — Teaching Jobs</title>
+    <meta name="description"
+        content="Track government teaching vacancies in Chhattisgarh and across India from KVS, NVS, EMRS. Filter by employment type, state, and date.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['"Outfit"', 'sans-serif'],
+                    },
+                    colors: {
+                        // Educational Palette: Indigo & Slate
+                        primary: '#4F46E5', // Indigo 600
+                        'primary-container': '#E0E7FF', // Indigo 100
+                        'on-primary': '#ffffff',
+                        surface: '#F8FAFC', // Slate 50
+                        'surface-container-lowest': '#ffffff',
+                        'surface-container-low': '#F1F5F9', // Slate 100
+                        'surface-container-high': '#E2E8F0', // Slate 200
+                        'surface-container-highest': '#CBD5E1', // Slate 300
+                        'on-surface': '#0F172A', // Slate 900
+                        'on-surface-variant': '#334155', // Slate 700
+                        'outline-variant': '#94A3B8', // Slate 400
+                        error: '#EF4444', // Red 500
+
+                        // Dark Mode Palette
+                        'dark-primary': '#818CF8', // Indigo 400
+                        'dark-primary-container': '#312E81', // Indigo 900
+                        'dark-on-primary': '#000000',
+                        'dark-surface': '#020617', // Slate 950
+                        'dark-surface-container-lowest': '#000000',
+                        'dark-surface-container-low': '#0F172A', // Slate 900
+                        'dark-surface-container-high': '#1E293B', // Slate 800
+                        'dark-surface-container-highest': '#334155', // Slate 700
+                        'dark-on-surface': '#F8FAFC', // Slate 50
+                        'dark-on-surface-variant': '#CBD5E1', // Slate 300
+                        'dark-outline-variant': '#475569' // Slate 600
+                    },
+                    boxShadow: {
+                        'ambient': '0 8px 30px rgba(15, 23, 42, 0.05)',
+                        'ambient-dark': '0 8px 30px rgba(0, 0, 0, 0.6)',
+                        'glow': '0 0 20px rgba(79, 70, 229, 0.4)',
+                        'glow-dark': '0 0 20px rgba(129, 140, 248, 0.4)'
+                    },
+                    letterSpacing: {
+                        'sanctuary': '0.05em'
+                    },
+                    animation: {
+                        blob: "blob 15s infinite ease-in-out",
+                        'slide-up': 'slideUp 0.5s ease-out forwards',
+                    },
+                    keyframes: {
+                        blob: {
+                            "0%": { transform: "translate(0px, 0px) scale(1)" },
+                            "33%": { transform: "translate(40px, -60px) scale(1.15)" },
+                            "66%": { transform: "translate(-30px, 30px) scale(0.9)" },
+                            "100%": { transform: "translate(0px, 0px) scale(1)" },
+                        },
+                        slideUp: {
+                            "0%": { opacity: 0, transform: "translateY(20px)" },
+                            "100%": { opacity: 1, transform: "translateY(0)" },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            /* High-craft Glassmorphism */
+            .glass {
+                background-color: rgba(255, 255, 255, 0.45);
+                backdrop-filter: blur(20px);
+                -webkit-backdrop-filter: blur(20px);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+            }
+            .dark .glass {
+                background-color: rgba(15, 23, 42, 0.45);
+                border: 1px solid rgba(255, 255, 255, 0.05);
+            }
+            .glass-card {
+                background: linear-gradient(135deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.25) 100%);
+                backdrop-filter: blur(24px);
+                -webkit-backdrop-filter: blur(24px);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.04);
+            }
+            .dark .glass-card {
+                background: linear-gradient(135deg, rgba(15, 23, 42, 0.55) 0%, rgba(2, 6, 17, 0.35) 100%);
+                border: 1px solid rgba(255, 255, 255, 0.03);
+                box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+            }
+
+            /* Spotlight Card Border & Ambient Background Glow */
+            .spotlight-card {
+                position: relative;
+                isolation: isolate;
+            }
+            .spotlight-card::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                border-radius: 24px;
+                padding: 1.5px;
+                background: radial-gradient(
+                    350px circle at var(--mouse-x, 0px) var(--mouse-y, 0px),
+                    rgba(99, 102, 241, 0.4) 0%,
+                    rgba(6, 182, 212, 0.15) 50%,
+                    transparent 100%
+                );
+                -webkit-mask: 
+                    linear-gradient(#fff 0 0) content-box, 
+                    linear-gradient(#fff 0 0);
+                -webkit-mask-composite: xor;
+                mask-composite: exclude;
+                pointer-events: none;
+                z-index: 2;
+                opacity: 0;
+                transition: opacity 0.4s ease;
+            }
+            .spotlight-card::after {
+                content: '';
+                position: absolute;
+                inset: 0;
+                border-radius: 24px;
+                background: radial-gradient(
+                    450px circle at var(--mouse-x, 0px) var(--mouse-y, 0px),
+                    rgba(99, 102, 241, 0.035),
+                    rgba(6, 182, 212, 0.01) 60%,
+                    transparent 100%
+                );
+                pointer-events: none;
+                z-index: 0;
+                opacity: 0;
+                transition: opacity 0.4s ease;
+            }
+            .spotlight-card:hover::before,
+            .spotlight-card:hover::after {
+                opacity: 1;
+            }
+
+            /* Scroll-Linked Entrance Animations */
+            .reveal-card {
+                opacity: 0;
+                transform: translateY(24px) scale(0.98);
+                transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+            }
+            .reveal-card.revealed {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+
+            .click-soothe {
+                transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 150ms ease, background-color 150ms ease;
+            }
+            .click-soothe:active {
+                transform: scale(0.95);
+            }
+            /* Segmented Control Animation */
+            .segmented-bg {
+                transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+            }
+            
+            /* Educational & Premium Badges */
+            .badge-guest     { background: #FEF3C7; color: #D97706; } /* Amber */
+            .badge-samvida   { background: #E0E7FF; color: #4338CA; } /* Indigo */
+            .badge-contract  { background: #F3E8FF; color: #7E22CE; } /* Purple */
+            .badge-permanent { background: #DCFCE7; color: #15803D; } /* Green */
+            .badge-parttime  { background: #FEE2E2; color: #B91C1C; } /* Red */
+            .badge-temporary { background: #FCE7F3; color: #BE185D; } /* Pink */
+            .badge-deputation{ background: #E0F2FE; color: #0369A1; } /* Sky */
+            .badge-default   { background: #F1F5F9; color: #475569; } /* Slate */
+
+            .dark .badge-guest     { background: rgba(251, 191, 36, 0.15); color: #FCD34D; }
+            .dark .badge-samvida   { background: rgba(129, 140, 248, 0.15); color: #A5B4FC; }
+            .dark .badge-contract  { background: rgba(192, 132, 252, 0.15); color: #D8B4FE; }
+            .dark .badge-permanent { background: rgba(74, 222, 128, 0.15); color: #86EFAC; }
+            .dark .badge-parttime  { background: rgba(248, 113, 113, 0.15); color: #FCA5A5; }
+            .dark .badge-temporary { background: rgba(244, 114, 182, 0.15); color: #F9A8D4; }
+            .dark .badge-deputation{ background: rgba(56, 189, 248, 0.15); color: #7DD3FC; }
+            .dark .badge-default   { background: rgba(148, 163, 184, 0.15); color: #CBD5E1; }
+            
+            /* Custom Scrollbar for dropdowns */
+            ::-webkit-scrollbar {
+                width: 6px;
+            }
+            ::-webkit-scrollbar-track {
+                background: transparent;
+            }
+            ::-webkit-scrollbar-thumb {
+                background: rgba(148, 163, 184, 0.3);
+                border-radius: 10px;
+            }
+            .dark ::-webkit-scrollbar-thumb {
+                background: rgba(71, 85, 105, 0.5);
+            }
+        }
+
+        /* Google Translate hiding */
+        .goog-te-banner-frame.skiptranslate,
+        .goog-te-gadget-icon,
+        .goog-te-gadget-simple,
+        #goog-gt-tt { display: none !important; }
+        body { top: 0px !important; }
+        #google_translate_element { opacity: 0; position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none; }
+    </style>
+    <!-- Fuse.js -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7/dist/fuse.min.js"></script>
+    <!-- Offline Data Fallbacks -->
+    <script>window.STATE_DATA = null; window.CENTRAL_DATA = null;</script>
+    <script src="data.js" onerror="console.log('Local state data not found')"></script>
+    <script src="data_central.js" onerror="console.log('Local central data not found')"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .font-display {
+            font-family: 'Outfit', sans-serif;
+        }
+    </style>
+</head>
+
+<body
+    class="text-on-surface dark:text-dark-on-surface min-h-screen transition-colors duration-500 selection:bg-primary-container selection:text-primary dark:selection:bg-dark-primary-container dark:selection:text-dark-primary overflow-x-hidden">
+
+    <!-- Deep Interactive Layered Backdrop -->
+    <div class="fixed inset-0 pointer-events-none overflow-hidden z-0 bg-surface dark:bg-dark-surface transition-colors duration-500">
+        <!-- Scrolling/Parallax Dot Grid Layer -->
+        <div id="parallax-grid" class="absolute inset-0 opacity-20 dark:opacity-35 transition-colors duration-500" 
+             style="background-image: radial-gradient(circle, currentColor 1.2px, transparent 1.2px); background-size: 24px 24px; color: rgba(79, 70, 229, 0.15);"></div>
+        
+        <!-- Ambient Glow Blobs -->
+        <div id="parallax-blob-1" class="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] bg-primary/15 dark:bg-dark-primary/10 rounded-full filter blur-[120px] animate-blob"></div>
+        <div id="parallax-blob-2" class="absolute top-[40%] right-[-10%] w-[45vw] h-[45vw] bg-cyan-500/15 dark:bg-cyan-600/10 rounded-full filter blur-[120px] animate-blob" style="animation-delay: 4s;"></div>
+        <div id="parallax-blob-3" class="absolute bottom-[-10%] left-[20%] w-[40vw] h-[40vw] bg-purple-500/15 dark:bg-purple-600/10 rounded-full filter blur-[120px] animate-blob" style="animation-delay: 8s;"></div>
+    </div>
+
+    <!-- Sticky pill nav wrapper -->
+    <div id="sticky-nav-wrapper" class="sticky top-0 z-40 w-full transition-all duration-300 py-4 px-4 sm:px-6">
+        <nav id="sticky-nav-pill" class="max-w-6xl mx-auto rounded-full transition-all duration-300 py-3 px-6 flex justify-between items-center bg-transparent border border-transparent z-20">
+            <div class="flex items-center gap-3">
+                <span class="font-display font-extrabold text-lg sm:text-xl tracking-tight text-on-surface dark:text-white">
+                    Digital<span class="text-primary dark:text-dark-primary font-medium">Sanctuary</span>
+                </span>
+                <div class="hidden md:block" id="lastUpdatedBadge">
+                    <div class="flex items-center gap-2 px-4 py-2 glass rounded-full shadow-sm transition-all animate-pulse border border-white/20 dark:border-white/5">
+                        <div class="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.8)]"></div>
+                        <span class="opacity-90 font-semibold text-on-surface dark:text-dark-on-surface">Live Syncing...</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-3 sm:gap-4">
+                <!-- Refresh Button -->
+                <button id="refreshDataBtn" title="Run manual scrape"
+                    class="click-soothe rounded-full bg-primary text-white dark:bg-dark-primary dark:text-dark-on-primary px-4 sm:px-5 py-2 sm:py-2.5 text-xs sm:text-sm font-bold hover:-translate-y-0.5 hover:shadow-glow dark:hover:shadow-glow-dark transition-all duration-300 shadow-ambient flex items-center gap-2 border border-primary/50">
+                    <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                            d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                    <span class="hidden sm:inline">Refresh Data</span>
+                </button>
+
+                <!-- Hidden Native Widget -->
+                <div id="google_translate_element"></div>
+
+                <!-- Custom Native Select -->
+                <div class="relative inline-block text-left">
+                    <select id="customLangSelect"
+                        class="appearance-none flex items-center justify-between cursor-pointer click-soothe transition-all duration-300 pl-4 sm:pl-5 pr-8 sm:pr-10 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm font-bold tracking-wide glass text-on-surface-variant dark:text-dark-on-surface-variant hover:bg-surface-container-highest/50 dark:hover:bg-dark-surface-container-highest/50 shadow-sm border border-white/20 dark:border-white/5 focus:outline-none ring-primary/30 focus:ring-2">
+                        <option value="en">🇬🇧 EN</option>
+                        <option value="hi">🇮🇳 HI</option>
+                        <option value="mr">🫶 MR</option>
+                        <option value="ta">🫶 TA</option>
+                        <option value="te">🫶 TE</option>
+                        <option value="bn">🫶 BN</option>
+                        <option value="ur">🫶 UR</option>
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 sm:pr-4">
+                        <svg class="w-4 h-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+
+                <button id="themeToggle"
+                    class="click-soothe rounded-full glass p-2 sm:p-2.5 text-on-surface-variant dark:text-dark-on-surface-variant hover:scale-[1.05] hover:bg-surface-container-highest/50 dark:hover:bg-dark-surface-container-highest/50 transition-all duration-300 shadow-sm border border-white/20 dark:border-white/5">
+                    <svg id="moonIcon" class="w-4.5 h-4.5 sm:w-5 sm:h-5 hidden dark:block" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z">
+                        </path>
+                    </svg>
+                    <svg id="sunIcon" class="w-4.5 h-4.5 sm:w-5 sm:h-5 block dark:hidden" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="relative w-full overflow-hidden flex flex-col z-10">
+        <header class="max-w-4xl mx-auto px-6 py-12 lg:py-16 text-center flex flex-col items-center justify-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/20 bg-primary/5 dark:border-dark-primary/20 dark:bg-dark-primary/10 mb-6"
+                data-aos="fade-down">
+                <span class="w-2 h-2 rounded-full bg-primary dark:bg-dark-primary animate-pulse"></span>
+                <span class="text-xs font-bold tracking-sanctuary uppercase text-primary dark:text-dark-primary">Educational Portal</span>
+            </div>
+
+            <h1 data-aos="zoom-out"
+                class="text-5xl lg:text-[4rem] leading-tight font-extrabold tracking-tight text-on-surface dark:text-white mb-6 font-display">
+                Digital <span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan-500 dark:from-dark-primary dark:to-cyan-400">Sanctuary</span>
+            </h1>
+            <p id="headerSubtitle" data-aos="fade-up" data-aos-delay="100"
+                class="text-lg lg:text-xl text-on-surface-variant dark:text-dark-on-surface-variant font-medium max-w-2xl leading-relaxed mb-10">
+                A highly curated space for tracking educational & teaching vacancies across government institutions.
+            </p>
+
+            <!-- Sleek Segmented Control Tab Switcher -->
+            <div data-aos="fade-up" data-aos-delay="180"
+                class="relative flex p-1.5 glass rounded-full shadow-ambient border border-white/30 dark:border-white/10 w-full max-w-md mx-auto z-20">
+                <div id="tabIndicator"
+                    class="absolute top-1.5 bottom-1.5 left-1.5 w-[calc(50%-6px)] bg-primary dark:bg-dark-primary rounded-full transition-all duration-300 ease-in-out shadow-sm z-0">
+                </div>
+                <button id="tabState"
+                    class="tab-btn relative z-10 flex-1 flex items-center justify-center gap-2 py-3 rounded-full text-sm font-bold tracking-wide transition-colors duration-300 text-white dark:text-dark-on-primary">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    State Vacancies
+                </button>
+                <button id="tabCentral"
+                    class="tab-btn relative z-10 flex-1 flex items-center justify-center gap-2 py-3 rounded-full text-sm font-bold tracking-wide transition-colors duration-300 text-on-surface-variant dark:text-dark-on-surface-variant">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                            d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                    </svg>
+                    Central Vacancies
+                </button>
+            </div>
+        </header>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 md:px-8 pb-32 relative z-20">
+        <!-- Bento Grid Dashboard Filters -->
+        <section data-aos="fade-up" data-aos-delay="200"
+            class="grid grid-cols-12 gap-6 mb-16 relative z-10 md:-mt-4 max-w-7xl mx-auto animate-slide-up">
+            
+            <!-- Card A: Search & Classification (Large Bento Card) -->
+            <div class="col-span-12 lg:col-span-8 glass-card rounded-[2rem] p-6 sm:p-8 flex flex-col justify-between border border-white/20 dark:border-white/5 shadow-ambient dark:shadow-ambient-dark">
+                <!-- Search input -->
+                <div class="relative w-full mb-6 group">
+                    <label for="searchInput"
+                        class="absolute -top-3 left-6 px-3 py-0.5 glass text-on-surface-variant dark:text-dark-on-surface-variant text-[10px] font-bold tracking-sanctuary uppercase rounded-full shadow-sm z-10 border border-white/20 dark:border-white/5">
+                        Search Roles
+                    </label>
+                    <input type="text" id="searchInput"
+                        class="block w-full px-6 py-4 rounded-2xl bg-white/40 dark:bg-dark-surface-container-low/40 backdrop-blur-md text-on-surface dark:text-dark-on-surface placeholder-on-surface-variant/40 focus:outline-none transition-all border-2 border-white/20 dark:border-white/5 focus:border-primary/50 dark:focus:border-dark-primary/50 shadow-sm"
+                        placeholder="Search subjects, districts, departments, KVS, NVS...">
+                    <div class="absolute inset-y-0 right-5 flex items-center pointer-events-none">
+                        <svg class="h-5 w-5 text-on-surface-variant dark:text-dark-on-surface-variant opacity-65" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Subject filter row -->
+                <div class="mb-6">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="text-[10px] font-bold tracking-sanctuary uppercase text-on-surface-variant dark:text-dark-on-surface-variant opacity-60">
+                            📚 Subject Filter
+                        </span>
+                    </div>
+                    <div class="flex flex-wrap gap-2" id="subjectFilters">
+                        <button data-subj="All"
+                            class="filter-subj click-soothe transition-all duration-200 px-4 py-1.5 rounded-full text-xs font-bold tracking-wide bg-primary/15 text-primary dark:bg-dark-primary/20 dark:text-dark-primary border border-primary/30 dark:border-dark-primary/30">
+                            All Subjects
+                        </button>
+                        <button data-subj="PGT" class="filter-subj click-soothe transition-all duration-200 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-primary/10 dark:hover:bg-dark-primary/10">PGT</button>
+                        <button data-subj="TGT" class="filter-subj click-soothe transition-all duration-200 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-primary/10 dark:hover:bg-dark-primary/10">TGT</button>
+                        <button data-subj="PRT" class="filter-subj click-soothe transition-all duration-200 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-primary/10 dark:hover:bg-dark-primary/10">PRT</button>
+                        <button data-subj="Lecturer" class="filter-subj click-soothe transition-all duration-200 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-primary/10 dark:hover:bg-dark-primary/10">Lecturer</button>
+                        <button data-subj="Science" class="filter-subj click-soothe transition-all duration-200 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-primary/10 dark:hover:bg-dark-primary/10">🔬 Science</button>
+                        <button data-subj="Math" class="filter-subj click-soothe transition-all duration-200 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-primary/10 dark:hover:bg-dark-primary/10">➕ Math</button>
+                        <button data-subj="Hindi" class="filter-subj click-soothe transition-all duration-200 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-primary/10 dark:hover:bg-dark-primary/10">🇮🇳 Hindi</button>
+                        <button data-subj="English" class="filter-subj click-soothe transition-all duration-200 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-primary/10 dark:hover:bg-dark-primary/10">🇬🇧 English</button>
+                        <button data-subj="PhysEd" class="filter-subj click-soothe transition-all duration-200 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-primary/10 dark:hover:bg-dark-primary/10">🏃 Phys. Ed.</button>
+                        <button data-subj="Computer" class="filter-subj click-soothe transition-all duration-200 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-primary/10 dark:hover:bg-dark-primary/10">💻 Computer</button>
+                    </div>
+                </div>
+
+                <!-- Employment Type filter row -->
+                <div>
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="text-[10px] font-bold tracking-sanctuary uppercase text-on-surface-variant dark:text-dark-on-surface-variant opacity-60">
+                            💼 Employment Type
+                        </span>
+                    </div>
+                    <div class="flex flex-wrap gap-2" id="categoryFilters">
+                        <button data-cat="All"
+                            class="filter-cat flex items-center click-soothe transition-all duration-300 px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-primary text-on-primary dark:bg-dark-primary dark:text-dark-on-primary">
+                            All Types
+                        </button>
+                        <button data-cat="Guest" class="filter-cat flex items-center click-soothe transition-all duration-300 px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-surface-container-highest dark:hover:bg-dark-surface-container-highest">👤 Guest</button>
+                        <button data-cat="Samvida" class="filter-cat flex items-center click-soothe transition-all duration-300 px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-surface-container-highest dark:hover:bg-dark-surface-container-highest">📋 Samvida</button>
+                        <button data-cat="Contract" class="filter-cat flex items-center click-soothe transition-all duration-300 px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-surface-container-highest dark:hover:bg-dark-surface-container-highest">📝 Contract</button>
+                        <button data-cat="Permanent" class="filter-cat flex items-center click-soothe transition-all duration-300 px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-surface-container-highest dark:hover:bg-dark-surface-container-highest">🏛️ Permanent</button>
+                        <button data-cat="Part-Time" class="filter-cat flex items-center click-soothe transition-all duration-300 px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-surface-container-highest dark:hover:bg-dark-surface-container-highest">🕐 Part-Time</button>
+                        <button data-cat="Temporary" class="filter-cat flex items-center click-soothe transition-all duration-300 px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-surface-container-highest dark:hover:bg-dark-surface-container-highest">⏳ Temporary</button>
+                        <button data-cat="Deputation" class="filter-cat flex items-center click-soothe transition-all duration-300 px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-surface-container-highest dark:hover:bg-dark-surface-container-highest">🏢 Deputation</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Stack (Card B & Card C) -->
+            <div class="col-span-12 lg:col-span-4 flex flex-col gap-6">
+                <!-- Card B: View Options (Bento Card) -->
+                <div class="glass-card rounded-[2rem] p-6 flex flex-col justify-between border border-white/20 dark:border-white/5 shadow-ambient dark:shadow-ambient-dark">
+                    <div class="mb-4">
+                        <span class="text-[10px] font-bold tracking-sanctuary uppercase text-on-surface-variant dark:text-dark-on-surface-variant opacity-60">
+                            🎛️ Content Filters
+                        </span>
+                    </div>
+                    
+                    <!-- Doc Type Switcher -->
+                    <div class="flex p-1 glass rounded-full shadow-sm border border-white/20 dark:border-white/5 mb-4 relative w-full">
+                        <div id="docTypeIndicator"
+                            class="absolute top-1 bottom-1 left-1 w-[calc(50%-4px)] bg-primary dark:bg-dark-primary rounded-full transition-all duration-300 ease-in-out shadow-sm z-0">
+                        </div>
+                        <button id="docTypeJob"
+                            class="relative z-10 flex-1 px-3 py-2 rounded-full text-xs font-bold tracking-wide transition-colors duration-300 text-white dark:text-dark-on-primary">
+                            💼 Vacancies
+                        </button>
+                        <button id="docTypeMerit"
+                            class="relative z-10 flex-1 px-3 py-2 rounded-full text-xs font-bold tracking-wide transition-colors duration-300 text-on-surface-variant dark:text-dark-on-surface-variant">
+                            🏆 Merit Lists
+                        </button>
+                    </div>
+
+                    <!-- Active Checkbox Toggle -->
+                    <label id="activeOnlyLabel"
+                        class="flex items-center justify-between cursor-pointer px-4 py-3 rounded-2xl bg-white/30 dark:bg-black/10 border border-white/20 dark:border-white/5 shadow-sm select-none hover:bg-white/50 dark:hover:bg-white/5 transition-all w-full"
+                        title="Hide expired vacancies">
+                        <span class="text-xs font-bold tracking-sanctuary uppercase text-on-surface-variant dark:text-dark-on-surface-variant">
+                            🟢 Active Only
+                        </span>
+                        <span class="relative inline-flex w-9 h-5">
+                            <input type="checkbox" id="activeOnlyToggle" class="sr-only peer">
+                            <span class="absolute inset-0 rounded-full bg-on-surface-variant/20 dark:bg-white/10 peer-checked:bg-emerald-500 transition-colors duration-300"></span>
+                            <span class="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform duration-300 peer-checked:translate-x-4"></span>
+                        </span>
+                    </label>
+                </div>
+
+                <!-- Card C: Date Range Filters (Bento Card) -->
+                <div class="glass-card rounded-[2rem] p-6 flex flex-col justify-between border border-white/20 dark:border-white/5 shadow-ambient dark:shadow-ambient-dark">
+                    <div class="mb-3 flex justify-between items-center">
+                        <span class="text-[10px] font-bold tracking-sanctuary uppercase text-on-surface-variant dark:text-dark-on-surface-variant opacity-60">
+                            📅 Post Date Interval
+                        </span>
+                        <button id="clearDateBtn"
+                            class="hidden click-soothe px-3 py-1 rounded-full text-[10px] font-bold tracking-wide text-primary dark:text-dark-primary bg-primary-container/40 dark:bg-dark-primary-container/40 hover:bg-primary-container dark:hover:bg-dark-primary-container transition-colors shadow-sm">
+                            ✕ Clear
+                        </button>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="flex items-center justify-between bg-white/20 dark:bg-black/10 px-3 py-2 rounded-xl border border-white/20 dark:border-white/5 shadow-sm">
+                            <span class="text-xs font-semibold opacity-60">From</span>
+                            <input type="date" id="startDateFilter" title="Start Date"
+                                class="bg-transparent text-on-surface dark:text-dark-on-surface focus:outline-none text-xs font-bold cursor-pointer w-[110px] text-right">
+                        </div>
+                        <div class="flex items-center justify-between bg-white/20 dark:bg-black/10 px-3 py-2 rounded-xl border border-white/20 dark:border-white/5 shadow-sm">
+                            <span class="text-xs font-semibold opacity-60">To</span>
+                            <input type="date" id="endDateFilter" title="End Date"
+                                class="bg-transparent text-on-surface dark:text-dark-on-surface focus:outline-none text-xs font-bold cursor-pointer w-[110px] text-right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card D: Geography Selector (Full Width Bento Card) -->
+            <div class="col-span-12 glass-card rounded-[2rem] p-6 sm:p-8 border border-white/20 dark:border-white/5 shadow-ambient dark:shadow-ambient-dark">
+                <div class="mb-4">
+                    <span class="text-[10px] font-bold tracking-sanctuary uppercase text-on-surface-variant dark:text-dark-on-surface-variant opacity-60">
+                        📍 Location / Regional Filter
+                    </span>
+                </div>
+                <div class="flex flex-wrap gap-2" id="districtFilters">
+                    <!-- Injected dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <div id="loadingState" class="py-24 text-center">
+            <div class="inline-block relative w-20 h-20 mb-6">
+                <svg class="animate-spin w-full h-full text-primary-container dark:text-dark-primary-container"
+                    viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="none" />
+                    <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" stroke-linecap="round"
+                        stroke-dasharray="250" stroke-dashoffset="180" fill="none"
+                        class="text-primary dark:text-dark-primary" />
+                </svg>
+            </div>
+            <p
+                class="text-on-surface-variant dark:text-dark-on-surface-variant font-medium tracking-sanctuary uppercase text-sm animate-pulse">
+                Gathering opportunities...</p>
+        </div>
+
+        <!-- Job Grid -->
+        <div id="jobsContainer"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 place-items-stretch hidden max-w-7xl mx-auto">
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState"
+            class="hidden py-32 text-center bg-surface-container-low dark:bg-dark-surface-container-low rounded-[3rem] beveled-edge max-w-3xl mx-auto">
+            <div class="text-primary dark:text-dark-primary opacity-50 mb-6" data-aos="fade-down">
+                <svg class="h-20 w-20 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-primary dark:text-dark-primary mb-3">No matching paths</h3>
+            <p class="text-on-surface-variant dark:text-dark-on-surface-variant text-lg">Adjust your search or clear
+                filters to expand your view.</p>
+            <button id="clearFiltersBtn"
+                class="click-soothe mt-8 px-8 py-3 rounded-full text-primary dark:text-dark-primary font-semibold tracking-wide uppercase text-sm bg-primary-container/20 dark:bg-dark-primary-container/20 hover:bg-primary-container/40 dark:hover:bg-dark-primary-container/40 transition-colors">
+                Clear all filters
+            </button>
+        </div>
+    </div>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true, offset: 50, easing: 'ease-out-cubic' });
+
+        // ─── State ───────────────────────────────────────────────────────────
+        let activeTab = 'state';
+        let activeDocType = 'job';
+        let allJobs = [];
+        let fuse = null;
+        let activeCategory = 'All';   // employment_type filter
+        let activeDistrict = 'All';   // district / state filter
+        let activeSubject = 'All';    // subject-area filter (NEW)
+        let activeStartDate = null;
+        let activeEndDate = null;
+        let activeOnlyMode = false;   // hide expired vacancies (NEW)
+        let pollInterval = null;
+
+        // Subject keyword map: pill label → search terms (title must contain at least one)
+        const SUBJECT_KEYWORD_MAP = {
+            'PGT': ['pgt'],
+            'TGT': ['tgt'],
+            'PRT': ['prt'],
+            'Lecturer': ['lecturer', 'व्याख्याता', 'lecturers'],
+            'Science': ['science', 'विज्ञान', 'physics', 'chemistry', 'biology'],
+            'Math': ['math', 'ganit', 'गणित', 'mathematics'],
+            'Hindi': ['hindi', 'हिंदी', 'हिन्दी'],
+            'English': ['english', 'अंग्रेजी'],
+            'PhysEd': ['physical education', 'pe teacher', 'शारीरिक शिक्षा', 'phys ed'],
+            'Computer': ['computer teacher', 'computer science', 'it teacher', 'कम्प्यूटर'],
+        };
+
+        const TAB_ACTIVE = ['bg-primary', 'text-on-primary', 'dark:bg-dark-primary', 'dark:text-dark-on-primary', 'shadow'];
+        const TAB_IDLE = ['text-on-surface-variant', 'dark:text-dark-on-surface-variant'];
+
+        // ─── Tab switching ────────────────────────────────────────────────────
+        function setActiveTab(tab) {
+            activeTab = tab;
+            activeCategory = 'All';
+            activeDistrict = 'All';
+            activeSubject = 'All';
+            activeStartDate = null;
+            activeEndDate = null;
+
+            // Reset date picker
+            document.getElementById('startDateFilter').value = '';
+            document.getElementById('endDateFilter').value = '';
+            document.getElementById('clearDateBtn').classList.add('hidden');
+
+            // Reset subject pill active state
+            document.querySelectorAll('.filter-subj').forEach(b => {
+                b.classList.remove('bg-primary/15', 'text-primary', 'dark:bg-dark-primary/20', 'dark:text-dark-primary', 'border', 'border-primary/30', 'dark:border-dark-primary/30');
+                b.classList.add('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+            });
+            const allSubjBtn = document.querySelector('.filter-subj[data-subj="All"]');
+            if (allSubjBtn) {
+                allSubjBtn.classList.remove('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+                allSubjBtn.classList.add('bg-primary/15', 'text-primary', 'dark:bg-dark-primary/20', 'dark:text-dark-primary', 'border', 'border-primary/30', 'dark:border-dark-primary/30');
+            }
+
+            const tabState = document.getElementById('tabState');
+            const tabCentral = document.getElementById('tabCentral');
+            const indicator = document.getElementById('tabIndicator');
+
+            if (tab === 'state') {
+                indicator.style.transform = 'translateX(0)';
+                tabState.classList.add('text-white', 'dark:text-dark-on-primary');
+                tabState.classList.remove('text-on-surface-variant', 'dark:text-dark-on-surface-variant');
+                tabCentral.classList.remove('text-white', 'dark:text-dark-on-primary');
+                tabCentral.classList.add('text-on-surface-variant', 'dark:text-dark-on-surface-variant');
+            } else {
+                indicator.style.transform = 'translateX(calc(100% + 4px))';
+                tabCentral.classList.add('text-white', 'dark:text-dark-on-primary');
+                tabCentral.classList.remove('text-on-surface-variant', 'dark:text-dark-on-surface-variant');
+                tabState.classList.remove('text-white', 'dark:text-dark-on-primary');
+                tabState.classList.add('text-on-surface-variant', 'dark:text-dark-on-surface-variant');
+            }
+
+            document.getElementById('headerSubtitle').innerText = tab === 'state'
+                ? 'A highly curated space for tracking educational & teaching vacancies across government institutions in Chhattisgarh.'
+                : 'All-India teaching vacancies from KVS, NVS & EMRS — permanent, contract & guest posts.';
+
+            // Reset category buttons
+            document.querySelectorAll('.filter-cat').forEach(b => {
+                b.classList.remove('bg-primary', 'text-white', 'dark:bg-dark-primary', 'dark:text-dark-on-primary');
+                b.classList.add('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+            });
+            const allCatBtn = document.querySelector('.filter-cat[data-cat="All"]');
+            if (allCatBtn) {
+                allCatBtn.classList.remove('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+                allCatBtn.classList.add('bg-primary', 'text-white', 'dark:bg-dark-primary', 'dark:text-dark-on-primary');
+            }
+
+            loadData();
+        }
+
+        document.getElementById('tabState').addEventListener('click', () => setActiveTab('state'));
+        document.getElementById('tabCentral').addEventListener('click', () => setActiveTab('central'));
+
+        // ─── Doc Type switching ────────────────────────────────────────────────
+        const docTypeJob = document.getElementById('docTypeJob');
+        const docTypeMerit = document.getElementById('docTypeMerit');
+        const docTypeIndicator = document.getElementById('docTypeIndicator');
+
+        function setActiveDocType(type) {
+            activeDocType = type;
+            if (type === 'job') {
+                docTypeIndicator.style.transform = 'translateX(0)';
+                docTypeJob.classList.add('text-white', 'dark:text-dark-on-primary');
+                docTypeJob.classList.remove('text-on-surface-variant', 'dark:text-dark-on-surface-variant');
+                docTypeMerit.classList.remove('text-white', 'dark:text-dark-on-primary');
+                docTypeMerit.classList.add('text-on-surface-variant', 'dark:text-dark-on-surface-variant');
+            } else {
+                docTypeIndicator.style.transform = 'translateX(calc(100% + 4px))';
+                docTypeMerit.classList.add('text-white', 'dark:text-dark-on-primary');
+                docTypeMerit.classList.remove('text-on-surface-variant', 'dark:text-dark-on-surface-variant');
+                docTypeJob.classList.remove('text-white', 'dark:text-dark-on-primary');
+                docTypeJob.classList.add('text-on-surface-variant', 'dark:text-dark-on-surface-variant');
+            }
+            renderJobs();
+        }
+
+        if (docTypeJob && docTypeMerit) {
+            docTypeJob.addEventListener('click', () => setActiveDocType('job'));
+            docTypeMerit.addEventListener('click', () => setActiveDocType('merit'));
+        }
+
+        // All 33 CG districts (static list ensures they always appear even if 0 jobs)
+        const staticDistricts = [
+            'Balod', 'Baloda Bazar', 'Balrampur', 'Bastar', 'Bemetara', 'Bijapur',
+            'Bilaspur', 'Dantewada', 'Dhamtari', 'Durg', 'Gariyaband',
+            'Gaurela-Pendra-Marwahi', 'Janjgir-Champa', 'Jashpur', 'Kabirdham',
+            'Kanker', 'Kondagaon', 'Khairagarh-Chhuikhadan-Gandai', 'Korba', 'Koriya',
+            'Mahasamund', 'Manendragarh-Chirmiri-Bharatpur',
+            'Mohla-Manpur-Ambagarh Chowki', 'Mungeli', 'Narayanpur', 'Raigarh',
+            'Raipur', 'Rajnandgaon', 'Sakti', 'Sarangarh-Bilaigarh', 'Sukma',
+            'Surajpur', 'Surguja'
+        ];
+
+        // All Indian States/UTs to ensure they filter properly in Central
+        const staticStates = [
+            'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar', 'Chhattisgarh',
+            'Goa', 'Gujarat', 'Haryana', 'Himachal Pradesh', 'Jharkhand', 'Karnataka',
+            'Kerala', 'Madhya Pradesh', 'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram',
+            'Nagaland', 'Odisha', 'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu',
+            'Telangana', 'Tripura', 'Uttar Pradesh', 'Uttarakhand', 'West Bengal',
+            'Andaman and Nicobar Islands', 'Chandigarh', 'Delhi', 'Jammu and Kashmir',
+            'Ladakh', 'Lakshadweep', 'Puducherry', 'Dadra and Nagar Haveli and Daman and Diu'
+        ];
+
+        // ─── Elements ────────────────────────────────────────────────────────
+        const elements = {
+            loading: document.getElementById('loadingState'),
+            container: document.getElementById('jobsContainer'),
+            empty: document.getElementById('emptyState'),
+            search: document.getElementById('searchInput'),
+            categoryBtns: document.querySelectorAll('.filter-cat'),
+            districtsContainer: document.getElementById('districtFilters'),
+            lastUpdated: document.getElementById('lastUpdatedBadge'),
+            clearBtn: document.getElementById('clearFiltersBtn'),
+            themeToggle: document.getElementById('themeToggle'),
+            startDateFilter: document.getElementById('startDateFilter'),
+            endDateFilter: document.getElementById('endDateFilter'),
+            clearDateBtn: document.getElementById('clearDateBtn'),
+        };
+
+        // ─── Dark mode ───────────────────────────────────────────────────────
+        function toggleDark() {
+            document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+        }
+        elements.themeToggle.addEventListener('click', toggleDark);
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        }
+
+        // ─── Load Data ───────────────────────────────────────────────────────
+        async function loadData() {
+            elements.loading.classList.remove('hidden');
+            elements.container.classList.add('hidden');
+            elements.empty.classList.add('hidden');
+
+            try {
+                let data = null;
+                const isState = activeTab === 'state';
+                const dataFile = isState ? 'data.json' : 'data_central.json';
+                const timestamp = new Date().getTime();
+
+                try {
+                    // Bypass cache by appending a timestamp and using cache: no-store
+                    const response = await fetch(`${dataFile}?t=${timestamp}`, { cache: "no-store" });
+                    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                    data = await response.json();
+                } catch (e) {
+                    console.warn(`Fetch failed (might be offline or CORS), falling back to script data.`, e);
+                    data = isState ? window.STATE_DATA : window.CENTRAL_DATA;
+                }
+
+                if (!data || !data.jobs) {
+                    throw new Error("Unable to load job data.");
+                }
+
+                allJobs = data.jobs || [];
+
+                allJobs.sort((a, b) => {
+                    const dateA = new Date(a.posted_date || normalizeJobDate(a.start_date));
+                    const dateB = new Date(b.posted_date || normalizeJobDate(b.start_date));
+                    if (isNaN(dateA) && isNaN(dateB)) return 0;
+                    if (isNaN(dateA)) return 1;
+                    if (isNaN(dateB)) return -1;
+                    return dateB - dateA;
+                });
+
+                let dateStr = 'Unknown';
+                if (data.last_updated) {
+                    const d = new Date(data.last_updated);
+                    const now = new Date();
+                    const diffMs = now - d;
+                    const diffMins = Math.floor(diffMs / 60000);
+                    const diffHours = Math.floor(diffMins / 60);
+
+                    if (diffMins < 60 && diffMins >= 0) {
+                        dateStr = `${diffMins} min${diffMins !== 1 ? 's' : ''} ago`;
+                    } else if (diffHours < 24 && diffHours >= 0) {
+                        dateStr = `${diffHours} hr${diffHours !== 1 ? 's' : ''} ago`;
+                    } else {
+                        dateStr = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                    }
+                }
+                elements.lastUpdated.innerHTML = `<div class="flex items-center gap-2 px-3 py-1.5 bg-primary/10 dark:bg-dark-primary/20 rounded-full border border-primary/20 dark:border-dark-primary/30 shadow-sm transition-all"><div class="w-2 h-2 rounded-full bg-green-500 animate-[pulse_1.5s_infinite]"></div><span class="opacity-90 text-primary dark:text-dark-primary">Live Data: </span><span class="font-bold text-primary dark:text-dark-primary">${dateStr}</span></div>`;
+
+                fuse = new Fuse(allJobs, {
+                    keys: [
+                        { name: 'title', weight: 0.55 },
+                        { name: 'school', weight: 0.20 },
+                        { name: 'district', weight: 0.15 },
+                        { name: 'employment_type', weight: 0.10 },
+                    ],
+                    threshold: 0.38,
+                    includeScore: true,
+                    minMatchCharLength: 2,
+                    ignoreLocation: true,
+                });
+
+                elements.search.value = '';
+                renderRegionFilters();
+                elements.loading.classList.add('hidden');
+                renderJobs();
+
+            } catch (error) {
+                console.error('Error loading data', error);
+                elements.loading.innerHTML = `<p class="text-error dark:text-[#ffb4ab] font-medium">Failed to load job data. Please try again later.</p>`;
+            }
+        }
+
+        // ─── Region Filters ───────────────────────────────────────────────────
+        function renderRegionFilters() {
+            const regionStats = {};
+
+            allJobs.forEach(j => {
+                const d = j.district;
+                if (!regionStats[d]) regionStats[d] = { open: 0, closed: 0 };
+                let isOpen = true;
+                if (j.end_date) {
+                    const normalized = normalizeJobDate(j.end_date);
+                    const endDate = new Date(normalized);
+                    if (endDate < new Date()) isOpen = false;
+                }
+                if (isOpen) regionStats[d].open++; else regionStats[d].closed++;
+            });
+
+            const uniqueDynamic = Object.keys(regionStats);
+            let allRegions = activeTab === 'state'
+                ? [...new Set([...staticDistricts, ...uniqueDynamic])].sort()
+                : [...new Set([...staticStates, ...uniqueDynamic])].sort();
+
+            const openRegions = uniqueDynamic.filter(d => regionStats[d].open > 0).sort();
+            const closedRegions = uniqueDynamic.filter(d => regionStats[d].open === 0 && regionStats[d].closed > 0).sort();
+
+            const regionLabel = activeTab === 'state' ? 'District' : 'State';
+
+            let html = `
+                <div class="relative inline-block text-left mr-2" id="districtDropdownWrapper">
+                    <button id="districtDropdownBtn" class="flex items-center justify-between click-soothe transition-all duration-300 px-6 py-2.5 rounded-full text-sm font-semibold tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant hover:bg-surface-container-highest dark:hover:bg-dark-surface-container-highest shadow-sm">
+                        <span id="districtDropdownLabel">All ${regionLabel}s</span>
+                        <svg class="w-4 h-4 ml-2 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div id="districtDropdownMenu" class="hidden absolute left-0 z-50 mt-2 w-56 rounded-2xl bg-surface-container-highest dark:bg-dark-surface-container-highest shadow-ambient ring-1 ring-black ring-opacity-5 focus:outline-none overflow-hidden origin-top-left transition-all">
+                        <div class="py-1 max-h-64 overflow-y-auto">
+                            <button data-dist="All" class="filter-dist dropdown-dist block w-full text-left px-5 py-3 text-sm text-on-surface dark:text-dark-on-surface hover:bg-primary/10 dark:hover:bg-dark-primary/20 font-medium">All ${regionLabel}s</button>
+            `;
+            allRegions.forEach(d => {
+                html += `<button data-dist="${d}" class="filter-dist dropdown-dist block w-full text-left px-5 py-3 text-sm text-on-surface dark:text-dark-on-surface hover:bg-primary/10 dark:hover:bg-dark-primary/20 font-medium">${d}</button>`;
+            });
+            html += `</div></div></div>`;
+
+            openRegions.forEach(dist => {
+                html += `
+                    <button data-dist="${dist}" class="filter-dist quick-dist flex items-center click-soothe transition-all duration-300 px-5 py-2.5 rounded-full text-sm font-medium tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant border border-transparent shadow-sm hover:scale-105">
+                        ${dist}
+                        <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 ml-2 shadow-[0_0_8px_rgba(16,185,129,0.8)] border border-white/20"></span>
+                    </button>
+                `;
+            });
+            closedRegions.forEach(dist => {
+                html += `
+                    <button data-dist="${dist}" class="filter-dist quick-dist flex items-center click-soothe transition-all duration-300 px-5 py-2.5 rounded-full text-sm font-medium tracking-wide bg-surface-container-high text-on-surface-variant dark:bg-dark-surface-container-high dark:text-dark-on-surface-variant border border-transparent opacity-70 shadow-sm hover:scale-105">
+                        ${dist}
+                        <span class="w-2.5 h-2.5 rounded-full bg-on-surface-variant/40 ml-2 border border-white/10"></span>
+                    </button>
+                `;
+            });
+
+            elements.districtsContainer.innerHTML = html;
+
+            // Dropdown toggle
+            const dropBtn = document.getElementById('districtDropdownBtn');
+            const dropMenu = document.getElementById('districtDropdownMenu');
+            dropBtn.addEventListener('click', e => { e.stopPropagation(); dropMenu.classList.toggle('hidden'); });
+            document.addEventListener('click', () => { if (!dropMenu.classList.contains('hidden')) dropMenu.classList.add('hidden'); });
+
+            // Region button click
+            document.querySelectorAll('.filter-dist').forEach(btn => {
+                btn.addEventListener('click', e => {
+                    const d = e.currentTarget.dataset.dist;
+                    activeDistrict = d;
+                    document.getElementById('districtDropdownLabel').innerText = d === 'All' ? `All ${regionLabel}s` : d;
+
+                    document.querySelectorAll('.quick-dist').forEach(b => {
+                        b.classList.remove('bg-primary', 'text-on-primary', 'dark:bg-dark-primary', 'dark:text-dark-on-primary');
+                        b.classList.add('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+                        if (b.dataset.dist === d) {
+                            b.classList.remove('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+                            b.classList.add('bg-primary', 'text-on-primary', 'dark:bg-dark-primary', 'dark:text-dark-on-primary');
+                        }
+                    });
+                    renderJobs();
+                });
+            });
+
+            // Highlight "All Districts" by default
+            if (activeDistrict === 'All') {
+                dropBtn.classList.add('bg-primary', 'text-on-primary', 'dark:bg-dark-primary', 'dark:text-dark-on-primary');
+                dropBtn.classList.remove('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+                dropBtn.querySelector('svg').classList.remove('opacity-70');
+            }
+        }
+
+        // ─── Employment Type Badge Helper ─────────────────────────────────────
+        function empTypeBadgeClass(emp) {
+            const map = {
+                'Guest': 'badge-guest',
+                'Samvida': 'badge-samvida',
+                'Contract': 'badge-contract',
+                'Permanent': 'badge-permanent',
+                'Part-Time': 'badge-parttime',
+                'Temporary': 'badge-temporary',
+                'Deputation': 'badge-deputation',
+            };
+            return map[emp] || 'badge-default';
+        }
+
+        // ─── Job Card ─────────────────────────────────────────────────────────
+        function createJobCard(job, index) {
+            const delay = (index % 6) * 50;
+            const endText = job.end_date ? job.end_date : 'Varies/TBD';
+            const url = (job.job_url && job.job_url !== '#') ? job.job_url : '#';
+            const empType = job.employment_type || 'Contract';
+            const empBadge = empTypeBadgeClass(empType);
+
+            return `
+                <div class="flex flex-col glass-card spotlight-card reveal-card rounded-3xl p-6 lg:p-7 hover:-translate-y-2 hover:shadow-ambient dark:hover:shadow-ambient-dark transition-all duration-500 ease-out group relative overflow-hidden">
+                    
+                    <!-- Badges row -->
+                    <div class="mb-4 flex flex-wrap gap-2 items-center relative z-10">
+                        <span class="inline-flex items-center px-3 py-1 rounded-full text-[10px] font-bold tracking-sanctuary uppercase ${empBadge} shadow-sm border border-black/5 dark:border-white/5">
+                            ${empType}
+                        </span>
+                        ${job.category && job.category !== empType ? `
+                        <span class="inline-flex items-center px-3 py-1 rounded-full text-[10px] font-bold tracking-sanctuary uppercase bg-white/45 dark:bg-dark-surface-container-high/40 text-on-surface-variant dark:text-dark-on-surface-variant border border-black/5 dark:border-white/5 shadow-sm">
+                            ${job.category}
+                        </span>` : ''}
+                    </div>
+
+                    <h3 class="text-lg lg:text-xl font-bold font-display text-on-surface dark:text-white mb-4 leading-snug flex-grow relative z-10 group-hover:text-primary dark:group-hover:text-dark-primary transition-colors duration-300" title="${job.title}">
+                        ${job.title}
+                    </h3>
+
+                    <div class="space-y-3 mb-5 relative z-10 flex-grow bg-white/30 dark:bg-slate-900/40 rounded-2xl p-4 border border-white/40 dark:border-white/5">
+                        <div class="flex items-start">
+                            <span class="w-6.5 h-6.5 rounded-full bg-white dark:bg-dark-surface text-primary dark:text-dark-primary flex items-center justify-center mr-2.5 shrink-0 shadow-sm border border-black/5 dark:border-white/5">
+                                <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+                            </span>
+                            <span class="text-xs text-on-surface-variant dark:text-dark-on-surface-variant font-semibold self-center leading-tight">${job.school || 'Government School'}</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="w-6.5 h-6.5 rounded-full bg-white dark:bg-dark-surface text-primary dark:text-dark-primary flex items-center justify-center mr-2.5 shrink-0 shadow-sm border border-black/5 dark:border-white/5">
+                                <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                            </span>
+                            <span class="text-xs text-on-surface-variant dark:text-dark-on-surface-variant font-semibold self-center leading-tight">${job.district}</span>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4 mb-5 px-1 relative z-10">
+                        <div class="flex flex-col">
+                            <span class="text-[9px] uppercase tracking-sanctuary font-bold text-outline-variant dark:text-dark-outline-variant mb-0.5">Posted On</span>
+                            <span class="text-xs font-bold text-on-surface dark:text-white">${job.start_date || 'TBD'}</span>
+                        </div>
+                        <div class="flex flex-col text-right">
+                            <span class="text-[9px] uppercase tracking-sanctuary font-bold text-outline-variant dark:text-dark-outline-variant mb-0.5">Deadline</span>
+                            <span class="text-xs font-bold text-error dark:text-[#ffb4ab]">${endText}</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-auto relative z-10 space-y-2">
+                        ${job.job_urls ? job.job_urls.map(u => `
+                        <a href="${u.url}" target="_blank" rel="noopener noreferrer"
+                           class="click-soothe group/btn flex items-center justify-between w-full p-1 pl-4 rounded-full text-xs font-bold text-white bg-primary dark:bg-dark-primary dark:text-dark-on-primary hover:shadow-glow dark:hover:shadow-glow-dark transition-all border border-primary/50">
+                            <span class="truncate max-w-[80%]">${u.label}</span>
+                            <span class="w-8 h-8 flex-shrink-0 rounded-full bg-white/20 flex items-center justify-center group-hover/btn:translate-x-0.5 transition-transform">
+                                <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                            </span>
+                        </a>
+                        `).join('') : `
+                        <a href="${url}" target="_blank" rel="noopener noreferrer"
+                           class="click-soothe group/btn flex items-center justify-between w-full p-1 pl-4 rounded-full text-xs font-bold text-white bg-primary dark:bg-dark-primary dark:text-dark-on-primary hover:shadow-glow dark:hover:shadow-glow-dark transition-all border border-primary/50">
+                            <span>Open Details</span>
+                            <span class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center group-hover/btn:translate-x-0.5 transition-transform">
+                                <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                            </span>
+                        </a>
+                        `}
+                    </div>
+                </div>
+            `;
+        }
+
+        // ─── Render Jobs ──────────────────────────────────────────────────────
+        function renderJobs() {
+            const query = elements.search.value.trim();
+            let results = allJobs;
+
+            if (query.length > 0) {
+                results = fuse.search(query).map(r => r.item);
+            }
+
+            // Filter by doc_type (job vs merit)
+            results = results.filter(job => (job.doc_type || 'job') === activeDocType);
+
+            // Filter by employment type
+            if (activeCategory !== 'All') {
+                results = results.filter(job => (job.employment_type || 'Contract') === activeCategory);
+            }
+
+            // Filter by district/state
+            if (activeDistrict !== 'All') {
+                results = results.filter(job => job.district === activeDistrict || job.district === 'All India');
+            }
+
+            // ── NEW: Filter by subject area ──
+            if (activeSubject !== 'All') {
+                const keywords = SUBJECT_KEYWORD_MAP[activeSubject] || [];
+                results = results.filter(job => {
+                    const t = (job.title || '').toLowerCase();
+                    return keywords.some(kw => t.includes(kw));
+                });
+            }
+
+            // ── NEW: Active vacancies only (hide expired) ──
+            if (activeOnlyMode) {
+                const today = new Date();
+                today.setHours(0, 0, 0, 0);
+                results = results.filter(job => {
+                    if (!job.end_date) return true; // no deadline = show
+                    const normalized = normalizeJobDate(job.end_date);
+                    if (!normalized) return true;
+                    const endDate = new Date(normalized);
+                    return isNaN(endDate) || endDate >= today;
+                });
+            }
+
+            // Filter by date range (posted_date must fall within interval)
+            if (activeStartDate || activeEndDate) {
+                results = results.filter(job => {
+                    const postedStr = job.posted_date || normalizeJobDate(job.start_date);
+                    if (!postedStr) return false;
+
+                    const posted = new Date(postedStr);
+                    if (isNaN(posted)) return false;
+
+                    let valid = true;
+                    if (activeStartDate) {
+                        const start = new Date(activeStartDate);
+                        if (posted < start) valid = false;
+                    }
+                    if (activeEndDate) {
+                        const end = new Date(activeEndDate);
+                        if (posted > end) valid = false;
+                    }
+                    return valid;
+                });
+            }
+
+            if (results.length === 0) {
+                elements.container.classList.add('hidden');
+                elements.empty.classList.remove('hidden');
+                setTimeout(() => AOS.refresh(), 100);
+            } else {
+                elements.empty.classList.add('hidden');
+                elements.container.classList.remove('hidden');
+                elements.container.innerHTML = results.map((job, i) => createJobCard(job, i)).join('');
+                if (typeof initRevealObserver === 'function') initRevealObserver();
+                setTimeout(() => AOS.refresh(), 100);
+            }
+        }
+
+        // Normalize a job date string (DD/MM/YYYY) → YYYY-MM-DD for comparison
+        function normalizeJobDate(dateStr) {
+            if (!dateStr) return '';
+            const m = dateStr.match(/^(\d{1,2})[\/.\-](\d{1,2})[\/.\-](\d{2,4})$/);
+            if (m) {
+                let [, d, mo, y] = m;
+                if (y.length === 2) y = '20' + y;
+                return `${y}-${mo.padStart(2, '0')}-${d.padStart(2, '0')}`;
+            }
+            return dateStr;
+        }
+
+        // ─── Event Listeners ──────────────────────────────────────────────────
+        elements.search.addEventListener('input', renderJobs);
+
+        // Date picker
+        function updateDateFilters() {
+            activeStartDate = elements.startDateFilter.value || null;
+            activeEndDate = elements.endDateFilter.value || null;
+            elements.clearDateBtn.classList.toggle('hidden', !(activeStartDate || activeEndDate));
+            renderJobs();
+        }
+        elements.startDateFilter.addEventListener('change', updateDateFilters);
+        elements.endDateFilter.addEventListener('change', updateDateFilters);
+
+        elements.clearDateBtn.addEventListener('click', () => {
+            activeStartDate = null;
+            activeEndDate = null;
+            elements.startDateFilter.value = '';
+            elements.endDateFilter.value = '';
+            elements.clearDateBtn.classList.add('hidden');
+            renderJobs();
+        });
+
+        // Simple Toast Notification
+        function showToast(message, isError = false) {
+            const toast = document.createElement('div');
+            toast.className = `fixed bottom-6 left-1/2 -translate-x-1/2 px-6 py-3 rounded-full shadow-lg z-50 transition-all transform duration-300 translate-y-full opacity-0 font-semibold tracking-wide text-sm flex items-center gap-2 border ${isError
+                    ? 'bg-error/10 text-error border-error/20 dark:bg-error/20 dark:text-[#ffb4ab]'
+                    : 'bg-primary-container text-primary border-primary/20 dark:bg-dark-primary-container dark:text-dark-primary'
+                }`;
+            toast.innerHTML = isError
+                ? `<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>${message}`
+                : `<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>${message}`;
+            document.body.appendChild(toast);
+
+            // Animate in
+            requestAnimationFrame(() => {
+                toast.classList.remove('translate-y-full', 'opacity-0');
+            });
+
+            // Remove after 4s
+            setTimeout(() => {
+                toast.classList.add('translate-y-full', 'opacity-0');
+                setTimeout(() => toast.remove(), 300);
+            }, 4000);
+        }
+
+        // Refresh Data Button & Progress System
+        const refreshBtn = document.getElementById('refreshDataBtn');
+        const originalBtnContent = `<svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg><span class="hidden sm:inline">Refresh Data</span>`;
+
+        function startPolling() {
+            if (pollInterval) return; // already polling
+
+            refreshBtn.disabled = true;
+            const startTime = Date.now();
+            const TIMEOUT_MS = 10 * 60 * 1000; // 10 minutes
+
+            pollInterval = setInterval(async () => {
+                if (Date.now() - startTime > TIMEOUT_MS) {
+                    clearInterval(pollInterval);
+                    pollInterval = null;
+                    showToast("Refresh timed out after 10 minutes", true);
+                    refreshBtn.innerHTML = originalBtnContent;
+                    refreshBtn.disabled = false;
+                    return;
+                }
+
+                try {
+                    const statusUrl = window.location.protocol === 'file:' ? `http://localhost:8000/api/refresh/status?t=${Date.now()}` : `/api/refresh/status?t=${Date.now()}`;
+                    const statusRes = await fetch(statusUrl);
+                    if (statusRes.ok) {
+                        const statusData = await statusRes.json();
+
+                        if (statusData.status === 'error' || statusData.error === true) {
+                            clearInterval(pollInterval);
+                            pollInterval = null;
+                            showToast(statusData.message || "Scraping failed", true);
+                            refreshBtn.innerHTML = originalBtnContent;
+                            refreshBtn.disabled = false;
+                        } else if (statusData.status === 'idle') {
+                            clearInterval(pollInterval);
+                            pollInterval = null;
+
+                            await loadData();
+
+                            showToast("Data refreshed successfully");
+                            refreshBtn.innerHTML = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" /></svg><span class="hidden sm:inline">Done</span>`;
+                            setTimeout(() => {
+                                refreshBtn.innerHTML = originalBtnContent;
+                                refreshBtn.disabled = false;
+                            }, 3000);
+                        } else if (statusData.status === 'running') {
+                            if (statusData.progress) {
+                                const p = statusData.progress;
+                                refreshBtn.innerHTML = `<svg class="animate-spin w-5 h-5" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg><span class="hidden sm:inline">Syncing ${p.current || ''} (${p.done}/${p.total})...</span>`;
+                            } else {
+                                refreshBtn.innerHTML = `<svg class="animate-spin w-5 h-5" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg><span class="hidden sm:inline">Syncing...</span>`;
+                            }
+                        }
+                    }
+                } catch (e) {
+                    console.warn("Polling error", e);
+                }
+            }, 3000);
+        }
+
+        async function checkScraperStatus() {
+            try {
+                const statusUrl = window.location.protocol === 'file:' ? `http://localhost:8000/api/refresh/status?t=${Date.now()}` : `/api/refresh/status?t=${Date.now()}`;
+                const statusRes = await fetch(statusUrl);
+                if (statusRes.ok) {
+                    const statusData = await statusRes.json();
+                    if (statusData.status === 'running') {
+                        startPolling();
+                    }
+                }
+            } catch (e) {
+                console.warn("Error checking scraper status:", e);
+            }
+        }
+
+        if (refreshBtn) {
+            refreshBtn.addEventListener('click', async () => {
+                try {
+                    const apiUrl = window.location.protocol === 'file:' ? 'http://localhost:8000/api/refresh' : '/api/refresh';
+                    const res = await fetch(apiUrl, { method: 'POST' });
+                    if (!res.ok) throw new Error('Backend failed or unavailable');
+
+                    startPolling();
+                } catch (e) {
+                    console.warn(e);
+                    showToast("Server unavailable. Please run server.py", true);
+                }
+            });
+        }
+
+        // Employment type filter buttons
+        elements.categoryBtns.forEach(btn => {
+            btn.addEventListener('click', e => {
+                elements.categoryBtns.forEach(b => {
+                    b.classList.remove('bg-primary', 'text-on-primary', 'dark:bg-dark-primary', 'dark:text-dark-on-primary');
+                    b.classList.add('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+                });
+                const target = e.currentTarget;
+                target.classList.remove('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+                target.classList.add('bg-primary', 'text-on-primary', 'dark:bg-dark-primary', 'dark:text-dark-on-primary');
+                activeCategory = target.dataset.cat;
+                renderJobs();
+            });
+        });
+
+        // ── NEW: Subject quick-filter pills ──
+        document.querySelectorAll('.filter-subj').forEach(btn => {
+            btn.addEventListener('click', e => {
+                document.querySelectorAll('.filter-subj').forEach(b => {
+                    b.classList.remove('bg-primary/15', 'text-primary', 'dark:bg-dark-primary/20', 'dark:text-dark-primary', 'border', 'border-primary/30', 'dark:border-dark-primary/30');
+                    b.classList.add('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+                });
+                const target = e.currentTarget;
+                target.classList.remove('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+                target.classList.add('bg-primary/15', 'text-primary', 'dark:bg-dark-primary/20', 'dark:text-dark-primary', 'border', 'border-primary/30', 'dark:border-dark-primary/30');
+                activeSubject = target.dataset.subj;
+                renderJobs();
+            });
+        });
+
+        // ── NEW: Active Only toggle ──
+        const activeOnlyToggle = document.getElementById('activeOnlyToggle');
+        if (activeOnlyToggle) {
+            activeOnlyToggle.addEventListener('change', () => {
+                activeOnlyMode = activeOnlyToggle.checked;
+                renderJobs();
+            });
+        }
+
+        // Clear all filters button
+        elements.clearBtn.addEventListener('click', () => {
+            elements.search.value = '';
+            activeCategory = 'All';
+            activeDistrict = 'All';
+            activeSubject = 'All';
+            activeOnlyMode = false;
+            activeStartDate = null;
+            activeEndDate = null;
+            elements.startDateFilter.value = '';
+            elements.endDateFilter.value = '';
+            elements.clearDateBtn.classList.add('hidden');
+            if (activeOnlyToggle) activeOnlyToggle.checked = false;
+
+            // Reset category button visual
+            elements.categoryBtns.forEach(b => {
+                b.classList.remove('bg-primary', 'text-on-primary', 'dark:bg-dark-primary', 'dark:text-dark-on-primary');
+                b.classList.add('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+            });
+            const allCatBtn = document.querySelector('.filter-cat[data-cat="All"]');
+            if (allCatBtn) {
+                allCatBtn.classList.remove('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+                allCatBtn.classList.add('bg-primary', 'text-on-primary', 'dark:bg-dark-primary', 'dark:text-dark-on-primary');
+            }
+
+            // Reset subject pills
+            document.querySelectorAll('.filter-subj').forEach(b => {
+                b.classList.remove('bg-primary/15', 'text-primary', 'dark:bg-dark-primary/20', 'dark:text-dark-primary', 'border', 'border-primary/30', 'dark:border-dark-primary/30');
+                b.classList.add('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+            });
+            const allSubjBtn = document.querySelector('.filter-subj[data-subj="All"]');
+            if (allSubjBtn) {
+                allSubjBtn.classList.remove('bg-surface-container-high', 'text-on-surface-variant', 'dark:bg-dark-surface-container-high', 'dark:text-dark-on-surface-variant');
+                allSubjBtn.classList.add('bg-primary/15', 'text-primary', 'dark:bg-dark-primary/20', 'dark:text-dark-primary', 'border', 'border-primary/30', 'dark:border-dark-primary/30');
+            }
+
+            // Reset region
+            const allDistBtn = document.querySelector('.filter-dist[data-dist="All"]');
+            if (allDistBtn) allDistBtn.click();
+            renderJobs();
+        });
+
+        // ─── Language handled via custom native select ───────────────────────
+        const customLangSelect = document.getElementById('customLangSelect');
+
+        function getCurrentLang() {
+            const m = document.cookie.match(/(?:^|;\s*)googtrans=\/en\/([a-z-]+)/);
+            return m ? m[1] : 'en';
+        }
+
+        if (customLangSelect) {
+            customLangSelect.value = getCurrentLang();
+            customLangSelect.addEventListener('change', (e) => {
+                const lang = e.target.value;
+                const domain = window.location.hostname;
+
+                document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+                document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=${domain}`;
+                document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.${domain}`;
+
+                if (lang !== 'en') {
+                    document.cookie = `googtrans=/en/${lang}; path=/`;
+                    if (domain && domain !== 'localhost') {
+                        document.cookie = `googtrans=/en/${lang}; path=/; domain=.${domain}`;
+                    }
+                }
+                setTimeout(() => window.location.reload(), 100);
+            });
+        }
+
+        // ─── Interaction & Animation Systems ─────────────────────────────────
+        // 1. Scroll Parallax background
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const grid = document.getElementById('parallax-grid');
+            const blob1 = document.getElementById('parallax-blob-1');
+            const blob2 = document.getElementById('parallax-blob-2');
+            const blob3 = document.getElementById('parallax-blob-3');
+
+            if (grid) grid.style.transform = `translateY(${scrolled * 0.12}px)`;
+            if (blob1) blob1.style.transform = `translateY(${scrolled * 0.06}px)`;
+            if (blob2) blob2.style.transform = `translateY(${scrolled * -0.04}px)`;
+            if (blob3) blob3.style.transform = `translateY(${scrolled * 0.03}px)`;
+        });
+
+        // 2. Sticky Navigation transition
+        const navWrapper = document.getElementById('sticky-nav-wrapper');
+        const navPill = document.getElementById('sticky-nav-pill');
+        if (navWrapper && navPill) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 20) {
+                    navPill.classList.add('glass', 'shadow-ambient', 'dark:shadow-ambient-dark', 'border-white/20', 'dark:border-white/5');
+                    navPill.classList.remove('bg-transparent', 'border-transparent');
+                    navWrapper.classList.add('py-2');
+                    navWrapper.classList.remove('py-4');
+                } else {
+                    navPill.classList.remove('glass', 'shadow-ambient', 'dark:shadow-ambient-dark', 'border-white/20', 'dark:border-white/5');
+                    navPill.classList.add('bg-transparent', 'border-transparent');
+                    navWrapper.classList.remove('py-2');
+                    navWrapper.classList.add('py-4');
+                }
+            });
+        }
+
+        // 3. Card Spotlight effect tracker via event delegation
+        const jobsContainer = document.getElementById('jobsContainer');
+        if (jobsContainer) {
+            jobsContainer.addEventListener('mousemove', e => {
+                const card = e.target.closest('.spotlight-card');
+                if (card) {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    card.style.setProperty('--mouse-x', `${x}px`);
+                    card.style.setProperty('--mouse-y', `${y}px`);
+                }
+            });
+        }
+
+        // 4. Entrance Scroll IntersectionObserver
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry, idx) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('revealed');
+                    }, idx * 40);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.01,
+            rootMargin: '0px 0px -15px 0px'
+        });
+
+        function initRevealObserver() {
+            document.querySelectorAll('.reveal-card').forEach(card => {
+                revealObserver.observe(card);
+            });
+        }
+
+        // ─── Boot ────────────────────────────────────────────────────────────
+        setActiveTab('state');
+
+        // Initial load without forcing a full backend scrape
+        window.addEventListener('DOMContentLoaded', () => {
+            loadData();
+            checkScraperStatus();
+        });
+
+        // Auto-refresh JSON data every 30 minutes without calling the expensive scraper routine
+        setInterval(() => {
+            console.log('Auto-refreshing data purely by fetching new JSON...');
+            loadData();
+        }, 30 * 60 * 1000);
+    </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- ─── Service Worker Registration ─────────────────────────────── -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker
+                    .register('./service-worker.js')
+                    .then(reg => console.log('[PWA] Service worker registered, scope:', reg.scope))
+                    .catch(err => console.warn('[PWA] Service worker registration failed:', err));
+            });
+        }
+    </script>
+
+</body>
+
+</html>
