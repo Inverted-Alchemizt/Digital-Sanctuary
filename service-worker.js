@@ -1,8 +1,8 @@
 // ─── Digital Sanctuary PWA Service Worker ────────────────────────────────────
 // Cache-first for shell assets, Network-first for data files.
 
-const CACHE_NAME = 'ds-shell-v2';
-const DATA_CACHE_NAME = 'ds-data-v2';
+const CACHE_NAME = 'ds-shell-v3';
+const DATA_CACHE_NAME = 'ds-data-v3';
 
 // Core app shell files — cached on install
 const SHELL_ASSETS = [
