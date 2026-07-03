@@ -100,7 +100,7 @@ def evaluate_pdf_for_teaching_job(pdf_url: str, title: str = "") -> dict:
 
     try:
         # --- Download PDF into memory ---
-        response = requests.get(pdf_url, timeout=30)
+        response = requests.get(pdf_url, timeout=8)
         response.raise_for_status()
         pdf_bytes = response.content
 

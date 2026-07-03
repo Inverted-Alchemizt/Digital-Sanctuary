@@ -528,13 +528,13 @@ def scrape_district(name: str, slug: str) -> list:
     ]
 
     jobs_dict = {}
-    MAX_PAGES = 10
+    MAX_PAGES = 3
 
     for base_url in base_urls:
         for page in range(1, MAX_PAGES + 1):
             url = base_url if page == 1 else f"{base_url}page/{page}/"
             try:
-                r = requests.get(url, timeout=15, headers=UA, verify=False)
+                r = requests.get(url, timeout=6, headers=UA, verify=False)
                 r.raise_for_status()
             except Exception:
                 break
@@ -631,7 +631,7 @@ def scrape_district(name: str, slug: str) -> list:
 def scrape_central_source(source_name: str, base_url: str, domain_url: str) -> list:
     """Generic scraper for central school portals."""
     jobs_dict = {}
-    MAX_PAGES = 10
+    MAX_PAGES = 3
 
     for page in range(1, MAX_PAGES + 1):
         url = base_url if page == 1 else f"{base_url}?page={page-1}"
@@ -639,7 +639,7 @@ def scrape_central_source(source_name: str, base_url: str, domain_url: str) -> l
             url = base_url if page == 1 else f"{base_url.rstrip('/')}/page/{page}/"
 
         try:
-            r = requests.get(url, timeout=15, headers=UA, verify=False)
+            r = requests.get(url, timeout=6, headers=UA, verify=False)
             r.raise_for_status()
         except Exception as e:
             if page == 1:
