@@ -1453,10 +1453,21 @@
     <!-- ─── Service Worker Registration ─────────────────────────────── -->
     <script>
         if ('serviceWorker' in navigator) {
+            let refreshing = false;
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (!refreshing) {
+                    refreshing = true;
+                    console.log('[PWA] New service worker activated, reloading page...');
+                    window.location.reload();
+                }
+            });
             window.addEventListener('load', () => {
                 navigator.serviceWorker
                     .register('./service-worker.js')
-                    .then(reg => console.log('[PWA] Service worker registered, scope:', reg.scope))
+                    .then(reg => {
+                        console.log('[PWA] Service worker registered, scope:', reg.scope);
+                        reg.update();
+                    })
                     .catch(err => console.warn('[PWA] Service worker registration failed:', err));
             });
         }
