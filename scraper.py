@@ -11,7 +11,6 @@ import hashlib
 if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf-8-sig'):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
-import pypdf
 from bs4 import BeautifulSoup
 from pdf_evaluator import evaluate_pdf_for_teaching_job
 from datetime import datetime, timezone, timedelta
