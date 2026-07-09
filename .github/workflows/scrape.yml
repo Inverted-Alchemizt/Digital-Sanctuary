@@ -30,8 +30,37 @@ jobs:
       - name: Run scraper
         run: python scraper.py
 
-      - name: Commit updated data
-        uses: stefanzweifel/git-auto-commit-action@v5.2.0
-        with:
-          commit_message: "chore: routine scrape [skip ci]"
-          file_pattern: "*.json *.js"
+      - name: Commit and push updated data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage only the relevant files
+          git add "*.json" "*.js" || true
+
+          # Skip if nothing changed
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: routine scrape [skip ci]"
+
+          # Authenticate via HTTPS using GITHUB_TOKEN
+          git remote set-url origin \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+
+          # Retry push up to 3 times on transient failures (e.g. 503)
+          for attempt in 1 2 3; do
+            echo "Push attempt $attempt..."
+            git push origin HEAD && break
+            if [ $attempt -lt 3 ]; then
+              echo "Push failed, retrying in 15 seconds..."
+              sleep 15
+            else
+              echo "All push attempts failed."
+              exit 1
+            fi
+          done
