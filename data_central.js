@@ -1,4 +1,4 @@
 window.CENTRAL_DATA = {
-  "last_updated": "2026-07-20T01:30:18+05:30",
+  "last_updated": "2026-07-20T02:34:07+05:30",
   "jobs": []
 };
