@@ -1,5 +1,5 @@
 window.STATE_DATA = {
-  "last_updated": "2026-07-24T20:33:14+05:30",
+  "last_updated": "2026-07-24T22:26:14+05:30",
   "jobs": [
     {
       "id": "009c2afeb93a",
@@ -387,6 +387,113 @@ window.STATE_DATA = {
       "doc_type": "merit"
     },
     {
+      "id": "5102f855b110",
+      "title": "Regarding the final list for the recruitment of guest teachers in Eklavya Model Residential Schools.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Bastar",
+      "school": "Eklavya Model Residential School",
+      "start_date": "14/07/2026",
+      "posted_date": "2026-07-14",
+      "end_date": "25/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf",
+      "job_urls": [
+        {
+          "label": "View (7 MB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "e2204c0651fe",
+      "title": "Final List for Claims and Objections regarding Guest Teacher Recruitment . Office of the Collector (Tribal Branch), District Bastar, Jagdalpur (Chhattisgarh)",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Bastar",
+      "school": "District Collectorate",
+      "start_date": "02/07/2026",
+      "posted_date": "2026-07-02",
+      "end_date": "08/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17829967146228.pdf",
+      "job_urls": [
+        {
+          "label": "View (194 KB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17829967146228.pdf"
+        },
+        {
+          "label": "Emrs bastar guest teacher(1-18) (7 MB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17829995461387.pdf"
+        },
+        {
+          "label": "Emrs bastar guest teacher Page 19-35 (5 MB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17829996679228.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "c649d2097607",
+      "title": "“Walk-in Interviews” for Guest Teachers in Eklavya Schools",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Bastar",
+      "school": "Eklavya Model Residential School",
+      "start_date": "12/06/2026",
+      "posted_date": "2026-06-12",
+      "end_date": "21/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/06/17812638273271.pdf",
+      "job_urls": [
+        {
+          "label": "View (952 KB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/06/17812638273271.pdf"
+        },
+        {
+          "label": "Guidelines for engagement of guest teachers for AY- 2026-27 (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/06/17815937368230.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "70069053fcda",
+      "title": "Notification for recruitment of guest lecturer",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Bastar",
+      "school": "District Collectorate",
+      "start_date": "03/06/2026",
+      "posted_date": "2026-06-03",
+      "end_date": "15/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/06/17804734959037.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/06/17804734959037.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "925731a8f843",
+      "title": "Recruitment for guest lecturer under Model ITI koni Bilaspur.",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Bilaspur",
+      "school": "District Collectorate",
+      "start_date": "16/04/2026",
+      "posted_date": "2026-04-16",
+      "end_date": "27/04/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf",
+      "job_urls": [
+        {
+          "label": "View (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
       "id": "d355c8c3f9fc",
       "title": "Notification of postponement of recruitment for contractual posts of lecturers and teachers of Swami Atmanand Excellent English Medium School Barsoor/Kuaakonda and Katekalyan operated in Dantewada district",
       "category": "Swami Atmanand",
@@ -684,113 +791,6 @@ window.STATE_DATA = {
       "doc_type": "merit"
     },
     {
-      "id": "925731a8f843",
-      "title": "Recruitment for guest lecturer under Model ITI koni Bilaspur.",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Bilaspur",
-      "school": "District Collectorate",
-      "start_date": "16/04/2026",
-      "posted_date": "2026-04-16",
-      "end_date": "27/04/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf",
-      "job_urls": [
-        {
-          "label": "View (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "5102f855b110",
-      "title": "Regarding the final list for the recruitment of guest teachers in Eklavya Model Residential Schools.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Bastar",
-      "school": "Eklavya Model Residential School",
-      "start_date": "14/07/2026",
-      "posted_date": "2026-07-14",
-      "end_date": "25/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf",
-      "job_urls": [
-        {
-          "label": "View (7 MB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "e2204c0651fe",
-      "title": "Final List for Claims and Objections regarding Guest Teacher Recruitment . Office of the Collector (Tribal Branch), District Bastar, Jagdalpur (Chhattisgarh)",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Bastar",
-      "school": "District Collectorate",
-      "start_date": "02/07/2026",
-      "posted_date": "2026-07-02",
-      "end_date": "08/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17829967146228.pdf",
-      "job_urls": [
-        {
-          "label": "View (194 KB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17829967146228.pdf"
-        },
-        {
-          "label": "Emrs bastar guest teacher(1-18) (7 MB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17829995461387.pdf"
-        },
-        {
-          "label": "Emrs bastar guest teacher Page 19-35 (5 MB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17829996679228.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "c649d2097607",
-      "title": "“Walk-in Interviews” for Guest Teachers in Eklavya Schools",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Bastar",
-      "school": "Eklavya Model Residential School",
-      "start_date": "12/06/2026",
-      "posted_date": "2026-06-12",
-      "end_date": "21/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/06/17812638273271.pdf",
-      "job_urls": [
-        {
-          "label": "View (952 KB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/06/17812638273271.pdf"
-        },
-        {
-          "label": "Guidelines for engagement of guest teachers for AY- 2026-27 (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/06/17815937368230.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "70069053fcda",
-      "title": "Notification for recruitment of guest lecturer",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Bastar",
-      "school": "District Collectorate",
-      "start_date": "03/06/2026",
-      "posted_date": "2026-06-03",
-      "end_date": "15/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/06/17804734959037.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/06/17804734959037.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
       "id": "814e26832ec4",
       "title": "Regarding publication of eligible/ineligible list of applications received in walk-in-interview for guest teacher and non-teaching posts in Eklavya Adarsh ​​Vidyalayas.",
       "category": "EMRS",
@@ -904,84 +904,6 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
-    },
-    {
-      "id": "06cc599f6c16",
-      "title": "Notice regarding calling for document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Gariyaband",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "07/04/2026",
-      "posted_date": "2026-04-07",
-      "end_date": "15/04/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf"
-        },
-        {
-          "label": "दस्तावेज सत्यापन (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243994186.pdf"
-        },
-        {
-          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756244197673.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "ac41f93deb99",
-      "title": "Notice regarding document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Gariyaband",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "30/01/2026",
-      "posted_date": "2026-01-30",
-      "end_date": "04/02/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697545261203.pdf",
-      "job_urls": [
-        {
-          "label": "View (904 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697545261203.pdf"
-        },
-        {
-          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697546651804.pdf"
-        },
-        {
-          "label": "LEC. SOC (648 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697546896916.pdf"
-        },
-        {
-          "label": "LEC. COM (648 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697547245134.pdf"
-        },
-        {
-          "label": "GANIT (820 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697547513107.pdf"
-        },
-        {
-          "label": "ENG. (429 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697547797516.pdf"
-        },
-        {
-          "label": "ASS.T. S. (653 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697548058771.pdf"
-        },
-        {
-          "label": "ASS.T. ART (631 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697548374787.pdf"
-        },
-        {
-          "label": "oder jari kiya gaya hai (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697548683803.pdf"
-        }
-      ],
-      "doc_type": "merit"
     },
     {
       "id": "1066e9cba627",
@@ -1268,89 +1190,231 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "4e3afd8d48c0",
-      "title": "Walk-in-Interview for TGT-English ,TGT-Computer Science & TGT Special Educator for JNV Kanker purely on contract basis for the session 2026-27",
-      "category": "Contract",
+      "id": "06cc599f6c16",
+      "title": "Notice regarding calling for document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
+      "category": "Swami Atmanand",
       "employment_type": "Contract",
-      "district": "Kanker",
-      "school": "District Collectorate",
-      "start_date": "24/07/2026",
-      "posted_date": "2026-07-24",
-      "end_date": "03/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/07/17848690855137.pdf",
+      "district": "Gariyaband",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "07/04/2026",
+      "posted_date": "2026-04-07",
+      "end_date": "15/04/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf",
       "job_urls": [
         {
-          "label": "View (887 KB)",
-          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/07/17848690855137.pdf"
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf"
+        },
+        {
+          "label": "दस्तावेज सत्यापन (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243994186.pdf"
+        },
+        {
+          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756244197673.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "ac41f93deb99",
+      "title": "Notice regarding document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Gariyaband",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "30/01/2026",
+      "posted_date": "2026-01-30",
+      "end_date": "04/02/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697545261203.pdf",
+      "job_urls": [
+        {
+          "label": "View (904 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697545261203.pdf"
+        },
+        {
+          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697546651804.pdf"
+        },
+        {
+          "label": "LEC. SOC (648 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697546896916.pdf"
+        },
+        {
+          "label": "LEC. COM (648 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697547245134.pdf"
+        },
+        {
+          "label": "GANIT (820 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697547513107.pdf"
+        },
+        {
+          "label": "ENG. (429 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697547797516.pdf"
+        },
+        {
+          "label": "ASS.T. S. (653 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697548058771.pdf"
+        },
+        {
+          "label": "ASS.T. ART (631 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697548374787.pdf"
+        },
+        {
+          "label": "oder jari kiya gaya hai (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/01/17697548683803.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "605890857788",
+      "title": "Advertisement for recruitment of Guest Teacher in Government RBR NES College, Jashpur",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "23/07/2026",
+      "posted_date": "2026-07-23",
+      "end_date": "03/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17848115616225.pdf",
+      "job_urls": [
+        {
+          "label": "View (370 KB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17848115616225.pdf"
         }
       ],
       "doc_type": "job"
     },
     {
-      "id": "738130f79fb2",
-      "title": "Information regarding the revision of the document verification/written examination date for the recruitment of special guest teachers.",
-      "category": "Other",
+      "id": "eec93d2398ac",
+      "title": "Regarding the publication of a notification for the recruitment of guest teachers and non-teaching staff for various positions at Eklavya Model Residential School, Sukhrapara, for the 2026-27 academic session.",
+      "category": "EMRS",
       "employment_type": "Guest",
-      "district": "Kanker",
-      "school": "District Collectorate",
-      "start_date": "14/06/2026",
-      "posted_date": "2026-06-14",
-      "end_date": "20/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/06/17814166128648.pdf",
+      "district": "Jashpur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "10/07/2026",
+      "posted_date": "2026-07-10",
+      "end_date": "21/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17836625846786.pdf",
       "job_urls": [
         {
-          "label": "View (659 KB)",
-          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/06/17814166128648.pdf"
-        },
-        {
-          "label": "View (537 KB)",
-          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/06/17811602642025.pdf"
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17836625846786.pdf"
         }
       ],
-      "doc_type": "merit"
+      "doc_type": "job"
     },
     {
-      "id": "b133d9817af3",
-      "title": "Information regarding the change of venue for document verification/written examination for the recruitment of Special Guest Teachers.",
-      "category": "Other",
+      "id": "bf03fa05081d",
+      "title": "Regarding the arrangement of guest teachers in academic and non-academic categories for the 2026-27 session at Eklavya Adarsh ​​Residential School, Farsabahar, District Jashpur (Chhattisgarh).",
+      "category": "EMRS",
       "employment_type": "Guest",
-      "district": "Kanker",
-      "school": "District Collectorate",
-      "start_date": "19/06/2026",
-      "posted_date": "2026-06-19",
-      "end_date": "20/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/06/17818620068213.pdf",
+      "district": "Jashpur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "09/07/2026",
+      "posted_date": "2026-07-09",
+      "end_date": "20/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835970234996.pdf",
       "job_urls": [
         {
-          "label": "View (877 KB)",
-          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/06/17818620068213.pdf"
+          "label": "View (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835970234996.pdf"
         }
       ],
-      "doc_type": "merit"
+      "doc_type": "job"
     },
     {
-      "id": "1ecc36db3d1c",
-      "title": "Advertisement for recruitment of special guest teacher in 200 seater Durgukondal Residential School",
-      "category": "Other",
+      "id": "fde88cf6ac3d",
+      "title": "Regarding the arrangement of guest teachers in academic and non-academic categories for Eklavya Adarsh ​​Residential School, Sanna, for the 2026-27 session.",
+      "category": "EMRS",
       "employment_type": "Guest",
-      "district": "Kanker",
-      "school": "District Collectorate",
-      "start_date": "28/04/2026",
-      "posted_date": "2026-04-28",
-      "end_date": "15/05/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472298207.pdf",
+      "district": "Jashpur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "09/07/2026",
+      "posted_date": "2026-07-09",
+      "end_date": "20/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835977816182.pdf",
       "job_urls": [
         {
-          "label": "View (518 KB)",
-          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472298207.pdf"
-        },
+          "label": "View (5 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835977816182.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "c2dec547dadb",
+      "title": "Regarding the appointment of guest teachers and non-teaching staff to various positions at Eklavya Model Residential School, Dhudhurudand, for the academic session 2026-27.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "09/07/2026",
+      "posted_date": "2026-07-09",
+      "end_date": "20/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835982834127.pdf",
+      "job_urls": [
         {
-          "label": "विज्ञापन (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472315130.pdf"
-        },
+          "label": "View (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835982834127.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "bed169a26a95",
+      "title": "Publication of a notification regarding the appointment of guest teachers for various posts at Eklavya Model Residential School, Manora, for the academic session 2026-27.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "09/07/2026",
+      "posted_date": "2026-07-09",
+      "end_date": "20/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835986007168.pdf",
+      "job_urls": [
         {
-          "label": "ऑनलाइन आवेदन हेतु निर्देश (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472283143.pdf"
+          "label": "View (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835986007168.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "bb145a61dc6d",
+      "title": "Publication of a notification regarding the appointment of guest teachers for various posts at Eklavya Model Residential School, Gholeng, for the academic session 2026-27.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "09/07/2026",
+      "posted_date": "2026-07-09",
+      "end_date": "20/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835989224463.pdf",
+      "job_urls": [
+        {
+          "label": "View (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835989224463.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "631131b51028",
+      "title": "Walk-In Interview Notice for IIT-JEE & NEET Faculty Recruitment 2026 – Sankalp Shikshan Sansthan",
+      "category": "Other",
+      "employment_type": "Contract",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "27/05/2026",
+      "posted_date": "2026-05-27",
+      "end_date": "16/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/05/17798880203464.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/05/17798880203464.pdf"
         }
       ],
       "doc_type": "job"
@@ -1508,153 +1572,89 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "605890857788",
-      "title": "Advertisement for recruitment of Guest Teacher in Government RBR NES College, Jashpur",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "District Collectorate",
-      "start_date": "23/07/2026",
-      "posted_date": "2026-07-23",
-      "end_date": "03/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17848115616225.pdf",
-      "job_urls": [
-        {
-          "label": "View (370 KB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17848115616225.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "eec93d2398ac",
-      "title": "Regarding the publication of a notification for the recruitment of guest teachers and non-teaching staff for various positions at Eklavya Model Residential School, Sukhrapara, for the 2026-27 academic session.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "10/07/2026",
-      "posted_date": "2026-07-10",
-      "end_date": "21/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17836625846786.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17836625846786.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "bf03fa05081d",
-      "title": "Regarding the arrangement of guest teachers in academic and non-academic categories for the 2026-27 session at Eklavya Adarsh ​​Residential School, Farsabahar, District Jashpur (Chhattisgarh).",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "09/07/2026",
-      "posted_date": "2026-07-09",
-      "end_date": "20/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835970234996.pdf",
-      "job_urls": [
-        {
-          "label": "View (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835970234996.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "fde88cf6ac3d",
-      "title": "Regarding the arrangement of guest teachers in academic and non-academic categories for Eklavya Adarsh ​​Residential School, Sanna, for the 2026-27 session.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "09/07/2026",
-      "posted_date": "2026-07-09",
-      "end_date": "20/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835977816182.pdf",
-      "job_urls": [
-        {
-          "label": "View (5 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835977816182.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "c2dec547dadb",
-      "title": "Regarding the appointment of guest teachers and non-teaching staff to various positions at Eklavya Model Residential School, Dhudhurudand, for the academic session 2026-27.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "09/07/2026",
-      "posted_date": "2026-07-09",
-      "end_date": "20/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835982834127.pdf",
-      "job_urls": [
-        {
-          "label": "View (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835982834127.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "bed169a26a95",
-      "title": "Publication of a notification regarding the appointment of guest teachers for various posts at Eklavya Model Residential School, Manora, for the academic session 2026-27.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "09/07/2026",
-      "posted_date": "2026-07-09",
-      "end_date": "20/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835986007168.pdf",
-      "job_urls": [
-        {
-          "label": "View (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835986007168.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "bb145a61dc6d",
-      "title": "Publication of a notification regarding the appointment of guest teachers for various posts at Eklavya Model Residential School, Gholeng, for the academic session 2026-27.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "09/07/2026",
-      "posted_date": "2026-07-09",
-      "end_date": "20/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835989224463.pdf",
-      "job_urls": [
-        {
-          "label": "View (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/07/17835989224463.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "631131b51028",
-      "title": "Walk-In Interview Notice for IIT-JEE & NEET Faculty Recruitment 2026 – Sankalp Shikshan Sansthan",
-      "category": "Other",
+      "id": "4e3afd8d48c0",
+      "title": "Walk-in-Interview for TGT-English ,TGT-Computer Science & TGT Special Educator for JNV Kanker purely on contract basis for the session 2026-27",
+      "category": "Contract",
       "employment_type": "Contract",
-      "district": "Jashpur",
+      "district": "Kanker",
       "school": "District Collectorate",
-      "start_date": "27/05/2026",
-      "posted_date": "2026-05-27",
-      "end_date": "16/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/05/17798880203464.pdf",
+      "start_date": "24/07/2026",
+      "posted_date": "2026-07-24",
+      "end_date": "03/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/07/17848690855137.pdf",
       "job_urls": [
         {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/05/17798880203464.pdf"
+          "label": "View (887 KB)",
+          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/07/17848690855137.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "738130f79fb2",
+      "title": "Information regarding the revision of the document verification/written examination date for the recruitment of special guest teachers.",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Kanker",
+      "school": "District Collectorate",
+      "start_date": "14/06/2026",
+      "posted_date": "2026-06-14",
+      "end_date": "20/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/06/17814166128648.pdf",
+      "job_urls": [
+        {
+          "label": "View (659 KB)",
+          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/06/17814166128648.pdf"
+        },
+        {
+          "label": "View (537 KB)",
+          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/06/17811602642025.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "b133d9817af3",
+      "title": "Information regarding the change of venue for document verification/written examination for the recruitment of Special Guest Teachers.",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Kanker",
+      "school": "District Collectorate",
+      "start_date": "19/06/2026",
+      "posted_date": "2026-06-19",
+      "end_date": "20/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/06/17818620068213.pdf",
+      "job_urls": [
+        {
+          "label": "View (877 KB)",
+          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/06/17818620068213.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "1ecc36db3d1c",
+      "title": "Advertisement for recruitment of special guest teacher in 200 seater Durgukondal Residential School",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Kanker",
+      "school": "District Collectorate",
+      "start_date": "28/04/2026",
+      "posted_date": "2026-04-28",
+      "end_date": "15/05/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472298207.pdf",
+      "job_urls": [
+        {
+          "label": "View (518 KB)",
+          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472298207.pdf"
+        },
+        {
+          "label": "विज्ञापन (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472315130.pdf"
+        },
+        {
+          "label": "ऑनलाइन आवेदन हेतु निर्देश (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472283143.pdf"
         }
       ],
       "doc_type": "job"
@@ -1763,6 +1763,67 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
+      "id": "bf1cd78a5ba1",
+      "title": "Recruitment – Applications invitation for the arrangement of guest teachers for the academic session 2026-27, Eklavya Model Residential School Pendri, Rajnandgaon",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Rajnandgaon",
+      "school": "Eklavya Model Residential School",
+      "start_date": "02/07/2026",
+      "posted_date": "2026-07-02",
+      "end_date": "17/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/07/17829879984245.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/07/17829879984245.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "1f13cbac7e43",
+      "title": "Recruitment – Revised Advertisement – Contractual Appointment of Teachers in Swami Atmanand English Medium School (PM Shri)",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Rajnandgaon",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "13/05/2026",
+      "posted_date": "2026-05-13",
+      "end_date": "30/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17786736176020.pdf",
+      "job_urls": [
+        {
+          "label": "View (534 KB)",
+          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17786736176020.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "c1c837575346",
+      "title": "Recruitment – Advertisement for contractual posting of teachers in Swami Aatmanand English Medium School (PM Shri)",
+      "category": "Contract",
+      "employment_type": "Contract",
+      "district": "Rajnandgaon",
+      "school": "District Collectorate",
+      "start_date": "06/05/2026",
+      "posted_date": "2026-05-06",
+      "end_date": "31/05/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780575718456.pdf",
+      "job_urls": [
+        {
+          "label": "View (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780575718456.pdf"
+        },
+        {
+          "label": "आवेदन (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780578177732.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
       "id": "829cec2a3b75",
       "title": "Press release regarding the list of resolved claims/objections and the final list of eligible and ineligible candidates for the recruitment of 02 contractual faculty positions under RGSA.",
       "category": "Contract",
@@ -1827,67 +1888,6 @@ window.STATE_DATA = {
         {
           "label": "View (2 MB)",
           "url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/06/17818716251491.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "bf1cd78a5ba1",
-      "title": "Recruitment – Applications invitation for the arrangement of guest teachers for the academic session 2026-27, Eklavya Model Residential School Pendri, Rajnandgaon",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Rajnandgaon",
-      "school": "Eklavya Model Residential School",
-      "start_date": "02/07/2026",
-      "posted_date": "2026-07-02",
-      "end_date": "17/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/07/17829879984245.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/07/17829879984245.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "1f13cbac7e43",
-      "title": "Recruitment – Revised Advertisement – Contractual Appointment of Teachers in Swami Atmanand English Medium School (PM Shri)",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Rajnandgaon",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "13/05/2026",
-      "posted_date": "2026-05-13",
-      "end_date": "30/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17786736176020.pdf",
-      "job_urls": [
-        {
-          "label": "View (534 KB)",
-          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17786736176020.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "c1c837575346",
-      "title": "Recruitment – Advertisement for contractual posting of teachers in Swami Aatmanand English Medium School (PM Shri)",
-      "category": "Contract",
-      "employment_type": "Contract",
-      "district": "Rajnandgaon",
-      "school": "District Collectorate",
-      "start_date": "06/05/2026",
-      "posted_date": "2026-05-06",
-      "end_date": "31/05/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780575718456.pdf",
-      "job_urls": [
-        {
-          "label": "View (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780575718456.pdf"
-        },
-        {
-          "label": "आवेदन (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780578177732.pdf"
         }
       ],
       "doc_type": "job"
