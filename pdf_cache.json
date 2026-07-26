@@ -2764,7 +2764,7 @@
     }
   },
   "17a0ab510b8ba371fa208a812de88d2d": {
-    "timestamp": "2026-07-25T10:20:23.193465+00:00",
+    "timestamp": "2026-07-26T10:53:05.418575+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 15,
@@ -2776,7 +2776,7 @@
     }
   },
   "b2c062eb5f585bb220cc8900ab310de5": {
-    "timestamp": "2026-07-25T10:20:25.674231+00:00",
+    "timestamp": "2026-07-26T10:53:07.674808+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 30,
@@ -2784,8 +2784,8 @@
       "text": "Brief Report on National ICT award for School Teachers \nMr. M. S. Kumar Swamy, TGT (Maths), KV Gachibowli is selected for National ICT Award for \nSchool teachers for the year 2019 from Ministry of Education, Govt. of India. He received \nNational ICT Award for school teachers for the year 2019 on 28th February 2022 from \nHonorable Smt. Annapurna Devi, Union Minister of State for Education, Government of India \nin Dr Ambedkar International Centre, New Delhi. \n \n \n \n \n \n",
       "distinct_high_keywords": [
         "teacher",
-        "tgt",
-        "शिक्षक"
+        "शिक्षक",
+        "tgt"
       ]
     }
   },
