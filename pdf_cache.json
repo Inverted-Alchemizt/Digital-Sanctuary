@@ -2973,5 +2973,15 @@
         "teacher"
       ]
     }
+  },
+  "93dec20ced325c79c2549839321d1878": {
+    "timestamp": "2026-07-29T10:12:09.458428+00:00",
+    "result": {
+      "is_teaching_job": false,
+      "score": 4,
+      "method_used": "direct_text",
+      "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n",
+      "distinct_high_keywords": []
+    }
   }
 }
