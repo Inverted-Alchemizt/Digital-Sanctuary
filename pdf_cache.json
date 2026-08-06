@@ -2882,7 +2882,7 @@
     }
   },
   "df4cb4ecb0932bb7598d3374980321e3": {
-    "timestamp": "2026-08-05T12:13:43.047350+00:00",
+    "timestamp": "2026-08-06T12:16:31.795670+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 107,
@@ -2891,12 +2891,12 @@
       "distinct_high_keywords": [
         "बी.एड.",
         "teacher",
-        "pgt",
-        "lecturer",
-        "tet",
+        "tgt",
         "शिक्षक",
-        "b.ed",
-        "tgt"
+        "tet",
+        "lecturer",
+        "pgt",
+        "b.ed"
       ]
     }
   },
