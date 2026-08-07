@@ -1,5 +1,5 @@
 window.STATE_DATA = {
-  "last_updated": "2026-08-08T04:30:40+05:30",
+  "last_updated": "2026-08-08T05:12:15+05:30",
   "jobs": [
     {
       "id": "6e0c6236d407",
