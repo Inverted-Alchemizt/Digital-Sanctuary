@@ -1,5 +1,5 @@
 window.STATE_DATA = {
-  "last_updated": "2026-08-15T04:53:47+05:30",
+  "last_updated": "2026-08-15T05:19:50+05:30",
   "jobs": [
     {
       "id": "ef661ae8e701",
@@ -719,25 +719,6 @@ window.STATE_DATA = {
       "doc_type": "merit"
     },
     {
-      "id": "925731a8f843",
-      "title": "Recruitment for guest lecturer under Model ITI koni Bilaspur.",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Bilaspur",
-      "school": "District Collectorate",
-      "start_date": "16/04/2026",
-      "posted_date": "2026-04-16",
-      "end_date": "27/04/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf",
-      "job_urls": [
-        {
-          "label": "View (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
       "id": "5102f855b110",
       "title": "Regarding the final list for the recruitment of guest teachers in Eklavya Model Residential Schools.",
       "category": "EMRS",
@@ -845,288 +826,23 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "908d20cd6182",
-      "title": "Final list after the interview conducted for the Guest teacher at Kamaar Residential School, Nagri :-Office Collector (Tribal Department) Dhamtari",
+      "id": "925731a8f843",
+      "title": "Recruitment for guest lecturer under Model ITI koni Bilaspur.",
       "category": "Other",
       "employment_type": "Guest",
-      "district": "Dhamtari",
+      "district": "Bilaspur",
       "school": "District Collectorate",
-      "start_date": "28/07/2026",
-      "posted_date": "2026-07-28",
-      "end_date": "31/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/07/17852402053314.pdf",
+      "start_date": "16/04/2026",
+      "posted_date": "2026-04-16",
+      "end_date": "27/04/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf",
       "job_urls": [
         {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/07/17852402053314.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "1066e9cba627",
-      "title": "Notice regarding Guest Teacher recruitment at Kamar Residential School, Nagri – Office of the Assistant Commissioner, Tribal Development, Dhamtari (Chhattisgarh)",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dhamtari",
-      "school": "District Collectorate",
-      "start_date": "30/06/2026",
-      "posted_date": "2026-06-30",
-      "end_date": "16/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/06/17828172373385.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/06/17828172373385.pdf"
+          "label": "View (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf"
         }
       ],
       "doc_type": "job"
-    },
-    {
-      "id": "903aa7c5e989",
-      "title": "Walk in interview for various teaching/ non teaching post – Eklavya model residential school Patharridihi (Dhamtari)",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Dhamtari",
-      "school": "Eklavya Model Residential School",
-      "start_date": "13/03/2026",
-      "posted_date": "2026-03-13",
-      "end_date": "30/03/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/03/17733981365274.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/03/17733981365274.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "891a2208d646",
-      "title": "Contractual recruitment appointment order in Swami Atmanand Excellent English Medium Schools – Office of the District Education Officer, Dhamtari",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Dhamtari",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "22/01/2026",
-      "posted_date": "2026-01-22",
-      "end_date": "31/01/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656332532.pdf",
-      "job_urls": [
-        {
-          "label": "View (6 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656332532.pdf"
-        },
-        {
-          "label": "कार्य आदेश 1 (6 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656374504.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "891e2178d7e8",
-      "title": "Selected and waiting list for contract recruitment in Swami Atmanand Excellent English Medium Schools – Office of the District Education Officer, Dhamtari",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Dhamtari",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "22/01/2026",
-      "posted_date": "2026-01-22",
-      "end_date": "31/01/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653413042.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653413042.pdf"
-        },
-        {
-          "label": "शिक्षक चयनित एवं प्रतिक्षा सूची (1) (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653438154.pdf"
-        },
-        {
-          "label": "सहायक शिक्षक चयनित एवं प्रतिक्षा सूची (1) (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653454466.pdf"
-        },
-        {
-          "label": "सहायक शिक्षक प्रयोगशाला चयनित एवं प्रतिक्षा सूची (1) (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653476939.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "121a1b361119",
-      "title": "Final Eligible list after claim objection of contractual recruitment for vacant posts in Swami Atmanand Schools – Office DEO, Dhamtari",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Dhamtari",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "11/12/2025",
-      "posted_date": "2025-12-11",
-      "end_date": "17/12/2025",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539486896.pdf",
-      "job_urls": [
-        {
-          "label": "View (706 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539486896.pdf"
-        },
-        {
-          "label": "1 व्याख्याता (हिन्दी) पात्र (5 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539955147.pdf"
-        },
-        {
-          "label": "2 व्याख्याता (रसायन) पात्र (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539978833.pdf"
-        },
-        {
-          "label": "3 व्याख्याता (सामाजिक विज्ञान) पात्र (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539991595.pdf"
-        },
-        {
-          "label": "4 व्याख्याता (अंग्रेजी) पात्र (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540018323.pdf"
-        },
-        {
-          "label": "5 व्याख्याता (गणित) पात्र (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540023668.pdf"
-        },
-        {
-          "label": "6 व्याख्याता (संस्कृत) पात्र (8 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540051442.pdf"
-        },
-        {
-          "label": "7 व्याख्याता (वाणिज्य) पात्र (5 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540071099.pdf"
-        },
-        {
-          "label": "8 शिक्षक (अंग्रेजी) पात्र (631 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540098280.pdf"
-        },
-        {
-          "label": "9 शिक्षक (गणित) पात्र (6 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540111944.pdf"
-        },
-        {
-          "label": "10 शिक्षक (विज्ञान) पात्र (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540123141.pdf"
-        },
-        {
-          "label": "11 शिक्षक (सामाजिक विज्ञान) पात्र (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540132433.pdf"
-        },
-        {
-          "label": "12 सहायक शिक्षक पात्र (अजजा वर्ग) (636 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540143984.pdf"
-        },
-        {
-          "label": "13 सहायक शिक्षक पात्र (अनारक्षित ) (6 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540152358.pdf"
-        },
-        {
-          "label": "14 सहायक शिक्षक ( विज्ञान प्रयोगशाला ) पात्र (7 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17655145535850.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "2509f0ce28fa",
-      "title": "Merit list for documents verification of contractual recruitment in Swami Atmanand Schools – Office of the DEO, Dhamtari",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Dhamtari",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "11/12/2025",
-      "posted_date": "2025-12-11",
-      "end_date": "17/12/2025",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654550118869.pdf",
-      "job_urls": [
-        {
-          "label": "View (822 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654550118869.pdf"
-        },
-        {
-          "label": "Form for Documents Varification (640 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654551023886.pdf"
-        },
-        {
-          "label": "Merit list (All Subject) (7 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654551687437.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "ae7f109b214b",
-      "title": "Final list of ineligible candidates after objections and claims regarding contractual recruitment for vacant posts in Swami Atmanand Schools – Office of the DEO, Dhamtari",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Dhamtari",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "11/12/2025",
-      "posted_date": "2025-12-11",
-      "end_date": "17/12/2025",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539486896.pdf",
-      "job_urls": [
-        {
-          "label": "View (706 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539486896.pdf"
-        },
-        {
-          "label": "1 व्याख्याता (हिन्दी) अपात्र (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654543975953.pdf"
-        },
-        {
-          "label": "2 व्याख्याता (रसायन) अपात्र (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654545305559.pdf"
-        },
-        {
-          "label": "3 व्याख्याता (सामाजिक विज्ञान) अपात्र (652 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654543994153.pdf"
-        },
-        {
-          "label": "4 व्याख्याता (अंग्रेजी) अपात्र (900 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544005382.pdf"
-        },
-        {
-          "label": "5 व्याख्याता (गणित) अपात्र (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544013427.pdf"
-        },
-        {
-          "label": "6 व्याख्याता (संस्कृत) अपात्र (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544023812.pdf"
-        },
-        {
-          "label": "7 व्याख्याता (वाणिज्य) अपात्र (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544036947.pdf"
-        },
-        {
-          "label": "8 शिक्षक (अंग्रेजी) अपात्र (499 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544049102.pdf"
-        },
-        {
-          "label": "9 शिक्षक (गणित) अपात्र (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654546659308.pdf"
-        },
-        {
-          "label": "10 शिक्षक (विज्ञान) अपात्र (905 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544062094.pdf"
-        },
-        {
-          "label": "11 शिक्षक (सामाजिक विज्ञान) अपात्र (999 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544063313.pdf"
-        },
-        {
-          "label": "12 सहायक शिक्षक अपात्र (अजजा वर्ग एवं अनारक्षित ) (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544085794.pdf"
-        },
-        {
-          "label": "13 सहायक शिक्षक ( विज्ञान प्रयोगशाला ) अपात्र (6 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17655146207927.pdf"
-        }
-      ],
-      "doc_type": "merit"
     },
     {
       "id": "60a2abf9de26",
@@ -1276,25 +992,6 @@ window.STATE_DATA = {
         {
           "label": "View (4 MB)",
           "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/05/17800545876542.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "6b1bffc7243f",
-      "title": "Office of the District Education Officer / Secretary, Swami Atmanand Excellent English Medium School Management and Governing Committee, District Durg: An advertisement is hereby issued for contractual recruitment to various vacant teaching and non-t",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Durg",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "28/05/2026",
-      "posted_date": "2026-05-28",
-      "end_date": "08/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3851ddf5058cf22df63d3344ad89919cf/uploads/2026/05/17799775883592.pdf",
-      "job_urls": [
-        {
-          "label": "View (8 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3851ddf5058cf22df63d3344ad89919cf/uploads/2026/05/17799775883592.pdf"
         }
       ],
       "doc_type": "job"
@@ -1490,6 +1187,117 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
+      "id": "908d20cd6182",
+      "title": "Final list after the interview conducted for the Guest teacher at Kamaar Residential School, Nagri :-Office Collector (Tribal Department) Dhamtari",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dhamtari",
+      "school": "District Collectorate",
+      "start_date": "28/07/2026",
+      "posted_date": "2026-07-28",
+      "end_date": "31/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/07/17852402053314.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/07/17852402053314.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "1066e9cba627",
+      "title": "Notice regarding Guest Teacher recruitment at Kamar Residential School, Nagri – Office of the Assistant Commissioner, Tribal Development, Dhamtari (Chhattisgarh)",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dhamtari",
+      "school": "District Collectorate",
+      "start_date": "30/06/2026",
+      "posted_date": "2026-06-30",
+      "end_date": "16/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/06/17828172373385.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/06/17828172373385.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "903aa7c5e989",
+      "title": "Walk in interview for various teaching/ non teaching post – Eklavya model residential school Patharridihi (Dhamtari)",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Dhamtari",
+      "school": "Eklavya Model Residential School",
+      "start_date": "13/03/2026",
+      "posted_date": "2026-03-13",
+      "end_date": "30/03/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/03/17733981365274.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/03/17733981365274.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "891a2208d646",
+      "title": "Contractual recruitment appointment order in Swami Atmanand Excellent English Medium Schools – Office of the District Education Officer, Dhamtari",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Dhamtari",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "22/01/2026",
+      "posted_date": "2026-01-22",
+      "end_date": "31/01/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656332532.pdf",
+      "job_urls": [
+        {
+          "label": "View (6 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656332532.pdf"
+        },
+        {
+          "label": "कार्य आदेश 1 (6 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656374504.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "891e2178d7e8",
+      "title": "Selected and waiting list for contract recruitment in Swami Atmanand Excellent English Medium Schools – Office of the District Education Officer, Dhamtari",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Dhamtari",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "22/01/2026",
+      "posted_date": "2026-01-22",
+      "end_date": "31/01/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653413042.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653413042.pdf"
+        },
+        {
+          "label": "शिक्षक चयनित एवं प्रतिक्षा सूची (1) (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653438154.pdf"
+        },
+        {
+          "label": "सहायक शिक्षक चयनित एवं प्रतिक्षा सूची (1) (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653454466.pdf"
+        },
+        {
+          "label": "सहायक शिक्षक प्रयोगशाला चयनित एवं प्रतिक्षा सूची (1) (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653476939.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
       "id": "06cc599f6c16",
       "title": "Notice regarding calling for document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
       "category": "Swami Atmanand",
@@ -1592,6 +1400,25 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
+    },
+    {
+      "id": "2fecaf6a1c58",
+      "title": "Eklavya Model Residential School, Cheribeda, P.O. – Benur, District – Narayanpur, Chhattisgarh (Claims and objections following the ongoing walk-in interviews for the engagement of guest teachers)",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Narayanpur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "10/07/2026",
+      "posted_date": "2026-07-10",
+      "end_date": "13/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s32afe4567e1bf64d32a5527244d104cea/uploads/2026/07/17836695975684.pdf",
+      "job_urls": [
+        {
+          "label": "View (6 MB)",
+          "url": "https://cdn.s3waas.gov.in/s32afe4567e1bf64d32a5527244d104cea/uploads/2026/07/17836695975684.pdf"
+        }
+      ],
+      "doc_type": "merit"
     },
     {
       "id": "bf1cd78a5ba1",
@@ -1849,6 +1676,198 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
+      "id": "121a1b361119",
+      "title": "Final Eligible list after claim objection of contractual recruitment for vacant posts in Swami Atmanand Schools – Office DEO, Dhamtari",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Dhamtari",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "11/12/2025",
+      "posted_date": "2025-12-11",
+      "end_date": "17/12/2025",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539486896.pdf",
+      "job_urls": [
+        {
+          "label": "View (706 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539486896.pdf"
+        },
+        {
+          "label": "1 व्याख्याता (हिन्दी) पात्र (5 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539955147.pdf"
+        },
+        {
+          "label": "2 व्याख्याता (रसायन) पात्र (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539978833.pdf"
+        },
+        {
+          "label": "3 व्याख्याता (सामाजिक विज्ञान) पात्र (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539991595.pdf"
+        },
+        {
+          "label": "4 व्याख्याता (अंग्रेजी) पात्र (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540018323.pdf"
+        },
+        {
+          "label": "5 व्याख्याता (गणित) पात्र (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540023668.pdf"
+        },
+        {
+          "label": "6 व्याख्याता (संस्कृत) पात्र (8 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540051442.pdf"
+        },
+        {
+          "label": "7 व्याख्याता (वाणिज्य) पात्र (5 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540071099.pdf"
+        },
+        {
+          "label": "8 शिक्षक (अंग्रेजी) पात्र (631 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540098280.pdf"
+        },
+        {
+          "label": "9 शिक्षक (गणित) पात्र (6 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540111944.pdf"
+        },
+        {
+          "label": "10 शिक्षक (विज्ञान) पात्र (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540123141.pdf"
+        },
+        {
+          "label": "11 शिक्षक (सामाजिक विज्ञान) पात्र (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540132433.pdf"
+        },
+        {
+          "label": "12 सहायक शिक्षक पात्र (अजजा वर्ग) (636 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540143984.pdf"
+        },
+        {
+          "label": "13 सहायक शिक्षक पात्र (अनारक्षित ) (6 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654540152358.pdf"
+        },
+        {
+          "label": "14 सहायक शिक्षक ( विज्ञान प्रयोगशाला ) पात्र (7 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17655145535850.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "2509f0ce28fa",
+      "title": "Merit list for documents verification of contractual recruitment in Swami Atmanand Schools – Office of the DEO, Dhamtari",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Dhamtari",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "11/12/2025",
+      "posted_date": "2025-12-11",
+      "end_date": "17/12/2025",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654550118869.pdf",
+      "job_urls": [
+        {
+          "label": "View (822 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654550118869.pdf"
+        },
+        {
+          "label": "Form for Documents Varification (640 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654551023886.pdf"
+        },
+        {
+          "label": "Merit list (All Subject) (7 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654551687437.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "ae7f109b214b",
+      "title": "Final list of ineligible candidates after objections and claims regarding contractual recruitment for vacant posts in Swami Atmanand Schools – Office of the DEO, Dhamtari",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Dhamtari",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "11/12/2025",
+      "posted_date": "2025-12-11",
+      "end_date": "17/12/2025",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539486896.pdf",
+      "job_urls": [
+        {
+          "label": "View (706 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654539486896.pdf"
+        },
+        {
+          "label": "1 व्याख्याता (हिन्दी) अपात्र (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654543975953.pdf"
+        },
+        {
+          "label": "2 व्याख्याता (रसायन) अपात्र (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654545305559.pdf"
+        },
+        {
+          "label": "3 व्याख्याता (सामाजिक विज्ञान) अपात्र (652 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654543994153.pdf"
+        },
+        {
+          "label": "4 व्याख्याता (अंग्रेजी) अपात्र (900 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544005382.pdf"
+        },
+        {
+          "label": "5 व्याख्याता (गणित) अपात्र (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544013427.pdf"
+        },
+        {
+          "label": "6 व्याख्याता (संस्कृत) अपात्र (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544023812.pdf"
+        },
+        {
+          "label": "7 व्याख्याता (वाणिज्य) अपात्र (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544036947.pdf"
+        },
+        {
+          "label": "8 शिक्षक (अंग्रेजी) अपात्र (499 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544049102.pdf"
+        },
+        {
+          "label": "9 शिक्षक (गणित) अपात्र (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654546659308.pdf"
+        },
+        {
+          "label": "10 शिक्षक (विज्ञान) अपात्र (905 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544062094.pdf"
+        },
+        {
+          "label": "11 शिक्षक (सामाजिक विज्ञान) अपात्र (999 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544063313.pdf"
+        },
+        {
+          "label": "12 सहायक शिक्षक अपात्र (अजजा वर्ग एवं अनारक्षित ) (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17654544085794.pdf"
+        },
+        {
+          "label": "13 सहायक शिक्षक ( विज्ञान प्रयोगशाला ) अपात्र (6 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2025/12/17655146207927.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "6b1bffc7243f",
+      "title": "Office of the District Education Officer / Secretary, Swami Atmanand Excellent English Medium School Management and Governing Committee, District Durg: An advertisement is hereby issued for contractual recruitment to various vacant teaching and non-t",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Durg",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "28/05/2026",
+      "posted_date": "2026-05-28",
+      "end_date": "08/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3851ddf5058cf22df63d3344ad89919cf/uploads/2026/05/17799775883592.pdf",
+      "job_urls": [
+        {
+          "label": "View (8 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3851ddf5058cf22df63d3344ad89919cf/uploads/2026/05/17799775883592.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
       "id": "738130f79fb2",
       "title": "Information regarding the revision of the document verification/written examination date for the recruitment of special guest teachers.",
       "category": "Other",
@@ -1886,25 +1905,6 @@ window.STATE_DATA = {
         {
           "label": "View (877 KB)",
           "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/06/17818620068213.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "2fecaf6a1c58",
-      "title": "Eklavya Model Residential School, Cheribeda, P.O. – Benur, District – Narayanpur, Chhattisgarh (Claims and objections following the ongoing walk-in interviews for the engagement of guest teachers)",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Narayanpur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "10/07/2026",
-      "posted_date": "2026-07-10",
-      "end_date": "13/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s32afe4567e1bf64d32a5527244d104cea/uploads/2026/07/17836695975684.pdf",
-      "job_urls": [
-        {
-          "label": "View (6 MB)",
-          "url": "https://cdn.s3waas.gov.in/s32afe4567e1bf64d32a5527244d104cea/uploads/2026/07/17836695975684.pdf"
         }
       ],
       "doc_type": "merit"
