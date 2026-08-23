@@ -1,6 +1,44 @@
 {
-  "last_updated": "2026-08-23T15:25:28+05:30",
+  "last_updated": "2026-08-23T15:56:39+05:30",
   "jobs": [
+    {
+      "id": "009c2afeb93a",
+      "title": "Recruitment for guest lecturer for the post of Stenographer Secretarial Assistant (Hindi).",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Balod",
+      "school": "District Collectorate",
+      "start_date": "09/06/2026",
+      "posted_date": "2026-06-09",
+      "end_date": "22/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3c45147dee729311ef5b5c3003946c48f/uploads/2026/06/17810050236260.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3c45147dee729311ef5b5c3003946c48f/uploads/2026/06/17810050236260.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "ef661ae8e701",
+      "title": "Advertisement for filling the post of Guest Teacher/Counselor",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dantewada",
+      "school": "District Collectorate",
+      "start_date": "30.07.2026",
+      "posted_date": "2026-07-30",
+      "end_date": "15/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/07/17841119512080.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/07/17841119512080.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
     {
       "id": "e7bcc477d98a",
       "title": "Education Department, Bemetara- Regarding publication of the Eligible/Ineligible List of applications received from applicants for selection of Yoga/Sports Teachers/Trainers on a part-time basis for PM SHRI Schools.",
@@ -61,44 +99,6 @@
         }
       ],
       "doc_type": "merit"
-    },
-    {
-      "id": "009c2afeb93a",
-      "title": "Recruitment for guest lecturer for the post of Stenographer Secretarial Assistant (Hindi).",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Balod",
-      "school": "District Collectorate",
-      "start_date": "09/06/2026",
-      "posted_date": "2026-06-09",
-      "end_date": "22/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3c45147dee729311ef5b5c3003946c48f/uploads/2026/06/17810050236260.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3c45147dee729311ef5b5c3003946c48f/uploads/2026/06/17810050236260.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "ef661ae8e701",
-      "title": "Advertisement for filling the post of Guest Teacher/Counselor",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dantewada",
-      "school": "District Collectorate",
-      "start_date": "30.07.2026",
-      "posted_date": "2026-07-30",
-      "end_date": "15/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/07/17841119512080.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/07/17841119512080.pdf"
-        }
-      ],
-      "doc_type": "job"
     },
     {
       "id": "5102f855b110",
@@ -493,25 +493,6 @@
       "doc_type": "job"
     },
     {
-      "id": "47357cbaa648",
-      "title": "Advertisement Regarding The Engagement Of Guest Teachers On A Temporary Basis Against Vacant Teaching Positions For The 2026-27 Academic Session At PM SHRI Eklavya Model Residential School, Bandhwa, Block Lormi.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Mungeli",
-      "school": "Eklavya Model Residential School",
-      "start_date": "12/06/2026",
-      "posted_date": "2026-06-12",
-      "end_date": "22/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/06/17812626873309.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/06/17812626873309.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
       "id": "64a2734039a3",
       "title": "Special Guest Teacher Order From the waiting list Work order issued for a special guest teacher at the 200-seater residential school in Durgukondal Block",
       "category": "Other",
@@ -565,6 +546,25 @@
         {
           "label": "View (887 KB)",
           "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/07/17848690855137.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "47357cbaa648",
+      "title": "Advertisement Regarding The Engagement Of Guest Teachers On A Temporary Basis Against Vacant Teaching Positions For The 2026-27 Academic Session At PM SHRI Eklavya Model Residential School, Bandhwa, Block Lormi.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Mungeli",
+      "school": "Eklavya Model Residential School",
+      "start_date": "12/06/2026",
+      "posted_date": "2026-06-12",
+      "end_date": "22/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/06/17812626873309.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/06/17812626873309.pdf"
         }
       ],
       "doc_type": "job"
@@ -631,6 +631,25 @@
       "doc_type": "job"
     },
     {
+      "id": "ecd3da2e08ef",
+      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Raipur",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "02/06/2026",
+      "posted_date": "2026-06-02",
+      "end_date": "30/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
+      "job_urls": [
+        {
+          "label": "View (650 KB)",
+          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
       "id": "99bac134844c",
       "title": "Press Release for Local Guest Teacher",
       "category": "Other",
@@ -664,25 +683,6 @@
         {
           "label": "View (2 MB)",
           "url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/08/17865894591584.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "ecd3da2e08ef",
-      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Raipur",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "02/06/2026",
-      "posted_date": "2026-06-02",
-      "end_date": "30/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
-      "job_urls": [
-        {
-          "label": "View (650 KB)",
-          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
         }
       ],
       "doc_type": "job"
