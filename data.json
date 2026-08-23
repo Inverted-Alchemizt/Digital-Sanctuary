@@ -1,25 +1,6 @@
 {
-  "last_updated": "2026-08-23T05:32:58+05:30",
+  "last_updated": "2026-08-23T07:28:35+05:30",
   "jobs": [
-    {
-      "id": "ef661ae8e701",
-      "title": "Advertisement for filling the post of Guest Teacher/Counselor",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dantewada",
-      "school": "District Collectorate",
-      "start_date": "30.07.2026",
-      "posted_date": "2026-07-30",
-      "end_date": "15/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/07/17841119512080.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/07/17841119512080.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
     {
       "id": "009c2afeb93a",
       "title": "Recruitment for guest lecturer for the post of Stenographer Secretarial Assistant (Hindi).",
@@ -59,151 +40,6 @@
       "doc_type": "merit"
     },
     {
-      "id": "9cbaa3316506",
-      "title": "Office of the District Education Officer, District Bijapur (Chhattisgarh): Regarding the part-time recruitment of Yoga/Sports teachers/instructors, Music instructors, and Special Educators in schools under the PM SHRI Scheme for the year 2026-27.",
-      "category": "Other",
-      "employment_type": "Part-Time",
-      "district": "Bijapur",
-      "school": "District Collectorate",
-      "start_date": "31/07/2026",
-      "posted_date": "2026-07-31",
-      "end_date": "06/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3d395771085aab05244a4fb8fd91bf4ee/uploads/2026/07/17854951196730.pdf",
-      "job_urls": [
-        {
-          "label": "View (5 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3d395771085aab05244a4fb8fd91bf4ee/uploads/2026/07/17854951196730.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "4185421cc420",
-      "title": "Regarding publication of list of eligible/ineligible candidates and candidates selected for walk-in interview for temporary post of Guest Teacher (Counselor) for Eklavya Adarsh ​​Residential School, Bhelwadih.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Balrampur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "19/08/2026",
-      "posted_date": "2026-08-19",
-      "end_date": "21/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17871181758431.pdf",
-      "job_urls": [
-        {
-          "label": "View ()",
-          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17871181758431.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "0c96840ad1e2",
-      "title": "Publication of ineligible list for guest teacher and merit list of eligible candidates and list of candidates selected for interview for Eklavya Adarsh ​​Residential School, Bhelwadih.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Balrampur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "03/08/2026",
-      "posted_date": "2026-08-03",
-      "end_date": "08/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17857584486779.pdf",
-      "job_urls": [
-        {
-          "label": "View ()",
-          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17857584486779.pdf"
-        },
-        {
-          "label": "आवेदनो के अपात्र अभ्यर्थियों की सूची ()",
-          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17857584747029.pdf"
-        },
-        {
-          "label": "दावा-आपत्ति पश्चात मेरिट सूची ()",
-          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17857585139145.pdf"
-        },
-        {
-          "label": "वॉक इन इंटरव्यू हेतु पात्र मेरिट सूची से चयनित अभ्यर्थियों की सूची ()",
-          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17857585389424.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "68c5dabd45a0",
-      "title": "Publication of eligible/ineligible list of applications received for guest teacher and non-teaching posts in Eklavya Adarsh ​​Residential School, Kusmi.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Balrampur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "28/07/2026",
-      "posted_date": "2026-07-28",
-      "end_date": "01/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853019679399.pdf",
-      "job_urls": [
-        {
-          "label": "View ()",
-          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853019679399.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "98b3c566ed35",
-      "title": "Regarding publication of the list of eligible/ineligible candidates for the applications received for guest teaching and non-teaching posts invited for Eklavya Adarsh ​​Residential School, Rajpur.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Balrampur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "29/07/2026",
-      "posted_date": "2026-07-29",
-      "end_date": "01/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853199711049.pdf",
-      "job_urls": [
-        {
-          "label": "View ()",
-          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853199711049.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "21a6e72510b2",
-      "title": "Regarding publication of the list of eligible/ineligible candidates for the applications received for guest teaching and non-teaching posts invited for Eklavya Adarsh ​​Residential School Shankargarh.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Balrampur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "29/07/2026",
-      "posted_date": "2026-07-29",
-      "end_date": "31/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853193512598.pdf",
-      "job_urls": [
-        {
-          "label": "View ()",
-          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853193512598.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "814e26832ec4",
-      "title": "Regarding publication of eligible/ineligible list of applications received in walk-in-interview for guest teacher and non-teaching posts in Eklavya Adarsh ​​Vidyalayas.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Balrampur",
-      "school": "Eklavya Model Residential School",
-      "start_date": "24/07/2026",
-      "posted_date": "2026-07-24",
-      "end_date": "27/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17848950496292.pdf",
-      "job_urls": [
-        {
-          "label": "View ()",
-          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17848950496292.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
       "id": "6e0c6236d407",
       "title": "Appointment to the posts of full-time teacher, part-time teacher, accountant in Kasturba Gandhi Girls Residential School.",
       "category": "Other",
@@ -218,6 +54,63 @@
         {
           "label": "View (5 MB)",
           "url": "https://cdn.s3waas.gov.in/s39dcb88e0137649590b755372b040afad/uploads/2025/02/2025022818.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "ef661ae8e701",
+      "title": "Advertisement for filling the post of Guest Teacher/Counselor",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dantewada",
+      "school": "District Collectorate",
+      "start_date": "30.07.2026",
+      "posted_date": "2026-07-30",
+      "end_date": "15/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/07/17841119512080.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/07/17841119512080.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "5102f855b110",
+      "title": "Regarding the final list for the recruitment of guest teachers in Eklavya Model Residential Schools.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Bastar",
+      "school": "Eklavya Model Residential School",
+      "start_date": "14/07/2026",
+      "posted_date": "2026-07-14",
+      "end_date": "25/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf",
+      "job_urls": [
+        {
+          "label": "View (7 MB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "9cbaa3316506",
+      "title": "Office of the District Education Officer, District Bijapur (Chhattisgarh): Regarding the part-time recruitment of Yoga/Sports teachers/instructors, Music instructors, and Special Educators in schools under the PM SHRI Scheme for the year 2026-27.",
+      "category": "Other",
+      "employment_type": "Part-Time",
+      "district": "Bijapur",
+      "school": "District Collectorate",
+      "start_date": "31/07/2026",
+      "posted_date": "2026-07-31",
+      "end_date": "06/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3d395771085aab05244a4fb8fd91bf4ee/uploads/2026/07/17854951196730.pdf",
+      "job_urls": [
+        {
+          "label": "View (5 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3d395771085aab05244a4fb8fd91bf4ee/uploads/2026/07/17854951196730.pdf"
         }
       ],
       "doc_type": "job"
@@ -451,25 +344,6 @@
         {
           "label": "View (2 MB)",
           "url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/08/17865894591584.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "ecd3da2e08ef",
-      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Raipur",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "02/06/2026",
-      "posted_date": "2026-06-02",
-      "end_date": "30/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
-      "job_urls": [
-        {
-          "label": "View (650 KB)",
-          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
         }
       ],
       "doc_type": "job"
@@ -722,6 +596,25 @@
       "doc_type": "job"
     },
     {
+      "id": "ecd3da2e08ef",
+      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Raipur",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "02/06/2026",
+      "posted_date": "2026-06-02",
+      "end_date": "30/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
+      "job_urls": [
+        {
+          "label": "View (650 KB)",
+          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
       "id": "9646718007e0",
       "title": "Results of walk-in interviews for guest teachers against vacant posts—to be filled temporarily on an honorarium basis—in district-level Eklavya Model Residential Schools for the 2026–27 academic session",
       "category": "EMRS",
@@ -779,6 +672,132 @@
       "doc_type": "job"
     },
     {
+      "id": "4185421cc420",
+      "title": "Regarding publication of list of eligible/ineligible candidates and candidates selected for walk-in interview for temporary post of Guest Teacher (Counselor) for Eklavya Adarsh ​​Residential School, Bhelwadih.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Balrampur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "19/08/2026",
+      "posted_date": "2026-08-19",
+      "end_date": "21/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17871181758431.pdf",
+      "job_urls": [
+        {
+          "label": "View ()",
+          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17871181758431.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "0c96840ad1e2",
+      "title": "Publication of ineligible list for guest teacher and merit list of eligible candidates and list of candidates selected for interview for Eklavya Adarsh ​​Residential School, Bhelwadih.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Balrampur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "03/08/2026",
+      "posted_date": "2026-08-03",
+      "end_date": "08/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17857584486779.pdf",
+      "job_urls": [
+        {
+          "label": "View ()",
+          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17857584486779.pdf"
+        },
+        {
+          "label": "आवेदनो के अपात्र अभ्यर्थियों की सूची ()",
+          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17857584747029.pdf"
+        },
+        {
+          "label": "दावा-आपत्ति पश्चात मेरिट सूची ()",
+          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17857585139145.pdf"
+        },
+        {
+          "label": "वॉक इन इंटरव्यू हेतु पात्र मेरिट सूची से चयनित अभ्यर्थियों की सूची ()",
+          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/08/17857585389424.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "68c5dabd45a0",
+      "title": "Publication of eligible/ineligible list of applications received for guest teacher and non-teaching posts in Eklavya Adarsh ​​Residential School, Kusmi.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Balrampur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "28/07/2026",
+      "posted_date": "2026-07-28",
+      "end_date": "01/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853019679399.pdf",
+      "job_urls": [
+        {
+          "label": "View ()",
+          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853019679399.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "98b3c566ed35",
+      "title": "Regarding publication of the list of eligible/ineligible candidates for the applications received for guest teaching and non-teaching posts invited for Eklavya Adarsh ​​Residential School, Rajpur.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Balrampur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "29/07/2026",
+      "posted_date": "2026-07-29",
+      "end_date": "01/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853199711049.pdf",
+      "job_urls": [
+        {
+          "label": "View ()",
+          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853199711049.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "21a6e72510b2",
+      "title": "Regarding publication of the list of eligible/ineligible candidates for the applications received for guest teaching and non-teaching posts invited for Eklavya Adarsh ​​Residential School Shankargarh.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Balrampur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "29/07/2026",
+      "posted_date": "2026-07-29",
+      "end_date": "31/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853193512598.pdf",
+      "job_urls": [
+        {
+          "label": "View ()",
+          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17853193512598.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "814e26832ec4",
+      "title": "Regarding publication of eligible/ineligible list of applications received in walk-in-interview for guest teacher and non-teaching posts in Eklavya Adarsh ​​Vidyalayas.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Balrampur",
+      "school": "Eklavya Model Residential School",
+      "start_date": "24/07/2026",
+      "posted_date": "2026-07-24",
+      "end_date": "27/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17848950496292.pdf",
+      "job_urls": [
+        {
+          "label": "View ()",
+          "url": "https://cdn.s3waas.gov.in/s326dd0dbc6e3f4c8043749885523d6a25/uploads/2026/07/17848950496292.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
       "id": "bd1df7ede6ac",
       "title": "Regarding the publication of a notification for the part-time recruitment of Yoga/Sports teachers and instructors for PM SHRI Schools for a period of 10 months (up to March 31, 2027).",
       "category": "Other",
@@ -816,25 +835,6 @@
         {
           "label": "View (446 KB)",
           "url": "https://cdn.s3waas.gov.in/s36a10bbd480e4c5573d8f3af73ae0454b/uploads/2026/06/17811745718576.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "5102f855b110",
-      "title": "Regarding the final list for the recruitment of guest teachers in Eklavya Model Residential Schools.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Bastar",
-      "school": "Eklavya Model Residential School",
-      "start_date": "14/07/2026",
-      "posted_date": "2026-07-14",
-      "end_date": "25/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf",
-      "job_urls": [
-        {
-          "label": "View (7 MB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf"
         }
       ],
       "doc_type": "merit"
