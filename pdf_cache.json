@@ -2921,7 +2921,7 @@
     }
   },
   "233bf6b3a98b2709d5909e80ee139d68": {
-    "timestamp": "2026-08-24T17:17:31.981685+00:00",
+    "timestamp": "2026-08-25T19:44:47.655312+00:00",
     "result": {
       "is_teaching_job": false,
       "score": -40,
@@ -2931,8 +2931,8 @@
         "teacher",
         "b.ed",
         "tgt",
-        "pgt",
-        "tet"
+        "tet",
+        "pgt"
       ]
     }
   },
