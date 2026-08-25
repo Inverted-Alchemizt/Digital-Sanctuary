@@ -1,6 +1,25 @@
 window.STATE_DATA = {
-  "last_updated": "2026-08-25T15:33:38+05:30",
+  "last_updated": "2026-08-25T16:18:51+05:30",
   "jobs": [
+    {
+      "id": "e7bcc477d98a",
+      "title": "Education Department, Bemetara- Regarding publication of the Eligible/Ineligible List of applications received from applicants for selection of Yoga/Sports Teachers/Trainers on a part-time basis for PM SHRI Schools.",
+      "category": "Other",
+      "employment_type": "Part-Time",
+      "district": "Bemetara",
+      "school": "District Collectorate",
+      "start_date": "20/08/2026",
+      "posted_date": "2026-08-20",
+      "end_date": "25/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s36a10bbd480e4c5573d8f3af73ae0454b/uploads/2026/08/17872215176766.pdf",
+      "job_urls": [
+        {
+          "label": "View (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s36a10bbd480e4c5573d8f3af73ae0454b/uploads/2026/08/17872215176766.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
     {
       "id": "e5b0a257be3b",
       "title": "Advertisement for Contractual Recruitment to 57 Vacant Posts across 16 Swami Atmanand Excellent English Medium Schools Operating under the Office of the District Education Officer, District Balodabazar-Bhatapara.",
@@ -44,23 +63,23 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "009c2afeb93a",
-      "title": "Recruitment for guest lecturer for the post of Stenographer Secretarial Assistant (Hindi).",
-      "category": "Other",
+      "id": "5102f855b110",
+      "title": "Regarding the final list for the recruitment of guest teachers in Eklavya Model Residential Schools.",
+      "category": "EMRS",
       "employment_type": "Guest",
-      "district": "Balod",
-      "school": "District Collectorate",
-      "start_date": "09/06/2026",
-      "posted_date": "2026-06-09",
-      "end_date": "22/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3c45147dee729311ef5b5c3003946c48f/uploads/2026/06/17810050236260.pdf",
+      "district": "Bastar",
+      "school": "Eklavya Model Residential School",
+      "start_date": "14/07/2026",
+      "posted_date": "2026-07-14",
+      "end_date": "25/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf",
       "job_urls": [
         {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3c45147dee729311ef5b5c3003946c48f/uploads/2026/06/17810050236260.pdf"
+          "label": "View (7 MB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf"
         }
       ],
-      "doc_type": "job"
+      "doc_type": "merit"
     },
     {
       "id": "9cbaa3316506",
@@ -82,39 +101,153 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "5102f855b110",
-      "title": "Regarding the final list for the recruitment of guest teachers in Eklavya Model Residential Schools.",
+      "id": "60a2abf9de26",
+      "title": "Merit List – Merit list based on ongoing interviews for various guest teacher positions for the 2026-27 academic session – Eklavya Model Residential School, Shampur (Makdi), District – Kondagaon (Chhattisgarh).",
       "category": "EMRS",
       "employment_type": "Guest",
-      "district": "Bastar",
+      "district": "Kondagaon",
       "school": "Eklavya Model Residential School",
-      "start_date": "14/07/2026",
-      "posted_date": "2026-07-14",
-      "end_date": "25/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf",
+      "start_date": "22/06/2026",
+      "posted_date": "2026-06-22",
+      "end_date": "30/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823839071866.pdf",
       "job_urls": [
         {
-          "label": "View (7 MB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/07/17840075002873.pdf"
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823839071866.pdf"
         }
       ],
       "doc_type": "merit"
     },
     {
-      "id": "925731a8f843",
-      "title": "Recruitment for guest lecturer under Model ITI koni Bilaspur.",
-      "category": "Other",
+      "id": "d47f65affb74",
+      "title": "Merit List – Merit list based on ongoing interviews for various Guest Teacher positions for the 2026-27 academic session – Eklavya Model Residential School, Korgaon (Baderajpur), District – Kondagaon (Chhattisgarh).",
+      "category": "EMRS",
       "employment_type": "Guest",
-      "district": "Bilaspur",
-      "school": "District Collectorate",
-      "start_date": "16/04/2026",
-      "posted_date": "2026-04-16",
-      "end_date": "27/04/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf",
+      "district": "Kondagaon",
+      "school": "Eklavya Model Residential School",
+      "start_date": "22/06/2026",
+      "posted_date": "2026-06-22",
+      "end_date": "30/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823842011389.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823842011389.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "8f03475ba340",
+      "title": "Merit List – Merit list based on ongoing interviews for various Guest Teacher positions for the 2026-27 academic session – Eklavya Model Residential School, Bedma (Keshkal), District – Kondagaon (Chhattisgarh).",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Kondagaon",
+      "school": "Eklavya Model Residential School",
+      "start_date": "22/06/2026",
+      "posted_date": "2026-06-22",
+      "end_date": "30/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823844052149.pdf",
+      "job_urls": [
+        {
+          "label": "View (812 KB)",
+          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823844052149.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "e6ca0ff8d18a",
+      "title": "Merit List – Merit list based on ongoing interviews for various guest teacher positions for the 2026-27 academic session – Eklavya Adarsh ​​Residential School, Chichadi (Farasgaon), District – Kondagaon (Chhattisgarh).",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Kondagaon",
+      "school": "Eklavya Model Residential School",
+      "start_date": "22/06/2026",
+      "posted_date": "2026-06-22",
+      "end_date": "30/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823845933709.pdf",
       "job_urls": [
         {
           "label": "View (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf"
+          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823845933709.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "8cb7c5d9a9ee",
+      "title": "Merit List – Merit list based on ongoing interviews for various Guest Teacher positions for the 2026-27 academic session – Eklavya Model Residential School, Golvand (Kondagaon), District – Kondagaon (Chhattisgarh).",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Kondagaon",
+      "school": "Eklavya Model Residential School",
+      "start_date": "22/06/2026",
+      "posted_date": "2026-06-22",
+      "end_date": "30/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823849544109.pdf",
+      "job_urls": [
+        {
+          "label": "View (663 KB)",
+          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823849544109.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "1ba38ef7aaa1",
+      "title": "Advertisement for Walk-in Interview for Guest Teachers against vacant posts for the 2026-27 academic session at Eklavya Model Residential School, Bedma – Eklavya Model Residential School, Bedma (Keshkal), District Kondagaon (Chhattisgarh).",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Kondagaon",
+      "school": "Eklavya Model Residential School",
+      "start_date": "21/07/2026",
+      "posted_date": "2026-07-21",
+      "end_date": "25/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/07/17846369367956.pdf",
+      "job_urls": [
+        {
+          "label": "View (942 KB)",
+          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/07/17846369367956.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "0afc2f08c636",
+      "title": "Advertisement for Guest Teachers: Walk-in interview on 18/07/2026 for vacant positions at Eklavya Adarsh ​​Residential School, Golavand (District: Kondagaon, Chhattisgarh) for the 2026-27 academic session.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Kondagaon",
+      "school": "Eklavya Model Residential School",
+      "start_date": "18/07/2026",
+      "posted_date": "2026-07-18",
+      "end_date": "18/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/07/17841011381139.pdf",
+      "job_urls": [
+        {
+          "label": "View (291 KB)",
+          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/07/17841011381139.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "59847fb1c91e",
+      "title": "Recruitment (Contractual) – Advertisement for Contractual Recruitment to Various Vacant Posts in Swami Atmanand Schools – Office of the District Education Officer, Kondagaon (C.G.)",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Kondagaon",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "29/05/2026",
+      "posted_date": "2026-05-29",
+      "end_date": "12/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/05/17800545876542.pdf",
+      "job_urls": [
+        {
+          "label": "View (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/05/17800545876542.pdf"
         }
       ],
       "doc_type": "job"
@@ -137,6 +270,163 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
+    },
+    {
+      "id": "908d20cd6182",
+      "title": "Final list after the interview conducted for the Guest teacher at Kamaar Residential School, Nagri :-Office Collector (Tribal Department) Dhamtari",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dhamtari",
+      "school": "District Collectorate",
+      "start_date": "28/07/2026",
+      "posted_date": "2026-07-28",
+      "end_date": "31/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/07/17852402053314.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/07/17852402053314.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "1066e9cba627",
+      "title": "Notice regarding Guest Teacher recruitment at Kamar Residential School, Nagri – Office of the Assistant Commissioner, Tribal Development, Dhamtari (Chhattisgarh)",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dhamtari",
+      "school": "District Collectorate",
+      "start_date": "30/06/2026",
+      "posted_date": "2026-06-30",
+      "end_date": "16/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/06/17828172373385.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/06/17828172373385.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "903aa7c5e989",
+      "title": "Walk in interview for various teaching/ non teaching post – Eklavya model residential school Patharridihi (Dhamtari)",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Dhamtari",
+      "school": "Eklavya Model Residential School",
+      "start_date": "13/03/2026",
+      "posted_date": "2026-03-13",
+      "end_date": "30/03/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/03/17733981365274.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/03/17733981365274.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "891a2208d646",
+      "title": "Contractual recruitment appointment order in Swami Atmanand Excellent English Medium Schools – Office of the District Education Officer, Dhamtari",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Dhamtari",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "22/01/2026",
+      "posted_date": "2026-01-22",
+      "end_date": "31/01/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656332532.pdf",
+      "job_urls": [
+        {
+          "label": "View (6 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656332532.pdf"
+        },
+        {
+          "label": "कार्य आदेश 1 (6 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656374504.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "891e2178d7e8",
+      "title": "Selected and waiting list for contract recruitment in Swami Atmanand Excellent English Medium Schools – Office of the District Education Officer, Dhamtari",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Dhamtari",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "22/01/2026",
+      "posted_date": "2026-01-22",
+      "end_date": "31/01/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653413042.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653413042.pdf"
+        },
+        {
+          "label": "शिक्षक चयनित एवं प्रतिक्षा सूची (1) (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653438154.pdf"
+        },
+        {
+          "label": "सहायक शिक्षक चयनित एवं प्रतिक्षा सूची (1) (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653454466.pdf"
+        },
+        {
+          "label": "सहायक शिक्षक प्रयोगशाला चयनित एवं प्रतिक्षा सूची (1) (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653476939.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "326958320f6e",
+      "title": "Advertisement for the arrangement of guest teachers at the Special Backward Tribal Group (Pahadi Korva) Residential School, Rupsera (Madiya), Block Bagicha, District Jashpur (Chhattisgarh)—a Hindi-medium school affiliated with the Chhattisgarh Board",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "14/08/2026",
+      "posted_date": "2026-08-14",
+      "end_date": "24/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/08/17867078818967.pdf",
+      "job_urls": [
+        {
+          "label": "View (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/08/17867078818967.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "06cc599f6c16",
+      "title": "Notice regarding calling for document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Gariyaband",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "07/04/2026",
+      "posted_date": "2026-04-07",
+      "end_date": "15/04/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf"
+        },
+        {
+          "label": "दस्तावेज सत्यापन (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243994186.pdf"
+        },
+        {
+          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756244197673.pdf"
+        }
+      ],
+      "doc_type": "merit"
     },
     {
       "id": "64a2734039a3",
@@ -239,47 +529,39 @@ window.STATE_DATA = {
       "doc_type": "merit"
     },
     {
-      "id": "1ecc36db3d1c",
-      "title": "Advertisement for recruitment of special guest teacher in 200 seater Durgukondal Residential School",
-      "category": "Other",
+      "id": "47357cbaa648",
+      "title": "Advertisement Regarding The Engagement Of Guest Teachers On A Temporary Basis Against Vacant Teaching Positions For The 2026-27 Academic Session At PM SHRI Eklavya Model Residential School, Bandhwa, Block Lormi.",
+      "category": "EMRS",
       "employment_type": "Guest",
-      "district": "Kanker",
-      "school": "District Collectorate",
-      "start_date": "28/04/2026",
-      "posted_date": "2026-04-28",
-      "end_date": "15/05/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472298207.pdf",
+      "district": "Mungeli",
+      "school": "Eklavya Model Residential School",
+      "start_date": "12/06/2026",
+      "posted_date": "2026-06-12",
+      "end_date": "22/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/06/17812626873309.pdf",
       "job_urls": [
         {
-          "label": "View (518 KB)",
-          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472298207.pdf"
-        },
-        {
-          "label": "विज्ञापन (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472315130.pdf"
-        },
-        {
-          "label": "ऑनलाइन आवेदन हेतु निर्देश (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472283143.pdf"
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/06/17812626873309.pdf"
         }
       ],
       "doc_type": "job"
     },
     {
-      "id": "ecd3da2e08ef",
-      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Raipur",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "02/06/2026",
-      "posted_date": "2026-06-02",
-      "end_date": "30/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
+      "id": "99bac134844c",
+      "title": "Press Release for Local Guest Teacher",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Sukma",
+      "school": "District Collectorate",
+      "start_date": "20/08/2026",
+      "posted_date": "2026-08-20",
+      "end_date": "25/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/08/17872272165536.pdf",
       "job_urls": [
         {
-          "label": "View (650 KB)",
-          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
+          "label": "View (133 KB)",
+          "url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/08/17872272165536.pdf"
         }
       ],
       "doc_type": "job"
@@ -318,6 +600,29 @@ window.STATE_DATA = {
         {
           "label": "View (534 KB)",
           "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17786736176020.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "c1c837575346",
+      "title": "Recruitment – Advertisement for contractual posting of teachers in Swami Aatmanand English Medium School (PM Shri)",
+      "category": "Contract",
+      "employment_type": "Contract",
+      "district": "Rajnandgaon",
+      "school": "District Collectorate",
+      "start_date": "06/05/2026",
+      "posted_date": "2026-05-06",
+      "end_date": "31/05/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780575718456.pdf",
+      "job_urls": [
+        {
+          "label": "View (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780575718456.pdf"
+        },
+        {
+          "label": "आवेदन (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780578177732.pdf"
         }
       ],
       "doc_type": "job"
@@ -375,6 +680,132 @@ window.STATE_DATA = {
         {
           "label": "View (3 MB)",
           "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17834115369425.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "56c170c60a7e",
+      "title": "Eklavya Residential School Surguja Guest Teacher Walk-in Interview Date Extended 2026-27",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Surguja",
+      "school": "Eklavya Model Residential School",
+      "start_date": "24/06/2026",
+      "posted_date": "2026-06-24",
+      "end_date": "09/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/06/17823015407657.pdf",
+      "job_urls": [
+        {
+          "label": "View (617 KB)",
+          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/06/17823015407657.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "117891f67339",
+      "title": "Invitation for applications for the post of Hostel Superintendent (Guest Faculty) on a temporary, honorarium-based basis for the academic session 2026-27 at Eklavya Adarsh ​​Residential Schools in Petla (Sitapur) and Sahanpur (Lundra)",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Surguja",
+      "school": "Eklavya Model Residential School",
+      "start_date": "25/06/2026",
+      "posted_date": "2026-06-25",
+      "end_date": "09/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/06/17823753866820.pdf",
+      "job_urls": [
+        {
+          "label": "View (851 KB)",
+          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/06/17823753866820.pdf"
+        },
+        {
+          "label": "Application Form (449 KB)",
+          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17830758319091.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "009c2afeb93a",
+      "title": "Recruitment for guest lecturer for the post of Stenographer Secretarial Assistant (Hindi).",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Balod",
+      "school": "District Collectorate",
+      "start_date": "09/06/2026",
+      "posted_date": "2026-06-09",
+      "end_date": "22/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3c45147dee729311ef5b5c3003946c48f/uploads/2026/06/17810050236260.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3c45147dee729311ef5b5c3003946c48f/uploads/2026/06/17810050236260.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "925731a8f843",
+      "title": "Recruitment for guest lecturer under Model ITI koni Bilaspur.",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Bilaspur",
+      "school": "District Collectorate",
+      "start_date": "16/04/2026",
+      "posted_date": "2026-04-16",
+      "end_date": "27/04/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf",
+      "job_urls": [
+        {
+          "label": "View (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/04/17763318561893.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "1ecc36db3d1c",
+      "title": "Advertisement for recruitment of special guest teacher in 200 seater Durgukondal Residential School",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Kanker",
+      "school": "District Collectorate",
+      "start_date": "28/04/2026",
+      "posted_date": "2026-04-28",
+      "end_date": "15/05/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472298207.pdf",
+      "job_urls": [
+        {
+          "label": "View (518 KB)",
+          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472298207.pdf"
+        },
+        {
+          "label": "विज्ञापन (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472315130.pdf"
+        },
+        {
+          "label": "ऑनलाइन आवेदन हेतु निर्देश (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s35c04925674920eb58467fb52ce4ef728/uploads/2026/04/17774472283143.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "ecd3da2e08ef",
+      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Raipur",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "02/06/2026",
+      "posted_date": "2026-06-02",
+      "end_date": "30/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
+      "job_urls": [
+        {
+          "label": "View (650 KB)",
+          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
         }
       ],
       "doc_type": "job"
@@ -822,117 +1253,6 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "908d20cd6182",
-      "title": "Final list after the interview conducted for the Guest teacher at Kamaar Residential School, Nagri :-Office Collector (Tribal Department) Dhamtari",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dhamtari",
-      "school": "District Collectorate",
-      "start_date": "28/07/2026",
-      "posted_date": "2026-07-28",
-      "end_date": "31/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/07/17852402053314.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/07/17852402053314.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "1066e9cba627",
-      "title": "Notice regarding Guest Teacher recruitment at Kamar Residential School, Nagri – Office of the Assistant Commissioner, Tribal Development, Dhamtari (Chhattisgarh)",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dhamtari",
-      "school": "District Collectorate",
-      "start_date": "30/06/2026",
-      "posted_date": "2026-06-30",
-      "end_date": "16/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/06/17828172373385.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/06/17828172373385.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "903aa7c5e989",
-      "title": "Walk in interview for various teaching/ non teaching post – Eklavya model residential school Patharridihi (Dhamtari)",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Dhamtari",
-      "school": "Eklavya Model Residential School",
-      "start_date": "13/03/2026",
-      "posted_date": "2026-03-13",
-      "end_date": "30/03/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/03/17733981365274.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/03/17733981365274.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "891a2208d646",
-      "title": "Contractual recruitment appointment order in Swami Atmanand Excellent English Medium Schools – Office of the District Education Officer, Dhamtari",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Dhamtari",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "22/01/2026",
-      "posted_date": "2026-01-22",
-      "end_date": "31/01/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656332532.pdf",
-      "job_urls": [
-        {
-          "label": "View (6 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656332532.pdf"
-        },
-        {
-          "label": "कार्य आदेश 1 (6 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691656374504.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "891e2178d7e8",
-      "title": "Selected and waiting list for contract recruitment in Swami Atmanand Excellent English Medium Schools – Office of the District Education Officer, Dhamtari",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Dhamtari",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "22/01/2026",
-      "posted_date": "2026-01-22",
-      "end_date": "31/01/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653413042.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653413042.pdf"
-        },
-        {
-          "label": "शिक्षक चयनित एवं प्रतिक्षा सूची (1) (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653438154.pdf"
-        },
-        {
-          "label": "सहायक शिक्षक चयनित एवं प्रतिक्षा सूची (1) (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653454466.pdf"
-        },
-        {
-          "label": "सहायक शिक्षक प्रयोगशाला चयनित एवं प्रतिक्षा सूची (1) (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/01/17691653476939.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
       "id": "121a1b361119",
       "title": "Final Eligible list after claim objection of contractual recruitment for vacant posts in Swami Atmanand Schools – Office DEO, Dhamtari",
       "category": "Swami Atmanand",
@@ -1120,25 +1440,6 @@ window.STATE_DATA = {
         {
           "label": "View (2 MB)",
           "url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/08/17865894591584.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "326958320f6e",
-      "title": "Advertisement for the arrangement of guest teachers at the Special Backward Tribal Group (Pahadi Korva) Residential School, Rupsera (Madiya), Block Bagicha, District Jashpur (Chhattisgarh)—a Hindi-medium school affiliated with the Chhattisgarh Board",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "District Collectorate",
-      "start_date": "14/08/2026",
-      "posted_date": "2026-08-14",
-      "end_date": "24/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/08/17867078818967.pdf",
-      "job_urls": [
-        {
-          "label": "View (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/08/17867078818967.pdf"
         }
       ],
       "doc_type": "job"
@@ -1391,284 +1692,6 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "56c170c60a7e",
-      "title": "Eklavya Residential School Surguja Guest Teacher Walk-in Interview Date Extended 2026-27",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Surguja",
-      "school": "Eklavya Model Residential School",
-      "start_date": "24/06/2026",
-      "posted_date": "2026-06-24",
-      "end_date": "09/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/06/17823015407657.pdf",
-      "job_urls": [
-        {
-          "label": "View (617 KB)",
-          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/06/17823015407657.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "117891f67339",
-      "title": "Invitation for applications for the post of Hostel Superintendent (Guest Faculty) on a temporary, honorarium-based basis for the academic session 2026-27 at Eklavya Adarsh ​​Residential Schools in Petla (Sitapur) and Sahanpur (Lundra)",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Surguja",
-      "school": "Eklavya Model Residential School",
-      "start_date": "25/06/2026",
-      "posted_date": "2026-06-25",
-      "end_date": "09/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/06/17823753866820.pdf",
-      "job_urls": [
-        {
-          "label": "View (851 KB)",
-          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/06/17823753866820.pdf"
-        },
-        {
-          "label": "Application Form (449 KB)",
-          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17830758319091.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "06cc599f6c16",
-      "title": "Notice regarding calling for document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Gariyaband",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "07/04/2026",
-      "posted_date": "2026-04-07",
-      "end_date": "15/04/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf"
-        },
-        {
-          "label": "दस्तावेज सत्यापन (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243994186.pdf"
-        },
-        {
-          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756244197673.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "47357cbaa648",
-      "title": "Advertisement Regarding The Engagement Of Guest Teachers On A Temporary Basis Against Vacant Teaching Positions For The 2026-27 Academic Session At PM SHRI Eklavya Model Residential School, Bandhwa, Block Lormi.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Mungeli",
-      "school": "Eklavya Model Residential School",
-      "start_date": "12/06/2026",
-      "posted_date": "2026-06-12",
-      "end_date": "22/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/06/17812626873309.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/06/17812626873309.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "99bac134844c",
-      "title": "Press Release for Local Guest Teacher",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Sukma",
-      "school": "District Collectorate",
-      "start_date": "20/08/2026",
-      "posted_date": "2026-08-20",
-      "end_date": "25/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/08/17872272165536.pdf",
-      "job_urls": [
-        {
-          "label": "View (133 KB)",
-          "url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/08/17872272165536.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "60a2abf9de26",
-      "title": "Merit List – Merit list based on ongoing interviews for various guest teacher positions for the 2026-27 academic session – Eklavya Model Residential School, Shampur (Makdi), District – Kondagaon (Chhattisgarh).",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Kondagaon",
-      "school": "Eklavya Model Residential School",
-      "start_date": "22/06/2026",
-      "posted_date": "2026-06-22",
-      "end_date": "30/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823839071866.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823839071866.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "d47f65affb74",
-      "title": "Merit List – Merit list based on ongoing interviews for various Guest Teacher positions for the 2026-27 academic session – Eklavya Model Residential School, Korgaon (Baderajpur), District – Kondagaon (Chhattisgarh).",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Kondagaon",
-      "school": "Eklavya Model Residential School",
-      "start_date": "22/06/2026",
-      "posted_date": "2026-06-22",
-      "end_date": "30/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823842011389.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823842011389.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "8f03475ba340",
-      "title": "Merit List – Merit list based on ongoing interviews for various Guest Teacher positions for the 2026-27 academic session – Eklavya Model Residential School, Bedma (Keshkal), District – Kondagaon (Chhattisgarh).",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Kondagaon",
-      "school": "Eklavya Model Residential School",
-      "start_date": "22/06/2026",
-      "posted_date": "2026-06-22",
-      "end_date": "30/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823844052149.pdf",
-      "job_urls": [
-        {
-          "label": "View (812 KB)",
-          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823844052149.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "e6ca0ff8d18a",
-      "title": "Merit List – Merit list based on ongoing interviews for various guest teacher positions for the 2026-27 academic session – Eklavya Adarsh ​​Residential School, Chichadi (Farasgaon), District – Kondagaon (Chhattisgarh).",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Kondagaon",
-      "school": "Eklavya Model Residential School",
-      "start_date": "22/06/2026",
-      "posted_date": "2026-06-22",
-      "end_date": "30/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823845933709.pdf",
-      "job_urls": [
-        {
-          "label": "View (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823845933709.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "8cb7c5d9a9ee",
-      "title": "Merit List – Merit list based on ongoing interviews for various Guest Teacher positions for the 2026-27 academic session – Eklavya Model Residential School, Golvand (Kondagaon), District – Kondagaon (Chhattisgarh).",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Kondagaon",
-      "school": "Eklavya Model Residential School",
-      "start_date": "22/06/2026",
-      "posted_date": "2026-06-22",
-      "end_date": "30/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823849544109.pdf",
-      "job_urls": [
-        {
-          "label": "View (663 KB)",
-          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823849544109.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "1ba38ef7aaa1",
-      "title": "Advertisement for Walk-in Interview for Guest Teachers against vacant posts for the 2026-27 academic session at Eklavya Model Residential School, Bedma – Eklavya Model Residential School, Bedma (Keshkal), District Kondagaon (Chhattisgarh).",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Kondagaon",
-      "school": "Eklavya Model Residential School",
-      "start_date": "21/07/2026",
-      "posted_date": "2026-07-21",
-      "end_date": "25/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/07/17846369367956.pdf",
-      "job_urls": [
-        {
-          "label": "View (942 KB)",
-          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/07/17846369367956.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "0afc2f08c636",
-      "title": "Advertisement for Guest Teachers: Walk-in interview on 18/07/2026 for vacant positions at Eklavya Adarsh ​​Residential School, Golavand (District: Kondagaon, Chhattisgarh) for the 2026-27 academic session.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Kondagaon",
-      "school": "Eklavya Model Residential School",
-      "start_date": "18/07/2026",
-      "posted_date": "2026-07-18",
-      "end_date": "18/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/07/17841011381139.pdf",
-      "job_urls": [
-        {
-          "label": "View (291 KB)",
-          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/07/17841011381139.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "59847fb1c91e",
-      "title": "Recruitment (Contractual) – Advertisement for Contractual Recruitment to Various Vacant Posts in Swami Atmanand Schools – Office of the District Education Officer, Kondagaon (C.G.)",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Kondagaon",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "29/05/2026",
-      "posted_date": "2026-05-29",
-      "end_date": "12/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/05/17800545876542.pdf",
-      "job_urls": [
-        {
-          "label": "View (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/05/17800545876542.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "e7bcc477d98a",
-      "title": "Education Department, Bemetara- Regarding publication of the Eligible/Ineligible List of applications received from applicants for selection of Yoga/Sports Teachers/Trainers on a part-time basis for PM SHRI Schools.",
-      "category": "Other",
-      "employment_type": "Part-Time",
-      "district": "Bemetara",
-      "school": "District Collectorate",
-      "start_date": "20/08/2026",
-      "posted_date": "2026-08-20",
-      "end_date": "25/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s36a10bbd480e4c5573d8f3af73ae0454b/uploads/2026/08/17872215176766.pdf",
-      "job_urls": [
-        {
-          "label": "View (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s36a10bbd480e4c5573d8f3af73ae0454b/uploads/2026/08/17872215176766.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
       "id": "b71a8ca102bf",
       "title": "Regarding the advertisement for filling contractual posts in Swami Atmanand Excellent English Medium Schools in Bemetara district.",
       "category": "Swami Atmanand",
@@ -1794,29 +1817,6 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "merit"
-    },
-    {
-      "id": "c1c837575346",
-      "title": "Recruitment – Advertisement for contractual posting of teachers in Swami Aatmanand English Medium School (PM Shri)",
-      "category": "Contract",
-      "employment_type": "Contract",
-      "district": "Rajnandgaon",
-      "school": "District Collectorate",
-      "start_date": "06/05/2026",
-      "posted_date": "2026-05-06",
-      "end_date": "31/05/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780575718456.pdf",
-      "job_urls": [
-        {
-          "label": "View (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780575718456.pdf"
-        },
-        {
-          "label": "आवेदन (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/05/17780578177732.pdf"
-        }
-      ],
-      "doc_type": "job"
     },
     {
       "id": "9f92101019cb",
