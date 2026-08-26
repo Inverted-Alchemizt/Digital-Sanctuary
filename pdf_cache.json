@@ -3099,5 +3099,22 @@
         "tet"
       ]
     }
+  },
+  "4d09f05a43feec5aa45a6435390130bd": {
+    "timestamp": "2026-08-26T08:52:10.674132+00:00",
+    "result": {
+      "is_teaching_job": true,
+      "score": 67,
+      "method_used": "direct_text",
+      "text": "CTET Unit, CBSE Integrated Office Complex, Sector-23, Phase-1, Dwarka, New Delhi-110077 \nTelephone: +91-11- 24050477 Website: https://www.cbse.gov.in \n \nRECTT. NOTIFICATION/01/2025  \n \n \n \n \n \nDated: 25th August 2026 \n \nPRESS RELEASE  \n \nTier-II Recruitment Examination Results for KVS, NVS & EMRS \n \nWith reference to the subject cited above and in continuation of the earlier communications issued by \nCBSE in this regard, the Tier-II results for the following posts in KVS & NVS are being declared on \n25.08.2026: \nPost Graduate Teachers (PGTs) \n1. PGT (Mathematics) \n      Trained Graduate Teachers (TGTs) \n1. TGT (Mathematics)  \n2. TGT (Sanskrit) \nNon-teaching Posts \n1. Lab Attendant \nCandidates may view their individual result/shortlisting status, as applicable to the post, by logging in \nto their application portal through the link given below: \n \nhttps://examinationservices.nic.in/recsys2025/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53ImFbEsl0hvvhEEwgxfU\n0IzC28jtU4yhpqb3pomlo4g+VC8 \n \nAvailability of Tier-II Marks \nThe stage of the selection process varies according to the post, as provided in the Recruitment \nNotification. \n \nFor posts where an interview forms part of the selection process: \nThe result being declared at this stage indicates the candidate's status for shortlisting to the interview. \nAs the selection process for these posts is continuing, marksheets will be made available to the \ncandidates within 15 days from the date of publication of the final result, after completion of the \ninterview process. \n \nFor posts where the selection process does not include an interview: \nTier-II marks are being made available in the respective candidate login along with the declaration of \nthe result. \n \nCandidates who are required to exercise a preference under the Recruitment Notification may submit \nthe same through the application portal in accordance with the instructions displayed in their login. \nCandidates are advised to exercise their preference carefully within the stipulated period. \n \nFor posts involving an interview or skill test, the schedule and call letters will be made available in the \nrespective candidate logins after finalisation of the schedule in consultation with KVS/NVS, as \napplicable. \n \nResults for the remaining posts are also being finalised and will continue to be declared in phases. \nCandidates are advised to regularly visit the official websites of CBSE, KVS and NVS and their \napplication login for further updates relating to the recruitment process. \n \n \nDirector (CTET) \n",
+      "distinct_high_keywords": [
+        "teacher",
+        "tgt",
+        "pgt",
+        "शिक्षक",
+        "tet",
+        "lab attendant"
+      ]
+    }
   }
 }
