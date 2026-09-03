@@ -784,7 +784,7 @@
     }
   },
   "f314aee2aa6de3c27cebc94bf31fe563": {
-    "timestamp": "2026-09-02T04:17:00.579824+00:00",
+    "timestamp": "2026-09-03T05:01:48.716792+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -2866,18 +2866,18 @@
     }
   },
   "b2b328391b3d6332393eb3ce72d9fe79": {
-    "timestamp": "2026-09-02T00:00:40.357162+00:00",
+    "timestamp": "2026-09-03T05:02:37.723867+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 65,
       "method_used": "direct_text",
       "text": "494661 \n(T.3T. T.RrA. \nCBSE Affiliation No. 3320286 \n1 \n2 \nHaf- y.31.A, 3tRS/HI/2026-27/ 1828 \n3 \n4 \nRIqUgR (31) -\n5 \n6 \nNIC, fIGI ARIqUgT, rHG \nfayu: EMRS, 3RST fe-ia 10.07.2026 at 34TI Walk-in Interview Hdet faşIg fa àsE \ngelrí 2026 t fif fRIGD (Guest Teachers) a4i g \nWalk-in Interview 3fTifära b TÀ \nfI HI \nfaa AfeIÌ (District Informatics Officer) \nPGT: \nTGT: \nPGT - Biology \nPGT - History \nAVYA M \nSchool No. 17307 \nUDISE No. 22182002519 \nMODE AESIDENTIA SCHOOL \nPGT - Geography \nTGT – Maths \nINISTRY OFI \nTRIBAL! \nAFFAIRS \nPGT -\nPolitical Science \nTGT -\nS.S.T \n2. B.Ed. (NCTE HI4GI 9I \nHRT \n)I \n0 \n01 \n01 \n01 \n01 \nEklavya Model Residential School \nOrchha, Distt- Narayanpur (C.G.) 494661 \n(NESTS- An Autonumus Organisation \nUnder Ministry of Tribal Affairs, Govt. of \nIndia) \n01 \n3. CTET/State TET Jttuf rfkti atya d gut \nEmail ld. emrśorchha @gmail.com \n1. ifaa fayytI \nYILT fagaeicių HİOTR (Master's Degree) HGH 50% 3icoİ \nIYI \n2. B.Ed. (NCTE HI4GI 9I HRT )I \nfai:o1/o+/2026 \n1. Hafl fayy \nHyGI HI Agtdary H \n(Bachelor's Degree) 4-dH 50% 3j HYI \narayarpu \nA: 44Rİy fo HcH \nWalk-in Interview Advertisement o \nfoI gHISC VT yoiIA GH \nPrincipal \nEklavya Model Rosidential \nSchool, Orchha \nDistt.-Narayanpur (C.c.) \n",
       "distinct_high_keywords": [
-        "pgt",
         "b.ed",
         "tgt",
         "tet",
-        "teacher"
+        "teacher",
+        "pgt"
       ]
     }
   },
@@ -2985,7 +2985,7 @@
     }
   },
   "b3fb31af34c24f5abfeb55026171a1cb": {
-    "timestamp": "2026-09-02T04:17:12.639125+00:00",
+    "timestamp": "2026-09-03T05:02:07.598603+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 0,
@@ -3050,7 +3050,7 @@
     }
   },
   "b5d46dd67851dd8f2be9c84d0eaa0758": {
-    "timestamp": "2026-09-02T04:17:05.947608+00:00",
+    "timestamp": "2026-09-03T05:01:55.394847+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -3089,7 +3089,7 @@
     }
   },
   "5e03d41209fe446fea5f0e6832eb43f8": {
-    "timestamp": "2026-09-02T04:17:01.570278+00:00",
+    "timestamp": "2026-09-03T05:01:50.166658+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
