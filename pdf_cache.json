@@ -48,52 +48,51 @@
     }
   },
   "4c5d3bcb38544caca37ed283166cb7c5": {
-    "timestamp": "2026-09-08T15:19:17.031815+00:00",
+    "timestamp": "2026-09-09T16:07:55.891329+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
       "method_used": "direct_text",
       "text": "     Date: 19.03.2026 \n \nNOTICE \n \n \nNESTS notified for the recruitment of teaching and non-teaching staff for EMRSs through ESSE \n2025. Schedule of the Tier-II examination of ESSE 2025 was notified on 25.02.2026. \nCandidates can download their admit cards of the Tier-II examination scheduled from 22nd to 25th \nMarch 2026 from the link mentioned below: \n \nhttps://examinationservices.nic.in/AdmitCardservice/Admitcard/Login?enc=zXMjq8b4zJzMENzA\nwi+ezNVxJ6L8Y01S8g8WZywidXY= \n \nAdmit cards will be available to download only 3 days before the date of examination.  \nThe candidates should Login on this link by using their registration no. (which has starting digits \n2599) and password created by them while submitting online application on the portal.  \nThe application number should not be used by candidates while login. \n \n \n \n \n",
       "distinct_high_keywords": [
-        "pgt"
+        "tgt"
       ]
     }
   },
   "f5895b8e1144d1aaae9338999533329c": {
-    "timestamp": "2026-09-08T15:19:18.615918+00:00",
+    "timestamp": "2026-09-09T16:07:57.774545+00:00",
     "result": {
-      "is_teaching_job": true,
+      "is_teaching_job": false,
       "score": 15,
       "method_used": "direct_text",
       "text": "Date: 03.03.2026 \n \nNOTICE \n \nNESTS notified for the recruitment of teaching and non-teaching staff for EMRSs \nthrough ESSE 2025. The result of the Tier-I examination was declared vide notice dated \n31.01.2026. \nThe examination city allotted to candidates who have been shortlisted for Tier-II \nexamination may be checked by them on the link given below: \nhttps://examinationservices.nic.in/AdmitCard/AuthForCity/Login?enc=DJ8reokIYh\ne/x0Hlb6GKa+Ca/EDLWeJC1iBcsgW0q6s= \nThe candidates should Login on this link by using their registration no. (which has \nstarting digits 2599) and their password created by them while submitting online \napplication on the portal.  \nThe application number should not be used by candidates while login. \nIt is also intimated that in respect of TGT Regional language, the question paper of Tier-\nII examination will be in the respective regional language. For others, Tier - II will be \nconducted only in Hindi and English medium. It has no link with language competency \nof medium opted by candidates in Tier -I.  \nThe admit card with details of examination centre and schedule of examination will be \navailable 02 days before examination. \n \n \n",
       "distinct_high_keywords": [
-        "pgt",
         "tgt"
       ]
     }
   },
   "cf0d14c31aff4ee776ccc78c59839adb": {
-    "timestamp": "2026-09-08T15:19:23.348984+00:00",
+    "timestamp": "2026-09-09T16:08:02.365726+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 15,
       "method_used": "direct_text",
       "text": "Date: 19.02.2026 \n \nNOTICE \n \n \nNESTS notified for recruitment of teaching and non-teaching staff through ESSE-\n2025. Tier-I result has been published. Many representations are being received \nrequesting for re-checking of result to confirm their declared score of the \nindividuals concerned. It is noticed on verifying the representations that either the \ncandidates are not calculating their marks (right/wrong answers) properly or \ncalculating their result with wrong answer key. Therefore, considering the similar \nrequests, it is notified that the candidates appeared in Tier-I examination of ESSE-\n2025 may apply for calculation sheet along with a copy of their attempted OMR \nsheet with the prescribed fee @Rs. 500/- per post on or before 07.03.2026. \nCandidates who had sought clarifications including information under RTI or \notherwise are also required to apply afresh for the calculation sheet along with the \nrequired fee. No other mode of requesting clarification will be entertained.  \n \nThe prescribed fee is to be remitted to CBSE through Bank Draft in favour of \nSecretary, CBSE payable at Delhi/New Delhi issued by any of the scheduled \nbanks.  The candidates should mention their Roll No., Post applied for, Name & \nAddress correctly in their application and enclose a copy of the ESSE-2025 admit \ncard (Tier I). The Roll Number & Name should also be mentioned on the back side \nof the Bank Draft. The application should be sent by speed post or by hand only to \nDirector, CTET Unit, Central Board of Secondary Education, P.S. 1-2, I. P. \nExtension, Patparganj, Delhi – 110092 within the stipulated period, failing which \nno further correspondence will be entertained. \n \nThe calculation sheet shall be sent only on the registered e-mail id of the applicant, \nwho had appeared for the Tier-I exam. The calculation sheet shall not be provided \nto any institution or school for display, commercial purpose or to print media. \nApplication submitted on behalf of the candidate and the incomplete application \nwill be summarily rejected without any further reference. \n \nThe decision of the Competent Authority of CBSE shall be final and binding on the \ncandidates. However, no request will be entertained under any circumstances \nwhich will be received after 07.03.2026 in the office of CBSE. \n",
       "distinct_high_keywords": [
-        "pgt",
+        "tgt",
         "tet"
       ]
     }
   },
   "3417eb4886be074d267bf1e6b3ddae6c": {
-    "timestamp": "2026-09-08T15:19:25.239651+00:00",
+    "timestamp": "2026-09-09T16:08:04.533669+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
       "method_used": "direct_text",
       "text": "Date: 07.02.2026 \n \nNOTICE \n \n \nThis is to notify that fake information is being circulated regarding \nTier 2 examination dates of ESSE 2025. Dates of Tier 2 examination \nhave not been notified so far. All the short listed candidates of Tier 2 \nare requested to refer to the website of NESTS only, for authentic \ninformation. \n \n \n \n \n \n \n",
       "distinct_high_keywords": [
-        "pgt"
+        "tgt"
       ]
     }
   },
@@ -107,81 +106,81 @@
     }
   },
   "74c3290934a4ff4c56e8a2be9b56d32d": {
-    "timestamp": "2026-09-08T15:19:44.162564+00:00",
+    "timestamp": "2026-09-09T16:08:15.232258+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
       "method_used": "direct_text",
       "text": "Date: 18.12.2025 \n \nNOTICE \n \n \nNESTS notified for the recruitment of teaching and non-teaching staff for EMRSs through ESSE \n2025. Schedule of the Tier-I examination of ESSE 2025 is notified on 25.11.2025. \nCandidates can download their admit cards of the Tier-I examination scheduled on 21st December \n2025 from the link mentioned below from 00:00 hours of 19.12.2025: \n \nhttps://examinationservices.nic.in/AdmitCardService/Admitcard/Login?apprefno=102992511 \n \nThe candidates should Login on this link by using their registration no. (which has starting digits \n2599) and their password created by them while submitting online application on the portal.  \nThe application number should not be used by candidates while login. \n \n \n \n \n",
       "distinct_high_keywords": [
-        "pgt"
+        "tgt"
       ]
     }
   },
   "052bf9c603410dc2c8af5a1bcab634ac": {
-    "timestamp": "2026-09-08T15:19:46.359038+00:00",
+    "timestamp": "2026-09-09T16:08:17.857611+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
       "method_used": "direct_text",
       "text": "Date: 11.12.2025 \n \nNOTICE \n \n \nNESTS notified for the recruitment of teaching and non-teaching staff for EMRSs through ESSE \n2025. Schedule of the Tier-I examination of ESSE 2025 is notified on 25.11.2025. \nCandidates can download their admit cards of the Tier-I examination scheduled on 13th & 14th \nDecember 2025 from the link mentioned below: \n \nhttps://examinationservices.nic.in/AdmitCardService/Admitcard/Login?apprefno=102992511 \n \nThe candidates should Login on this link by using their registration no. (which has starting digits \n2599) and their password created by them while submitting online application on the portal.  \nThe application number should not be used by candidates while login. \n \n \n \n \n",
       "distinct_high_keywords": [
-        "pgt"
+        "tgt"
       ]
     }
   },
   "bd53ac8b57b1f5d117aed1625373c7ae": {
-    "timestamp": "2026-09-08T15:19:52.442142+00:00",
+    "timestamp": "2026-09-09T16:08:24.724925+00:00",
     "result": {
       "is_teaching_job": false,
       "score": -80,
       "method_used": "direct_text",
       "text": " \nNational Education Society for Tribal Students  \nAn autonomous organisation under Ministry of Tribal Affairs, Govt. of India \nGate No.5, Jeevan Tara Building, Parliament Street, New Delhi-110001 \nRecruitment Notification- Extension of last date \nEklavya Model Residential Schools Staff Selection Examination (ESSE) -2025 \n \nNESTS, under Ministry of Tribal Affairs, Govt. of India, has notified for filling up of teaching and \nnon-teaching positions for Eklavya Model Residential Schools (Nationwide) and submission of \napplications through online mode is in progress.  \n \nVacancies: Principal (225), PGTs (1460), TGTs (3962), Female Staff Nurse (550), Hostel Warden \n(Male / Female) (635), Accountant (61), JSA (228), Lab Attendant (146). \n \nDetailed notification is available on the website of NESTS / online application portal. Last date \nto apply is extended to 28.10.2025 (upto 23:55 hrs). However, as mentioned in ESSE 2025 \nnotification, the cut-off date for determining eligibility criteria will remain as 23.10.2025. \nInterested eligible candidates may apply through the website of NESTS www.nests.tribal.gov.in \nor through the link https://t.co/CG8LqFvGbK \n \nIssued by NESTS \n \n \n \n \n",
       "distinct_high_keywords": [
-        "pgt",
+        "tgt",
         "lab attendant",
-        "tgt"
+        "pgt"
       ]
     }
   },
   "a291b5599065493fabb6c29c20afd746": {
-    "timestamp": "2026-09-08T15:19:54.325027+00:00",
+    "timestamp": "2026-09-09T16:08:26.816448+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
       "method_used": "direct_text",
       "text": "Date: 10.10.2025 \n \nNOTICE \n \n \nNESTS has notified for the recruitment of teaching and non-teaching staff for EMRSs through ESSE \n2025. In this regard, it is intimated that the tier -I examination is scheduled for 13th December 2025, \n14th December 2025 & 21st December 2025.  \nPost-wise & shift-wise examination schedule will be displayed after the last date of submission of \nonline application. \n \n \n \n",
       "distinct_high_keywords": [
-        "pgt"
+        "tgt"
       ]
     }
   },
   "3fb55b78a86919aaeea3b19bcd203203": {
-    "timestamp": "2026-09-08T15:19:59.195229+00:00",
+    "timestamp": "2026-09-09T16:08:31.392436+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
       "method_used": "direct_text",
       "text": " \nDate: 29.09.2025 \n \nNOTICE \n \n \nAs per Gazette notification of MoSJ CG-DL-E-29082022-238443 \ndated 29.08.2022, provision is incorporated for SI & SD under LD           \nsub category of PwBD in the application portal of ESSE-2025. \n \n \n",
       "distinct_high_keywords": [
-        "pgt"
+        "tgt"
       ]
     }
   },
   "b481eb29fbe70f3eea53c877ff49fda5": {
-    "timestamp": "2026-09-08T15:20:00.848324+00:00",
+    "timestamp": "2026-09-09T16:08:33.263539+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
       "method_used": "direct_text",
       "text": " \nDate: 29.09.2025 \n \nNOTICE \n \n \nAs per Gazette notification of MoSJ CG-DL-E-29082022-238443 \ndated 29.08.2022, provision is incorporated for SI & SD under LD           \nsub category of PwBD in the application portal of ESSE-2025. \n \n \n",
       "distinct_high_keywords": [
-        "pgt"
+        "tgt"
       ]
     }
   },
   "8f16d9c56beae9d0e47eea14d02ad0c7": {
-    "timestamp": "2026-09-08T15:20:25.245690+00:00",
+    "timestamp": "2026-09-09T16:08:56.476579+00:00",
     "result": {
       "is_teaching_job": false,
       "score": -1289,
@@ -190,9 +189,9 @@
       "distinct_high_keywords": [
         "tgt",
         "lecturer",
-        "tet",
         "lab attendant",
         "teacher",
+        "tet",
         "pgt",
         "b.ed"
       ]
@@ -839,16 +838,16 @@
     }
   },
   "d093002ff265690347b9a7423a43a838": {
-    "timestamp": "2026-09-08T15:16:54.423026+00:00",
+    "timestamp": "2026-09-09T16:05:15.685859+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 30,
       "method_used": "direct_text",
       "text": "o-rqfaq funr frrsr orfffi t*rsr\nlq-dr Atilgt E-ds.T-6\nqic q. ozaz+-zsoozz {-t-a\nq-fuEr rrff fr.sr-q-a d zrqq q-fuqT d rrqq fr RaTr ftdeT Tq yC d fr-€ @qlo. or t z+\nro mt ft-ffi d erBm '5.\"fi=T Tffi t!-R o1 .ffi t'i qR fr;qft srrqefi oT ft€ 1-q qrtr d fr-s\nqaqm o+ ti frFi-q zD&TTGTI d Hq.rCr d frf urft 3rl*ili 6] quET q Zfu ET al O1qt611q 11.qq !1\nmrqia*q fuqq fr fuar Rren Grlffi d-iarT d qeru-'r oer t ft-qrf, zE las /iA\"* wxrm\n(rfll-ilo 1Ttra r{q sqReTd +mr err+fi q, !-qd oq rrtr-i t, fr-liRd ffi\"d ffi-.n+qo o-ri\nqs fuarq TS fuqT qr$-ql \nI\nqm.l33qgr- Zerffi qnqq/qiB.qT rrff\nI I errtsil t\n/qfrqfl tT&lzoza/ n-+dil. R=mLo o5.LoL6\nqqlfi Gil.qFrE B-EE Giffi qut-q fr-ildq qT-.e, frr*drm Rr&\nTrEqTd, qrtt, t-{dT, ofre-rqTmT, qsft, EsEr, tq-{ftGT, slcT, QtmsrcftqT,\n*q tq-n-i (fu-dT thdqT) fu-nr tfdqT d fr! 33 qE qrsrrdr (G+fifr\nqlarfr-o\nvrer (erifr qTuuq), 18 qE frre-o (c{ffi urwr), 01 sE qr+l-q frre-o\n36 qE q6rqfr\nRtero (otffi qurq). 01 w q6pt6\nurtqq)\nd qlLqq\nzh-d\nJ+ f,firo 02.01.2026 t rs.or\nga r+fuo qE s{ frTerdi\nE!-itqf, qql qfr qrfl. Gilqfu fu16 zt.o+.zozs a-o ffi Tff ,ft r qrw qrqT GrMfu C\nfr{rf,-iuT\nBq{rf, Elil eTqfu\nfrirmJ Efi gq q{qnT qfiffideTrn-fr1qi-q-ed-c\nhttps://bemetara.gov.in q\non-eis fuql .Tqr t\ner.qeff gRr eTrsfrtq a-q-qde\nhttps:ii\nbemetara.gov.in t qmr sfiqfu fuirET qfr qq qflq-dT {fi srs-r-dts o-q tsr qr e-o-or t t\n1o-&-+er q+qq iliT er5qfRn)\no't.\nfuor ftren\nq++aiT\nVYP3qg lwn.lorffi qLrm/{rfr.il rrfiZe-fr{dr \\f,fr/zoza7 tfoir, \n^ o; Z*Z/\nqfrtuE-\nvrqgi o\\ s+rEq rp-lrei r\nfuor fuHr erBqrft\n1. {rqtf,-6, o}-o frrer\"r $Erd-{rf,q, {qrc-fi tcffi 3166 qrx qqT\n2 sg--ff qlrc, fuen 1+nq grf o) vlr<< qaqjaf \n1\n3. 6$-f,c-i fudr i+ilT d nrqr gElref r\n4 5cu ordwc-< Grts-fl-er, fu-dT q-qrq-d ti-diT o\\ r+rcq tz-qTrf r\n5. Sen{er}weilt'.{ft fu-dT AfurT o\\ rrrE< rp-rref I\n",
       "distinct_high_keywords": [
+        "tgt",
         "atmanand",
-        "teacher",
-        "tgt"
+        "teacher"
       ]
     }
   },
@@ -2980,15 +2979,15 @@
     }
   },
   "0f60708f68f024a1cf7603052301fbbb": {
-    "timestamp": "2026-09-08T15:17:48.626480+00:00",
+    "timestamp": "2026-09-09T16:06:27.621521+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 40,
       "method_used": "direct_text",
       "text": "Ra \ntsITT (TOTo ) \nafaft zaTT Harfa) rrats 494226 \n$ A:emrsgolawand16.17@gmail .com \nFile:EMRS_Golawand/NIC/2026-27/1671 \nTo \nNational Informatics Centre (NIC), \nDistrict- Kondagaon, Chhattisgarh. \nSir/Madam, \nThe details of the Walk-in Interview are as follows: \nS.N. \nSubject: Request for publication of advertisement for Walk-in Interview of Guest Teachers/Staff on NIC website \n1. \n2. \nIt is requested that an advertisement regarding the Walk-in Interview for engagement of Guest Teachers/Staff \nin EMRS Golawand, District Kondagaon, may kindly be published on the NIC website for wider publicity. \n3. \n4 \n5. \n6 \nName of Post \nThanking you. \nPGT Mathematics \nPGT Physics \nTGT Computer \nScience \nTGT SST \nTGT PET Female \nJSA \nPay \n35000/ \nper \nmonth \n33000/ \nper \nmonth \nMLAVY, \nAODrL SIDENTA S \n781/ \nper day \nNo. of Post \n01 \n01 \n01 \nNSTRY OE EIAIBAL AFEALRS \n01 \n01 \nEklavya Model Residetial School \nGolawand, Distt. Kondagaon (CG) \n(Operated by National Education Society for Tribal \nStudents- An autonomous institution under \nMinistry of Tribal Affairs, Government of India.) \nPin Code 494226 \n01 \nEmail : emrsgolawand16.17@gmail.com \nDate: 13.07.2026 \nDate of \nInterveiw/Skill Test \n18 July 2026, \nSaturday \nVenue \nEklavya Model Residential \nSchool, Golawand, \nKondagaon, Chhattisgarh. \nYou \nare requested to kindly publish the advertisement at the earliest to facilitate maximum participation of eligible \ncandidates. \nArincipàl \nEMRS Golawand \nKondagaon, C.G. \n",
       "distinct_high_keywords": [
-        "teacher",
         "tgt",
+        "teacher",
         "pgt"
       ]
     }
@@ -3105,7 +3104,7 @@
     }
   },
   "2b9fd238cbe2cc1c202c2b159ab180e6": {
-    "timestamp": "2026-09-08T15:18:07.108841+00:00",
+    "timestamp": "2026-09-09T16:06:30.589243+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -3176,15 +3175,15 @@
     }
   },
   "d92f3fc6364e623994b60699515ee4c8": {
-    "timestamp": "2026-09-08T15:17:44.018515+00:00",
+    "timestamp": "2026-09-09T16:05:56.371142+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 20,
       "method_used": "direct_text",
       "text": "3301 \nqi/ \n7 07763-223539 emai-rbrnespg@gmail. com website-rbrnesjashpur.in \nNAAC-\nB\" \nchjo/ 398 /3ff TI/2026 \n01 4fasa \n289 \n01/3TJfÜI/ I RN, / 2025 11 \nge, 3eR fi# 23-07-2025 d ÍTG \nGINYLoOZ, forcl-orTy (B,JT.) \ng Ha/ 389 /3Hfafe fas44/2026 \nyfafafa \n1 \nGH|T-5-3-54/veT/ 2020,/38-1 f¢H5 20-06-2024 $ 3TÈEITYR Yd y. \nERI \n3 \n4 \nYR, \nfe17 24.08.2026 \n01 \nD: SUNIL CHOUHAN IATITHI VIDWAN 25.26 AV VIGYAPAN-2025-26.DOCX \nGIyR, fI# 24-08-2026 \nKTR.1.4.1.qaqR.Haler \n",
       "distinct_high_keywords": [
-        "professor",
-        "lecturer"
+        "lecturer",
+        "professor"
       ]
     }
   },
@@ -3329,7 +3328,7 @@
     }
   },
   "fc8c6abefe95d1ce45b12d2a5983cf32": {
-    "timestamp": "2026-09-08T15:19:06.855489+00:00",
+    "timestamp": "2026-09-09T16:07:45.859286+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3341,43 +3340,43 @@
     }
   },
   "82e96956074b8ff460e72d5620e28529": {
-    "timestamp": "2026-09-08T15:19:08.986753+00:00",
+    "timestamp": "2026-09-09T16:07:47.713913+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 12,
       "method_used": "direct_text",
       "text": "Date: 05.09.2026 \n \nNOTICE \n \nTier-II Recruitment Examination Results for EMRS \n \nNESTS notified for recruitment of teaching and non-teaching posts through ESSE- \n2025. Tier-II examination of ESSE 2025 was conducted by CBSE in March 2026. \n \nCBSE has finalized the result of Tier-II examination for the following post. \n \n1. Junior Secretariat Assistant \n \nCandidates, who had appeared for Tier-II examination of ESSE-2025 for the above \nmentioned post, can view their shortlisting status for the next stage of skill test, using \ntheir login credentials (registration number and password) on the link given below:  \n \nhttps://examinationservices.nic.in/recsys2025/root/Home.aspx?enc=Ei4cajBkK1gZSf\ngr53ImFZ5JDNNIP7I8JbNwGOl976uPeIvr9X7G7iVESmo7y1L6 \n \n \nThe schedule of skill test will be notified subsequently on NESTS website \n(https://nests.tribal.gov.in/) \n \nResults for the remaining posts are also being finalized and will continue to be declared \nin phases. Candidates are advised to regularly visit the website of CBSE and NESTS \nand their application login for further updates relating to the recruitment process. \n \n \n \n \n \n",
       "distinct_high_keywords": [
-        "pgt"
+        "tgt"
       ]
     }
   },
   "47d154c85b9be56e6251200b80f9f730": {
-    "timestamp": "2026-09-08T15:19:11.121510+00:00",
+    "timestamp": "2026-09-09T16:07:49.807595+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 12,
       "method_used": "direct_text",
       "text": "Date: 03.09.2026 \n \nNOTICE \n \nTier-II Recruitment Examination Results for EMRS \n \nNESTS notified for recruitment of teaching and non-teaching posts through ESSE-  \n2025. Tier-II examination of ESSE 2025 was conducted by CBSE in March 2026. \n \nCBSE has finalized the result of Tier-II examination for the following post. \n \n1. Principal \n \nCandidates, who had appeared for Tier-II examination of ESSE-2025 for the above \nmentioned post, can view their shortlisting status for the next stage of document \nverification / Interview, using their login credentials (registration number and \npassword) on the link given below:  \n \nhttps://examinationservices.nic.in/recsys2025/root/Home.aspx?enc=Ei4cajBkK1gZSf\ngr53ImFZ5JDNNIP7I8JbNwGOl976uPeIvr9X7G7iVESmo7y1L6 \n \n \nThe schedule of Document verification and Interview will be notified subsequently on \nNESTS website (https://nests.tribal.gov.in/) \n \nResults for the remaining posts are also being finalized and will continue to be declared \nin phases. Candidates are advised to regularly visit the website of CBSE and NESTS \nand their application login for further updates relating to the recruitment process. \n \n \n \n \n \n",
       "distinct_high_keywords": [
-        "pgt"
+        "tgt"
       ]
     }
   },
   "e08d10edf468eaaba0b6da9ab0fd463f": {
-    "timestamp": "2026-09-08T15:19:14.934248+00:00",
+    "timestamp": "2026-09-09T16:07:53.492953+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
       "method_used": "direct_text",
       "text": "Date: 14.05.2026 \nNOTICE \n \nESSE 2025 Tier-II Examination – Provision to download the Scanned Image of OMR \nAnswer Sheet and provisional Answer Key for MCQ part and challenging the answer \n \nThe Tier-II examination of ESSE 2025 was conducted from 22nd to 25th March 2026. \nProvision to download the scanned image of attempted OMR answer sheet and provisional \nanswer keys for MCQ part by the respective candidate is made. Interested candidates, may \nlogin through the following link using their roll number of Tier-II examination and date \nof birth:  \ncbseit.in/cbse/2026/emrskeyt2/ \nThe candidates may download the scanned image of attempted OMR answer sheet and \nprovisional answer keys for MCQ part and challenge the provisional answers, in case, they \nare not satisfied with any of the provisional answer(s), through the same link, latest by \n11:59 PM of 17.05.2026 with a non- refundable prescribed fee of Rs.1000/- per question \nas processing charges.  \nOnly paid challenges made during stipulated time will be considered. Challenges without \npayment of fee and those submitted on any other medium (viz. email/letter/representation) \nwill not be considered. The subject experts will examine all the challenges received and \nthen the final answer keys will be prepared by them. The decision of subject experts on the \nchallenges shall be final and no further communication will be entertained. The candidates \nwill not be informed individually about the status of their challenges. The result will be \ndeclared according to the final answer keys prepared by the subject experts. In case \nchallenge on answer key(s) is accepted by the subject expert(s), the amount will be \nrefunded to concerned candidate after declaration of result. No grievance with regard to \nanswer key(s) after declaration of result will be entertained.  \nNo further opportunity would be given to the candidates to download their OMR answer \nsheets of Tier-II examination of ESSE 2025. \n",
       "distinct_high_keywords": [
-        "pgt"
+        "tgt"
       ]
     }
   },
   "b33aba318f3a11d470dd5547068c248c": {
-    "timestamp": "2026-09-08T15:19:27.031425+00:00",
+    "timestamp": "2026-09-09T16:08:14.437507+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 15,
@@ -3389,26 +3388,51 @@
     }
   },
   "5d32fce6a9a5cf0b16e12e868cafe7d6": {
-    "timestamp": "2026-09-08T15:19:40.675750+00:00",
+    "timestamp": "2026-09-09T16:08:11.299096+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
       "method_used": "direct_text",
       "text": "Date: 31.01.2026 \n \nNOTICE \n \n \nTier-I examination of ESSE 2025 was conducted on 13th ,14th & 21st December 2025.  \n \nResult of Tier-I examination (marks and selection status for Tier-II examination) of \nteaching and non-teaching staff may be noted down from the link given below: \n \n \n \n \n \n \nNote: \n1. Cut off for the selection of candidates for Tier-II is available on NESTS website \nunder Notifications tab of ESSE 2025.  \n2. Schedule of the Tier-II examination will be notified separately. \n \n \n \n \n \n \nhttps://examinationservices.nic.in/recsys2025/root/CandidateLogin.aspx?enc=Ei4cajBkK1gZSfgr53I\nmFZ5JDNNIP7I8JbNwGOl976uPeIvr9X7G7iVESmo7y1L6 \n",
       "distinct_high_keywords": [
-        "pgt"
+        "tgt"
       ]
     }
   },
   "fc2a07d88db0eece676306e4b64891bc": {
-    "timestamp": "2026-09-08T15:19:42.535037+00:00",
+    "timestamp": "2026-09-09T16:08:13.406103+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
       "method_used": "direct_text",
       "text": "Date: 06.01.2026 \nNOTICE \n \n \nESSE 2025 Tier-I Examination – Provision to download the Scanned Image of OMR \nAnswer Sheet and Answer Keys \n \nThe Tier-I examination of ESSE 2025 was conducted on 13th, 14th & 21st December 2025. \nProvision to download the scanned image of attempted OMR answer sheet and provisional \nanswer keys by the respective candidate is made. Interested candidates, may login through \nthe following link using their roll number and date of birth: \nhttps://cbseit.in/cbse/2025/emrskey \nThe candidates may download the scanned image of attempted OMR answer sheet and \nprovisional answer keys and challenge the provisional answers, in case they are not satisfied \nwith any of the provisional answer(s), through the same link, latest by 11:59 PM of \n09.01.2026 with a non- refundable prescribed fee of Rs.1000/- per question as processing \ncharges.  \nOnly paid challenges made during stipulated time will be considered. Challenges without \npayment \nof \nfee \nand \nthose \nsubmitted \non \nany \nother \nmedium \n(viz. \nemail/letter/representation) will not be considered. The subject experts will examine all the \nchallenges received and then the final answer keys will be prepared by them. The decision \nof subject experts on the challenges shall be final and no further communication will be \nentertained. The candidates will not be informed individually about the status of their \nchallenges. The result will be declared according to the final answer keys prepared by the \nsubject experts. In case challenge on answer key(s) is accepted by the subject expert(s), the \namount will be refunded to concerned candidate after declaration of result. No grievance \nwith regard to answer key(s) after declaration of result will be entertained. \nNo further opportunity would be given to the candidates to download their OMR answer \nsheets of Tier-I examination of ESSE 2025. \n \n",
       "distinct_high_keywords": [
+        "tgt"
+      ]
+    }
+  },
+  "d2c013dd208987c18fd533764fc3adfb": {
+    "timestamp": "2026-09-09T16:05:39.726522+00:00",
+    "result": {
+      "is_teaching_job": true,
+      "score": 20,
+      "method_used": "direct_text",
+      "text": "EKLAVYA \nMODEL RESIDENTIAL \nSCHOOL BEDMA \nBLOCK- KESHKAL DISTRICT- KONDAGAON (CG) \nEmail- emrsbedma20.21@gmail.com \nWALK-IN-INTERVIEW \nWalk-in-interview is invited from eligible candidates for engagement of \nContractual/Guest Teachers for the academic session 2026-27 at EKLAVYA \nMODEL RESIDENTIAL SCHOOL BEDMA, \nDIHIPARA, KESHKAL, \nKONDAGAON -494331. \nFollowing Post- PGT- HISTORY (1) \nEssential Qualification (As Per RR Rules)- PGT- History Post Graduation \nDegree with B. Ed from recognized University. \nDATE OF INTERVIEW: 15 September 2026 TIME: 10:00 AM \nRemuneration (as per NESTS \nnorms): PGT- 35000/ Candidates must bring duly \nflled application form, original certificates, self-attested copies and one passport \nsize photograph at the time of Interview. \nThe Selection Committee reserves the Right to modify the Selection \nprocess if required. \nBRNGDAL \nEklavya Modeł Residential Schoot \nBetlBBRShkal \nDist-Kondagaon(C.G) \n",
+      "distinct_high_keywords": [
+        "teacher",
         "pgt"
+      ]
+    }
+  },
+  "d51cd99ff6663ecbeaf3cb2562b26400": {
+    "timestamp": "2026-09-09T16:07:43.728920+00:00",
+    "result": {
+      "is_teaching_job": false,
+      "score": 17,
+      "method_used": "direct_text",
+      "text": "Date:    09.09.2026 \n \nNOTICE \n \nTier-II Recruitment Examination Results for EMRS \n \nNESTS notified for recruitment of teaching and non-teaching posts through ESSE- \n2025. Tier-II examination of ESSE 2025 was conducted by CBSE in March 2026. \n \nCBSE has finalised the result of Tier-II examination for the following posts: \n \n1. TGT Assamese \n2. TGT Bodo \n3. TGT Bengali \n4. TGT Garo \n5. TGT Gujrati \n6. TGT Kannada \n7. TGT Khasi \n8. TGT Malayalam \n9. TGT Manipuri \n10. TGT Mizo \n11. TGT Odiya \n12. TGT Santhali \n13. TGT Telugu \n14. TGT Urdu \n \nCandidates, who had appeared for Tier-II examination of ESSE-2025 for the above-\nmentioned post, can view their Tier-II examination Marks and shortlisting status for \nthe next stage of document verification, using their login credentials (registration \nnumber and password) on the link given below:  \n \nhttps://examinationservices.nic.in/recsys2025/root/Home.aspx?enc=Ei4cajBkK1gZSf\ngr53ImFZ5JDNNIP7I8JbNwGOl976uPeIvr9X7G7iVESmo7y1L6 \n \nThe schedule of document verification will be notified subsequently on NESTS \nwebsite (https://nests.tribal.gov.in/) \n \nResults for the remaining posts are also being finalized and will continue to be declared \nin phases. Candidates are advised to regularly visit the website of CBSE and NESTS \nand their application login for further updates relating to the recruitment process. \n",
+      "distinct_high_keywords": [
+        "tgt"
       ]
     }
   }
