@@ -3460,5 +3460,17 @@
         "teacher"
       ]
     }
+  },
+  "86ed8fb54abca367e168365f9200bcb1": {
+    "timestamp": "2026-09-10T15:13:34.927026+00:00",
+    "result": {
+      "is_teaching_job": false,
+      "score": 14,
+      "method_used": "direct_text",
+      "text": "83 \nPM \nsfaffu; \nsiİRI \nfaeht4d-qrfaT, \nT-Iự \n(30 \nTo) \nE/1343/ HHu fiT/ PMHRIMusic Instructor \n, faia 25.06.2026 ET ÝIUMaf TrHcÁT TTAfucs \n",
+      "distinct_high_keywords": [
+        "teacher"
+      ]
+    }
   }
 }
