@@ -217,7 +217,7 @@
     }
   },
   "4c2cee14ebaa984ee05797400dceda3a": {
-    "timestamp": "2026-09-14T20:39:48.821771+00:00",
+    "timestamp": "2026-09-15T22:57:49.136087+00:00",
     "result": {
       "is_teaching_job": false,
       "score": -629,
@@ -226,10 +226,10 @@
       "distinct_high_keywords": [
         "tet",
         "teacher",
-        "b.ed",
+        "pgt",
         "tgt",
         "d.ed",
-        "pgt"
+        "b.ed"
       ]
     }
   },
