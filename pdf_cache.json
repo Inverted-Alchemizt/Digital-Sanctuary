@@ -3515,15 +3515,15 @@
     }
   },
   "b72d06c87b0221bdf991d21bc681ca7f": {
-    "timestamp": "2026-09-23T12:13:22.259931+00:00",
+    "timestamp": "2026-09-24T17:07:58.671745+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 32,
       "method_used": "direct_text",
       "text": "Date:  15.09.2026 \n \nNOTICE \n \nTier-II Recruitment Examination Results for EMRS \n \nNESTS notified for recruitment of teaching and non-teaching posts through ESSE- \n2025. Tier-II examination of ESSE 2025 was conducted by CBSE in March 2026. \n \nCBSE has finalized the result of Tier-II examination for the following posts: \n \n1. PGT Chemistry \n2. TGT Librarian \n \nCandidates, who had appeared for Tier-II examination of ESSE-2025 for the above-\nmentioned post, can view their Tier-II examination Marks and shortlisting status for \nthe next stage of document verification, using their login credentials (registration \nnumber and password) on the link given below:  \n \nhttps://examinationservices.nic.in/recsys2025/root/Home.aspx?enc=Ei4cajBkK1gZSf\ngr53ImFZ5JDNNIP7I8JbNwGOl976uPeIvr9X7G7iVESmo7y1L6 \n \nThe schedule of document verification will be notified subsequently on NESTS \nwebsite (https://nests.tribal.gov.in/) \n \nResults for the remaining posts are also being finalized and will continue to be declared \nin phases. Candidates are advised to regularly visit the website of CBSE and NESTS \nand their application login for further updates relating to the recruitment process. \n",
       "distinct_high_keywords": [
-        "tgt",
-        "pgt"
+        "pgt",
+        "tgt"
       ]
     }
   },
