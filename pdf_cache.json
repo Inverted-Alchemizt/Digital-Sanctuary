@@ -48,7 +48,7 @@
     }
   },
   "4c5d3bcb38544caca37ed283166cb7c5": {
-    "timestamp": "2026-10-05T22:29:26.832654+00:00",
+    "timestamp": "2026-10-07T00:33:22.828436+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -60,7 +60,7 @@
     }
   },
   "f5895b8e1144d1aaae9338999533329c": {
-    "timestamp": "2026-10-05T22:29:28.441219+00:00",
+    "timestamp": "2026-10-07T00:33:24.730617+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 15,
@@ -72,7 +72,7 @@
     }
   },
   "cf0d14c31aff4ee776ccc78c59839adb": {
-    "timestamp": "2026-10-05T22:29:32.940456+00:00",
+    "timestamp": "2026-10-07T00:33:28.955399+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 15,
@@ -85,7 +85,7 @@
     }
   },
   "3417eb4886be074d267bf1e6b3ddae6c": {
-    "timestamp": "2026-10-05T22:29:34.546195+00:00",
+    "timestamp": "2026-10-07T00:33:30.577983+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -106,7 +106,7 @@
     }
   },
   "74c3290934a4ff4c56e8a2be9b56d32d": {
-    "timestamp": "2026-10-05T22:29:45.931689+00:00",
+    "timestamp": "2026-10-07T00:33:40.590803+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -118,7 +118,7 @@
     }
   },
   "052bf9c603410dc2c8af5a1bcab634ac": {
-    "timestamp": "2026-10-05T22:29:49.108671+00:00",
+    "timestamp": "2026-10-07T00:33:42.916240+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -130,7 +130,7 @@
     }
   },
   "bd53ac8b57b1f5d117aed1625373c7ae": {
-    "timestamp": "2026-10-05T22:29:54.572840+00:00",
+    "timestamp": "2026-10-07T00:33:48.475405+00:00",
     "result": {
       "is_teaching_job": false,
       "score": -80,
@@ -144,7 +144,7 @@
     }
   },
   "a291b5599065493fabb6c29c20afd746": {
-    "timestamp": "2026-10-05T22:29:56.398092+00:00",
+    "timestamp": "2026-10-07T00:33:50.377780+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -156,7 +156,7 @@
     }
   },
   "3fb55b78a86919aaeea3b19bcd203203": {
-    "timestamp": "2026-10-05T22:30:00.899077+00:00",
+    "timestamp": "2026-10-07T00:33:54.955120+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -168,7 +168,7 @@
     }
   },
   "b481eb29fbe70f3eea53c877ff49fda5": {
-    "timestamp": "2026-10-05T22:30:02.599973+00:00",
+    "timestamp": "2026-10-07T00:33:56.581472+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -180,7 +180,7 @@
     }
   },
   "8f16d9c56beae9d0e47eea14d02ad0c7": {
-    "timestamp": "2026-10-05T22:30:23.755026+00:00",
+    "timestamp": "2026-10-07T00:34:35.386782+00:00",
     "result": {
       "is_teaching_job": false,
       "score": -1289,
@@ -189,11 +189,11 @@
       "distinct_high_keywords": [
         "pgt",
         "tgt",
-        "tet",
-        "lab attendant",
-        "teacher",
         "b.ed",
-        "lecturer"
+        "tet",
+        "lecturer",
+        "teacher",
+        "lab attendant"
       ]
     }
   },
@@ -826,7 +826,7 @@
     }
   },
   "f314aee2aa6de3c27cebc94bf31fe563": {
-    "timestamp": "2026-10-05T22:27:45.000512+00:00",
+    "timestamp": "2026-10-07T00:31:22.078290+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -2806,7 +2806,7 @@
     }
   },
   "17a0ab510b8ba371fa208a812de88d2d": {
-    "timestamp": "2026-10-05T22:29:22.266560+00:00",
+    "timestamp": "2026-10-07T00:33:18.929454+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 15,
@@ -3050,7 +3050,7 @@
     }
   },
   "c43e76a7b17dbcc31b79091f356d1fe7": {
-    "timestamp": "2026-10-05T22:29:01.186883+00:00",
+    "timestamp": "2026-10-07T00:32:48.463644+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 25,
@@ -3328,7 +3328,7 @@
     }
   },
   "fc8c6abefe95d1ce45b12d2a5983cf32": {
-    "timestamp": "2026-10-05T22:29:17.589263+00:00",
+    "timestamp": "2026-10-07T00:33:12.476162+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3340,7 +3340,7 @@
     }
   },
   "82e96956074b8ff460e72d5620e28529": {
-    "timestamp": "2026-10-05T22:29:19.500272+00:00",
+    "timestamp": "2026-10-07T00:33:14.521668+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 12,
@@ -3352,7 +3352,7 @@
     }
   },
   "47d154c85b9be56e6251200b80f9f730": {
-    "timestamp": "2026-10-05T22:29:21.330139+00:00",
+    "timestamp": "2026-10-07T00:33:16.835498+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 12,
@@ -3364,7 +3364,7 @@
     }
   },
   "e08d10edf468eaaba0b6da9ab0fd463f": {
-    "timestamp": "2026-10-05T22:29:25.089097+00:00",
+    "timestamp": "2026-10-07T00:33:20.661710+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -3388,7 +3388,7 @@
     }
   },
   "5d32fce6a9a5cf0b16e12e868cafe7d6": {
-    "timestamp": "2026-10-05T22:29:42.217303+00:00",
+    "timestamp": "2026-10-07T00:33:36.738472+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -3400,7 +3400,7 @@
     }
   },
   "fc2a07d88db0eece676306e4b64891bc": {
-    "timestamp": "2026-10-05T22:29:43.896483+00:00",
+    "timestamp": "2026-10-07T00:33:38.417051+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -3425,7 +3425,7 @@
     }
   },
   "d51cd99ff6663ecbeaf3cb2562b26400": {
-    "timestamp": "2026-10-05T22:29:15.942034+00:00",
+    "timestamp": "2026-10-07T00:33:10.337018+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3437,15 +3437,15 @@
     }
   },
   "ce8088196dc8d23c95d520e7a43198f1": {
-    "timestamp": "2026-10-05T22:28:19.769963+00:00",
+    "timestamp": "2026-10-07T00:31:56.375350+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 15,
       "method_used": "direct_text",
       "text": "ISO 9001:2015, ISO 21001:2018 gArfUT afco HETT \ngH \n3 \n9 /3tt aAI/fg/ \n2026 \nPh. N. 07763-299341 \n. \nE-mail:- girlscollege.jsp@gmail.com \n1 \ny Hl \nESTB-2023/63/2026 RAJPATRIT STHAPANA fT \n18.08.2026 yq \nİT \n2 \nESTB-1027/1216/2025/38-1 fi 18.08.2026 \n3HIR YHGy fayy yu iq \nHEYG YTT4 yc te-\n01 \nCollege Code: 3302 \nGhHIF 390 \n/fif \nreTGTT/ST4y/2026 \nuftferft \nNAAC 'B' Grade \nhttps://giriscollegejashpur.ac.in \n4. 3 \nITHÓų HEfaary \nfifd-2024 (4eT \n01 \n-2026) \n44HR \nRRUNDIPAL \nGovt.V.B.S.D.Girls Colleg \nJashpur,Dist.-Jashpur (C.G.) \nPRINCIPAL \nGovt.V.8.S.D.Girls Colleg \nJashpur,Dist.-Jashpur (C.G.) \n",
       "distinct_high_keywords": [
-        "professor",
-        "tgt"
+        "tgt",
+        "professor"
       ]
     }
   },
@@ -3462,7 +3462,7 @@
     }
   },
   "86ed8fb54abca367e168365f9200bcb1": {
-    "timestamp": "2026-10-05T22:28:20.874942+00:00",
+    "timestamp": "2026-10-07T00:31:59.490934+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 14,
@@ -3474,7 +3474,7 @@
     }
   },
   "18c37a3999119a3d55efb30d279d56db": {
-    "timestamp": "2026-10-05T22:29:13.727019+00:00",
+    "timestamp": "2026-10-07T00:33:08.151478+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 47,
@@ -3488,7 +3488,7 @@
     }
   },
   "cbacee348f4b5c2b8ec7954aa6246012": {
-    "timestamp": "2026-10-05T22:29:22.215963+00:00",
+    "timestamp": "2026-10-07T00:33:15.118095+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 15,
@@ -3528,7 +3528,7 @@
     }
   },
   "28fd3b82a745a5269cbb7b7076345926": {
-    "timestamp": "2026-10-05T22:29:11.746522+00:00",
+    "timestamp": "2026-10-07T00:33:05.742512+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3540,21 +3540,21 @@
     }
   },
   "d23cfd20cfacc2c6861bd5fa1e2b906e": {
-    "timestamp": "2026-10-05T22:28:17.951609+00:00",
+    "timestamp": "2026-10-07T00:31:48.494401+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 30,
       "method_used": "direct_text",
       "text": "(Deere yeA a, rug-07763-223212, Email-actd.jashpur@gmail.com) \n/PVTGRS/3T.I.5./2026-27/ \n-00 \nŤ HHTbTR I eic 22.09.2026 (fR-H) HH4 IE: 10:30 q \nY 05:00 \ntqHIsT www.jashpur.nic. in \n3qeloi fbi GI HhlI | \ny.o416/16A /PVTGRS/31.GI1.6./2026-27/ \nftel-Iyr (31.) \nfolall-RTyr (3.1.) \n",
       "distinct_high_keywords": [
-        "teacher",
         "pgt",
-        "tgt"
+        "tgt",
+        "teacher"
       ]
     }
   },
   "efbd31172f2338730b85b03f396f5910": {
-    "timestamp": "2026-10-05T22:29:08.090004+00:00",
+    "timestamp": "2026-10-07T00:33:01.473327+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3566,7 +3566,7 @@
     }
   },
   "7454f7bc949c6e53db1b0d3f70706dbf": {
-    "timestamp": "2026-10-05T22:29:09.914323+00:00",
+    "timestamp": "2026-10-07T00:33:03.616209+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3590,20 +3590,20 @@
     }
   },
   "2a55d616f9a6fbaa930fbfaefddf570e": {
-    "timestamp": "2026-10-05T22:28:05.107547+00:00",
+    "timestamp": "2026-10-07T00:31:45.397303+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 15,
       "method_used": "direct_text",
       "text": "Hrufery, Tar \nfa.atOTT, fGT-UsTİT (31) \n(Affiliation to CBSE) \nCBSE AFFILIATION NO.-3320470 SCHOOL NO.-17449 UDISE Code-22171203904 \nEmail Id– emrsbedma20.21@gmail.com \nEMRS/PRINCIPAL/ 280/2026-27 \n//// \nDate 28 / 09/2026 \nPRiNaPAL \nEklavyagHDRISRIüei School \nBIRIE.CSRHS KOT0) \nDist-Kois0aon{C.G) \nS.NO \n1 \n3 \nEKLAVYA MODEL RESIDENTIAL SCHOOL BEDMA (KESHKAL) KONDAGAON (CG) \nNAME OF THE \nCANDIDATES \nNAME OF THE SCHOOL - EMRS BEDMA \nDATE OF THE INTERVIEW- 15/09/2026 \nRITESH MALL \nSATYA SEBANDAS \nKHEMLAL SAHU \nSESSION :2026-27 \nEVALUATION SHEET TO BE FILLED BY BOARD MEMBER \nBHOJ KUMAR SURYAVANSHI \nFATHER'S \n/HUSBAND'S NAME \nSUGRIV MALL \nBINOD KUMAR KACHIM \nSHIVDAYAL \nKOMAL SURYAVANSHI \nSUBJE \nCT \nKNOW \nLEDGE \n(30) \n19 \n10.6 \n9.3 \n10 \nCOMMUN \nICATION \nSKILLS \n(10) \n7.3 \n5.6 \n5 \n6 \nPOST- PGT HISTORY \nDE \nMO \n(10) \n7.3 \n5 \n5.3 \n5 \nEXPERIE \nNCE (10) \n10 \n2 \n4 \nACADE \nMIC \n(40) \n24.2 \n24 \n23.3 \n29.9 \nTOTA \nL \nMAR \nKS \n(100) \n57.8 \n55.2 \n44.9 \n54.9 \nREMA \nRKS \nHeT 01 \nPRNAARAL \nEklaveiRStÈDItial Scho \nBedma, Bbck Kesthkal \nDist-Kondagaos (.G) \n",
       "distinct_high_keywords": [
-        "teacher",
-        "pgt"
+        "pgt",
+        "teacher"
       ]
     }
   },
   "09a4a9f4dadd2901fb842a2f7e16c8b0": {
-    "timestamp": "2026-10-05T22:29:06.271587+00:00",
+    "timestamp": "2026-10-07T00:32:59.330284+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3615,7 +3615,7 @@
     }
   },
   "08d82167c40be96d3fc02459831620c0": {
-    "timestamp": "2026-10-05T22:28:13.894394+00:00",
+    "timestamp": "2026-10-07T00:32:06.535046+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -3637,7 +3637,7 @@
     }
   },
   "2e70e296ecf59199a1268c858e76c8f4": {
-    "timestamp": "2026-10-05T22:28:05.025802+00:00",
+    "timestamp": "2026-10-07T00:31:42.337020+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 0,
@@ -3647,7 +3647,7 @@
     }
   },
   "2041fc775284c1a36f50adb030998a27": {
-    "timestamp": "2026-10-05T22:29:04.359308+00:00",
+    "timestamp": "2026-10-07T00:32:57.516711+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
