@@ -48,7 +48,7 @@
     }
   },
   "4c5d3bcb38544caca37ed283166cb7c5": {
-    "timestamp": "2026-10-08T03:04:57.483011+00:00",
+    "timestamp": "2026-10-09T09:31:32.015151+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -60,7 +60,7 @@
     }
   },
   "f5895b8e1144d1aaae9338999533329c": {
-    "timestamp": "2026-10-08T03:04:59.090547+00:00",
+    "timestamp": "2026-10-09T09:31:33.761270+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 15,
@@ -72,7 +72,7 @@
     }
   },
   "cf0d14c31aff4ee776ccc78c59839adb": {
-    "timestamp": "2026-10-08T03:05:02.903682+00:00",
+    "timestamp": "2026-10-09T09:31:38.311935+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 15,
@@ -85,7 +85,7 @@
     }
   },
   "3417eb4886be074d267bf1e6b3ddae6c": {
-    "timestamp": "2026-10-08T03:05:04.832092+00:00",
+    "timestamp": "2026-10-09T09:31:40.586958+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -106,7 +106,7 @@
     }
   },
   "74c3290934a4ff4c56e8a2be9b56d32d": {
-    "timestamp": "2026-10-08T03:05:18.851222+00:00",
+    "timestamp": "2026-10-09T09:31:59.480576+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -118,7 +118,7 @@
     }
   },
   "052bf9c603410dc2c8af5a1bcab634ac": {
-    "timestamp": "2026-10-08T03:05:21.278477+00:00",
+    "timestamp": "2026-10-09T09:32:01.652029+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -130,21 +130,21 @@
     }
   },
   "bd53ac8b57b1f5d117aed1625373c7ae": {
-    "timestamp": "2026-10-08T03:05:26.935734+00:00",
+    "timestamp": "2026-10-09T09:32:07.323729+00:00",
     "result": {
       "is_teaching_job": false,
       "score": -80,
       "method_used": "direct_text",
       "text": " \nNational Education Society for Tribal Students  \nAn autonomous organisation under Ministry of Tribal Affairs, Govt. of India \nGate No.5, Jeevan Tara Building, Parliament Street, New Delhi-110001 \nRecruitment Notification- Extension of last date \nEklavya Model Residential Schools Staff Selection Examination (ESSE) -2025 \n \nNESTS, under Ministry of Tribal Affairs, Govt. of India, has notified for filling up of teaching and \nnon-teaching positions for Eklavya Model Residential Schools (Nationwide) and submission of \napplications through online mode is in progress.  \n \nVacancies: Principal (225), PGTs (1460), TGTs (3962), Female Staff Nurse (550), Hostel Warden \n(Male / Female) (635), Accountant (61), JSA (228), Lab Attendant (146). \n \nDetailed notification is available on the website of NESTS / online application portal. Last date \nto apply is extended to 28.10.2025 (upto 23:55 hrs). However, as mentioned in ESSE 2025 \nnotification, the cut-off date for determining eligibility criteria will remain as 23.10.2025. \nInterested eligible candidates may apply through the website of NESTS www.nests.tribal.gov.in \nor through the link https://t.co/CG8LqFvGbK \n \nIssued by NESTS \n \n \n \n \n",
       "distinct_high_keywords": [
-        "lab attendant",
         "pgt",
+        "lab attendant",
         "tgt"
       ]
     }
   },
   "a291b5599065493fabb6c29c20afd746": {
-    "timestamp": "2026-10-08T03:05:29.132777+00:00",
+    "timestamp": "2026-10-09T09:32:09.585874+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -156,7 +156,7 @@
     }
   },
   "3fb55b78a86919aaeea3b19bcd203203": {
-    "timestamp": "2026-10-08T03:05:36.326122+00:00",
+    "timestamp": "2026-10-09T09:32:15.493396+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -168,7 +168,7 @@
     }
   },
   "b481eb29fbe70f3eea53c877ff49fda5": {
-    "timestamp": "2026-10-08T03:05:38.190377+00:00",
+    "timestamp": "2026-10-09T09:32:17.228724+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -180,7 +180,7 @@
     }
   },
   "8f16d9c56beae9d0e47eea14d02ad0c7": {
-    "timestamp": "2026-10-08T03:05:56.340674+00:00",
+    "timestamp": "2026-10-09T09:32:40.005207+00:00",
     "result": {
       "is_teaching_job": false,
       "score": -1289,
@@ -189,11 +189,11 @@
       "distinct_high_keywords": [
         "teacher",
         "lab attendant",
-        "tet",
-        "b.ed",
-        "lecturer",
         "pgt",
-        "tgt"
+        "b.ed",
+        "tet",
+        "tgt",
+        "lecturer"
       ]
     }
   },
@@ -826,7 +826,7 @@
     }
   },
   "f314aee2aa6de3c27cebc94bf31fe563": {
-    "timestamp": "2026-10-08T03:02:46.506148+00:00",
+    "timestamp": "2026-10-09T09:28:56.421894+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -3328,7 +3328,7 @@
     }
   },
   "fc8c6abefe95d1ce45b12d2a5983cf32": {
-    "timestamp": "2026-10-08T03:04:47.175685+00:00",
+    "timestamp": "2026-10-09T09:31:21.170276+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3340,7 +3340,7 @@
     }
   },
   "82e96956074b8ff460e72d5620e28529": {
-    "timestamp": "2026-10-08T03:04:49.377521+00:00",
+    "timestamp": "2026-10-09T09:31:23.323916+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 12,
@@ -3352,7 +3352,7 @@
     }
   },
   "47d154c85b9be56e6251200b80f9f730": {
-    "timestamp": "2026-10-08T03:04:51.259571+00:00",
+    "timestamp": "2026-10-09T09:31:25.830574+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 12,
@@ -3364,7 +3364,7 @@
     }
   },
   "e08d10edf468eaaba0b6da9ab0fd463f": {
-    "timestamp": "2026-10-08T03:04:55.336807+00:00",
+    "timestamp": "2026-10-09T09:31:29.691169+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -3388,7 +3388,7 @@
     }
   },
   "5d32fce6a9a5cf0b16e12e868cafe7d6": {
-    "timestamp": "2026-10-08T03:05:15.247119+00:00",
+    "timestamp": "2026-10-09T09:31:56.043219+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -3400,7 +3400,7 @@
     }
   },
   "fc2a07d88db0eece676306e4b64891bc": {
-    "timestamp": "2026-10-08T03:05:16.908490+00:00",
+    "timestamp": "2026-10-09T09:31:57.733965+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -3425,7 +3425,7 @@
     }
   },
   "d51cd99ff6663ecbeaf3cb2562b26400": {
-    "timestamp": "2026-10-08T03:04:45.027808+00:00",
+    "timestamp": "2026-10-09T09:31:18.911606+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3437,7 +3437,7 @@
     }
   },
   "ce8088196dc8d23c95d520e7a43198f1": {
-    "timestamp": "2026-10-08T03:03:27.367527+00:00",
+    "timestamp": "2026-10-09T09:29:47.578553+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 15,
@@ -3462,7 +3462,7 @@
     }
   },
   "86ed8fb54abca367e168365f9200bcb1": {
-    "timestamp": "2026-10-08T03:03:31.195149+00:00",
+    "timestamp": "2026-10-09T09:29:50.408954+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 14,
@@ -3474,15 +3474,15 @@
     }
   },
   "18c37a3999119a3d55efb30d279d56db": {
-    "timestamp": "2026-10-08T03:04:43.151135+00:00",
+    "timestamp": "2026-10-09T09:31:16.678541+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 47,
       "method_used": "direct_text",
       "text": "Date:  10.09.2026 \n \nNOTICE \n \nTier-II Recruitment Examination Results for EMRS \n \nNESTS notified for recruitment of teaching and non-teaching posts through ESSE- \n2025. Tier-II examination of ESSE 2025 was conducted by CBSE in March 2026. \n \nCBSE has finalized the result of Tier-II examination for the following posts: \n \n1. PGT Commerce \n2. TGT Maths \n3. Lab Attendant \n \nCandidates, who had appeared for Tier-II examination of ESSE-2025 for the above-\nmentioned post, can view their Tier-II examination Marks and shortlisting status for \nthe next stage of document verification, using their login credentials (registration \nnumber and password) on the link given below:  \n \nhttps://examinationservices.nic.in/recsys2025/root/Home.aspx?enc=Ei4cajBkK1gZSf\ngr53ImFZ5JDNNIP7I8JbNwGOl976uPeIvr9X7G7iVESmo7y1L6 \n \nThe schedule of document verification will be notified subsequently on NESTS \nwebsite (https://nests.tribal.gov.in/) \n \nResults for the remaining posts are also being finalized and will continue to be declared \nin phases. Candidates are advised to regularly visit the website of CBSE and NESTS \nand their application login for further updates relating to the recruitment process. \n",
       "distinct_high_keywords": [
-        "lab attendant",
         "pgt",
+        "lab attendant",
         "tgt"
       ]
     }
@@ -3528,7 +3528,7 @@
     }
   },
   "28fd3b82a745a5269cbb7b7076345926": {
-    "timestamp": "2026-10-08T03:04:41.254198+00:00",
+    "timestamp": "2026-10-09T09:31:14.680943+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3540,21 +3540,21 @@
     }
   },
   "d23cfd20cfacc2c6861bd5fa1e2b906e": {
-    "timestamp": "2026-10-08T03:03:23.158941+00:00",
+    "timestamp": "2026-10-09T09:29:45.365303+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 30,
       "method_used": "direct_text",
       "text": "(Deere yeA a, rug-07763-223212, Email-actd.jashpur@gmail.com) \n/PVTGRS/3T.I.5./2026-27/ \n-00 \nŤ HHTbTR I eic 22.09.2026 (fR-H) HH4 IE: 10:30 q \nY 05:00 \ntqHIsT www.jashpur.nic. in \n3qeloi fbi GI HhlI | \ny.o416/16A /PVTGRS/31.GI1.6./2026-27/ \nftel-Iyr (31.) \nfolall-RTyr (3.1.) \n",
       "distinct_high_keywords": [
-        "teacher",
         "pgt",
+        "teacher",
         "tgt"
       ]
     }
   },
   "efbd31172f2338730b85b03f396f5910": {
-    "timestamp": "2026-10-08T03:04:36.896631+00:00",
+    "timestamp": "2026-10-09T09:31:10.490538+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3566,7 +3566,7 @@
     }
   },
   "7454f7bc949c6e53db1b0d3f70706dbf": {
-    "timestamp": "2026-10-08T03:04:39.116546+00:00",
+    "timestamp": "2026-10-09T09:31:12.760210+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3590,20 +3590,20 @@
     }
   },
   "2a55d616f9a6fbaa930fbfaefddf570e": {
-    "timestamp": "2026-10-08T03:03:11.675658+00:00",
+    "timestamp": "2026-10-09T09:29:36.224005+00:00",
     "result": {
       "is_teaching_job": true,
       "score": 15,
       "method_used": "direct_text",
       "text": "Hrufery, Tar \nfa.atOTT, fGT-UsTİT (31) \n(Affiliation to CBSE) \nCBSE AFFILIATION NO.-3320470 SCHOOL NO.-17449 UDISE Code-22171203904 \nEmail Id– emrsbedma20.21@gmail.com \nEMRS/PRINCIPAL/ 280/2026-27 \n//// \nDate 28 / 09/2026 \nPRiNaPAL \nEklavyagHDRISRIüei School \nBIRIE.CSRHS KOT0) \nDist-Kois0aon{C.G) \nS.NO \n1 \n3 \nEKLAVYA MODEL RESIDENTIAL SCHOOL BEDMA (KESHKAL) KONDAGAON (CG) \nNAME OF THE \nCANDIDATES \nNAME OF THE SCHOOL - EMRS BEDMA \nDATE OF THE INTERVIEW- 15/09/2026 \nRITESH MALL \nSATYA SEBANDAS \nKHEMLAL SAHU \nSESSION :2026-27 \nEVALUATION SHEET TO BE FILLED BY BOARD MEMBER \nBHOJ KUMAR SURYAVANSHI \nFATHER'S \n/HUSBAND'S NAME \nSUGRIV MALL \nBINOD KUMAR KACHIM \nSHIVDAYAL \nKOMAL SURYAVANSHI \nSUBJE \nCT \nKNOW \nLEDGE \n(30) \n19 \n10.6 \n9.3 \n10 \nCOMMUN \nICATION \nSKILLS \n(10) \n7.3 \n5.6 \n5 \n6 \nPOST- PGT HISTORY \nDE \nMO \n(10) \n7.3 \n5 \n5.3 \n5 \nEXPERIE \nNCE (10) \n10 \n2 \n4 \nACADE \nMIC \n(40) \n24.2 \n24 \n23.3 \n29.9 \nTOTA \nL \nMAR \nKS \n(100) \n57.8 \n55.2 \n44.9 \n54.9 \nREMA \nRKS \nHeT 01 \nPRNAARAL \nEklaveiRStÈDItial Scho \nBedma, Bbck Kesthkal \nDist-Kondagaos (.G) \n",
       "distinct_high_keywords": [
-        "teacher",
-        "pgt"
+        "pgt",
+        "teacher"
       ]
     }
   },
   "09a4a9f4dadd2901fb842a2f7e16c8b0": {
-    "timestamp": "2026-10-08T03:04:34.711923+00:00",
+    "timestamp": "2026-10-09T09:31:08.367083+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
@@ -3615,7 +3615,7 @@
     }
   },
   "08d82167c40be96d3fc02459831620c0": {
-    "timestamp": "2026-10-08T03:03:21.637474+00:00",
+    "timestamp": "2026-10-09T09:29:58.197705+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 10,
@@ -3637,7 +3637,7 @@
     }
   },
   "2e70e296ecf59199a1268c858e76c8f4": {
-    "timestamp": "2026-10-08T03:03:13.795915+00:00",
+    "timestamp": "2026-10-09T09:29:39.143563+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 0,
@@ -3647,7 +3647,7 @@
     }
   },
   "2041fc775284c1a36f50adb030998a27": {
-    "timestamp": "2026-10-08T03:04:32.583868+00:00",
+    "timestamp": "2026-10-09T09:31:05.863825+00:00",
     "result": {
       "is_teaching_job": false,
       "score": 17,
