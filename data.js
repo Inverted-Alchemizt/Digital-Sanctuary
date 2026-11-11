@@ -1,5 +1,5 @@
 window.STATE_DATA = {
-  "last_updated": "2026-11-11T06:56:05+05:30",
+  "last_updated": "2026-11-11T13:36:33+05:30",
   "jobs": [
     {
       "id": "009c2afeb93a",
@@ -307,33 +307,6 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "06cc599f6c16",
-      "title": "Notice regarding calling for document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Gariyaband",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "07/04/2026",
-      "posted_date": "2026-04-07",
-      "end_date": "15/04/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf"
-        },
-        {
-          "label": "दस्तावेज सत्यापन (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243994186.pdf"
-        },
-        {
-          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756244197673.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
       "id": "3eb2ca01b967",
       "title": "Publication of application notice for guest teachers in Eklavya Adarsh ​​Residential School, Shankargarh.",
       "category": "EMRS",
@@ -575,6 +548,33 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
+      "id": "06cc599f6c16",
+      "title": "Notice regarding calling for document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Gariyaband",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "07/04/2026",
+      "posted_date": "2026-04-07",
+      "end_date": "15/04/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf"
+        },
+        {
+          "label": "दस्तावेज सत्यापन (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243994186.pdf"
+        },
+        {
+          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756244197673.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
       "id": "775fa080d3ef",
       "title": "Notice – Regarding the publication of results for the vacant post of Guest Teacher at Eklavya Residential School, Bedma, for the academic session 2026-27. Office of the Principal, Eklavya Adarsh ​​Residential School, Bedma, Development Block, Keshkal, District Kondagaon (Chhattisgarh)",
       "category": "EMRS",
@@ -669,6 +669,67 @@ window.STATE_DATA = {
         {
           "label": "View (1 MB)",
           "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/06/17823839071866.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "736f67a19aae",
+      "title": "Claim-Objection Notice for Appointment of Guest Lecturer/Guest Sports Officer/Others under Government Vijay Bhushan Singh Devkanya College Jashpur –",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "06/10/2026",
+      "posted_date": "2026-10-06",
+      "end_date": "09/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "b62efcc2af1e",
+      "title": "Selection and waiting list after interview for the post of Guest Lecturer / Guest Teacher in Special Backward Tribal (Pahari Korwa) Residential School Rupsera (Bhadiya), Block Bagicha, District Jashpur (Chhattisgarh) –",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "01/10/2026",
+      "posted_date": "2026-10-01",
+      "end_date": "08/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "c347e809825f",
+      "title": "Notice regarding interviews for the selection of TGT and PGT guest teachers at the Residential School for Particularly Vulnerable Tribal Groups (Pahari Korwa) in Rupsera (Bhadiya), Bagicha Block.",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "18/09/2026",
+      "posted_date": "2026-09-18",
+      "end_date": "22/09/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf",
+      "job_urls": [
+        {
+          "label": "View (300 KB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf"
+        },
+        {
+          "label": "List of candidates (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897322382010.pdf"
         }
       ],
       "doc_type": "merit"
@@ -850,105 +911,6 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "736f67a19aae",
-      "title": "Claim-Objection Notice for Appointment of Guest Lecturer/Guest Sports Officer/Others under Government Vijay Bhushan Singh Devkanya College Jashpur –",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "District Collectorate",
-      "start_date": "06/10/2026",
-      "posted_date": "2026-10-06",
-      "end_date": "09/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "b62efcc2af1e",
-      "title": "Selection and waiting list after interview for the post of Guest Lecturer / Guest Teacher in Special Backward Tribal (Pahari Korwa) Residential School Rupsera (Bhadiya), Block Bagicha, District Jashpur (Chhattisgarh) –",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "District Collectorate",
-      "start_date": "01/10/2026",
-      "posted_date": "2026-10-01",
-      "end_date": "08/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "c347e809825f",
-      "title": "Notice regarding interviews for the selection of TGT and PGT guest teachers at the Residential School for Particularly Vulnerable Tribal Groups (Pahari Korwa) in Rupsera (Bhadiya), Bagicha Block.",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "District Collectorate",
-      "start_date": "18/09/2026",
-      "posted_date": "2026-09-18",
-      "end_date": "22/09/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf",
-      "job_urls": [
-        {
-          "label": "View (300 KB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf"
-        },
-        {
-          "label": "List of candidates (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897322382010.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "495b5187f5e8",
-      "title": "Advertisement for local guest Teachers on subject of Maths for Government Girls Higher Secondary Schools Konta.",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Sukma",
-      "school": "District Collectorate",
-      "start_date": "29/09/2026",
-      "posted_date": "2026-09-29",
-      "end_date": "05/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/09/17906814351653.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/09/17906814351653.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "6215d4a271d1",
-      "title": "Appointment of Local Guest Teacher at Government High School (Pota Cabin), Maraiguda",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Sukma",
-      "school": "District Collectorate",
-      "start_date": "19/09/2026",
-      "posted_date": "2026-09-19",
-      "end_date": "24/09/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/09/17897334276303.pdf",
-      "job_urls": [
-        {
-          "label": "View (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/09/17897334276303.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
       "id": "211ba132df90",
       "title": "List of subject-wise selected candidates for the engagement of guest teachers at Eklavya Adarsh ​​Residential School, Pendri.",
       "category": "EMRS",
@@ -1001,6 +963,44 @@ window.STATE_DATA = {
         {
           "label": "View (2 MB)",
           "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/07/17829879984245.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "495b5187f5e8",
+      "title": "Advertisement for local guest Teachers on subject of Maths for Government Girls Higher Secondary Schools Konta.",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Sukma",
+      "school": "District Collectorate",
+      "start_date": "29/09/2026",
+      "posted_date": "2026-09-29",
+      "end_date": "05/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/09/17906814351653.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/09/17906814351653.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "6215d4a271d1",
+      "title": "Appointment of Local Guest Teacher at Government High School (Pota Cabin), Maraiguda",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Sukma",
+      "school": "District Collectorate",
+      "start_date": "19/09/2026",
+      "posted_date": "2026-09-19",
+      "end_date": "24/09/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/09/17897334276303.pdf",
+      "job_urls": [
+        {
+          "label": "View (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s358d4d1e7b1e97b258c9ed0b37e02d087/uploads/2026/09/17897334276303.pdf"
         }
       ],
       "doc_type": "job"
