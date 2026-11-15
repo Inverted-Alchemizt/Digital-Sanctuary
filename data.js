@@ -1,5 +1,5 @@
 window.STATE_DATA = {
-  "last_updated": "2026-11-15T23:07:45+05:30",
+  "last_updated": "2026-11-16T03:36:22+05:30",
   "jobs": [
     {
       "id": "009c2afeb93a",
@@ -19,25 +19,6 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
-    },
-    {
-      "id": "ded5cb0932f7",
-      "title": "Regarding claims and objections concerning applications received for the engagement of a part-time Yoga/Sports teacher/instructor at PM SHRI Government Primary School, Deurgaon, Tokapal Block, Bastar District (Chhattisgarh).",
-      "category": "Other",
-      "employment_type": "Part-Time",
-      "district": "Bastar",
-      "school": "District Collectorate",
-      "start_date": "27/10/2026",
-      "posted_date": "2026-10-27",
-      "end_date": "30/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf",
-      "job_urls": [
-        {
-          "label": "View (509 KB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf"
-        }
-      ],
-      "doc_type": "merit"
     },
     {
       "id": "908d20cd6182",
@@ -141,6 +122,25 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
+    },
+    {
+      "id": "ded5cb0932f7",
+      "title": "Regarding claims and objections concerning applications received for the engagement of a part-time Yoga/Sports teacher/instructor at PM SHRI Government Primary School, Deurgaon, Tokapal Block, Bastar District (Chhattisgarh).",
+      "category": "Other",
+      "employment_type": "Part-Time",
+      "district": "Bastar",
+      "school": "District Collectorate",
+      "start_date": "27/10/2026",
+      "posted_date": "2026-10-27",
+      "end_date": "30/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf",
+      "job_urls": [
+        {
+          "label": "View (509 KB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf"
+        }
+      ],
+      "doc_type": "merit"
     },
     {
       "id": "d8040e043368",
@@ -387,25 +387,6 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "ecd3da2e08ef",
-      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Raipur",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "02/06/2026",
-      "posted_date": "2026-06-02",
-      "end_date": "30/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
-      "job_urls": [
-        {
-          "label": "View (650 KB)",
-          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
       "id": "64a2734039a3",
       "title": "Special Guest Teacher Order From the waiting list Work order issued for a special guest teacher at the 200-seater residential school in Durgukondal Block",
       "category": "Other",
@@ -506,6 +487,25 @@ window.STATE_DATA = {
       "doc_type": "merit"
     },
     {
+      "id": "ecd3da2e08ef",
+      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Raipur",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "02/06/2026",
+      "posted_date": "2026-06-02",
+      "end_date": "30/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
+      "job_urls": [
+        {
+          "label": "View (650 KB)",
+          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
       "id": "211ba132df90",
       "title": "List of subject-wise selected candidates for the engagement of guest teachers at Eklavya Adarsh ​​Residential School, Pendri.",
       "category": "EMRS",
@@ -561,6 +561,44 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
+    },
+    {
+      "id": "a05e76a1f3c1",
+      "title": "Walk-in interview for the vacant position of Guest Teacher (PGT Economics)",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Surguja",
+      "school": "District Collectorate",
+      "start_date": "15/10/2026",
+      "posted_date": "2026-10-15",
+      "end_date": "20/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "9646718007e0",
+      "title": "Results of walk-in interviews for guest teachers against vacant posts—to be filled temporarily on an honorarium basis—in district-level Eklavya Model Residential Schools for the 2026–27 academic session",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Surguja",
+      "school": "Eklavya Model Residential School",
+      "start_date": "24/07/2026",
+      "posted_date": "2026-07-24",
+      "end_date": "23/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf",
+      "job_urls": [
+        {
+          "label": "View (8 MB)",
+          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf"
+        }
+      ],
+      "doc_type": "merit"
     },
     {
       "id": "736f67a19aae",
@@ -863,44 +901,6 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
-    },
-    {
-      "id": "a05e76a1f3c1",
-      "title": "Walk-in interview for the vacant position of Guest Teacher (PGT Economics)",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Surguja",
-      "school": "District Collectorate",
-      "start_date": "15/10/2026",
-      "posted_date": "2026-10-15",
-      "end_date": "20/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "9646718007e0",
-      "title": "Results of walk-in interviews for guest teachers against vacant posts—to be filled temporarily on an honorarium basis—in district-level Eklavya Model Residential Schools for the 2026–27 academic session",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Surguja",
-      "school": "Eklavya Model Residential School",
-      "start_date": "24/07/2026",
-      "posted_date": "2026-07-24",
-      "end_date": "23/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf",
-      "job_urls": [
-        {
-          "label": "View (8 MB)",
-          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf"
-        }
-      ],
-      "doc_type": "merit"
     },
     {
       "id": "e5b0a257be3b",
