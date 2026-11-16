@@ -1,5 +1,5 @@
 window.STATE_DATA = {
-  "last_updated": "2026-11-16T03:36:22+05:30",
+  "last_updated": "2026-11-16T07:30:10+05:30",
   "jobs": [
     {
       "id": "009c2afeb93a",
@@ -16,6 +16,71 @@ window.STATE_DATA = {
         {
           "label": "View (1 MB)",
           "url": "https://cdn.s3waas.gov.in/s3c45147dee729311ef5b5c3003946c48f/uploads/2026/06/17810050236260.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "ded5cb0932f7",
+      "title": "Regarding claims and objections concerning applications received for the engagement of a part-time Yoga/Sports teacher/instructor at PM SHRI Government Primary School, Deurgaon, Tokapal Block, Bastar District (Chhattisgarh).",
+      "category": "Other",
+      "employment_type": "Part-Time",
+      "district": "Bastar",
+      "school": "District Collectorate",
+      "start_date": "27/10/2026",
+      "posted_date": "2026-10-27",
+      "end_date": "30/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf",
+      "job_urls": [
+        {
+          "label": "View (509 KB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "06cc599f6c16",
+      "title": "Notice regarding calling for document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Gariyaband",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "07/04/2026",
+      "posted_date": "2026-04-07",
+      "end_date": "15/04/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf"
+        },
+        {
+          "label": "दस्तावेज सत्यापन (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243994186.pdf"
+        },
+        {
+          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756244197673.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "6b1bffc7243f",
+      "title": "Office of the District Education Officer / Secretary, Swami Atmanand Excellent English Medium School Management and Governing Committee, District Durg: An advertisement is hereby issued for contractual recruitment to various vacant teaching and non-t",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Durg",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "28/05/2026",
+      "posted_date": "2026-05-28",
+      "end_date": "08/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3851ddf5058cf22df63d3344ad89919cf/uploads/2026/05/17799775883592.pdf",
+      "job_urls": [
+        {
+          "label": "View (8 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3851ddf5058cf22df63d3344ad89919cf/uploads/2026/05/17799775883592.pdf"
         }
       ],
       "doc_type": "job"
@@ -76,71 +141,6 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
-    },
-    {
-      "id": "06cc599f6c16",
-      "title": "Notice regarding calling for document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Gariyaband",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "07/04/2026",
-      "posted_date": "2026-04-07",
-      "end_date": "15/04/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf"
-        },
-        {
-          "label": "दस्तावेज सत्यापन (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243994186.pdf"
-        },
-        {
-          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756244197673.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "6b1bffc7243f",
-      "title": "Office of the District Education Officer / Secretary, Swami Atmanand Excellent English Medium School Management and Governing Committee, District Durg: An advertisement is hereby issued for contractual recruitment to various vacant teaching and non-t",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Durg",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "28/05/2026",
-      "posted_date": "2026-05-28",
-      "end_date": "08/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3851ddf5058cf22df63d3344ad89919cf/uploads/2026/05/17799775883592.pdf",
-      "job_urls": [
-        {
-          "label": "View (8 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3851ddf5058cf22df63d3344ad89919cf/uploads/2026/05/17799775883592.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "ded5cb0932f7",
-      "title": "Regarding claims and objections concerning applications received for the engagement of a part-time Yoga/Sports teacher/instructor at PM SHRI Government Primary School, Deurgaon, Tokapal Block, Bastar District (Chhattisgarh).",
-      "category": "Other",
-      "employment_type": "Part-Time",
-      "district": "Bastar",
-      "school": "District Collectorate",
-      "start_date": "27/10/2026",
-      "posted_date": "2026-10-27",
-      "end_date": "30/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf",
-      "job_urls": [
-        {
-          "label": "View (509 KB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf"
-        }
-      ],
-      "doc_type": "merit"
     },
     {
       "id": "d8040e043368",
@@ -214,25 +214,6 @@ window.STATE_DATA = {
         {
           "label": "View (335 KB)",
           "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "ca6592a28996",
-      "title": "Notice for Walk-in Interview for Guest Teachers under the Disha Project",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Korba",
-      "school": "District Collectorate",
-      "start_date": "06/10/2026",
-      "posted_date": "2026-10-06",
-      "end_date": "10/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3d2ddea18f00665ce8623e36bd4e3c7c5/uploads/2026/10/17912661148037.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3d2ddea18f00665ce8623e36bd4e3c7c5/uploads/2026/10/17912661148037.pdf"
         }
       ],
       "doc_type": "job"
@@ -330,6 +311,25 @@ window.STATE_DATA = {
       "doc_type": "merit"
     },
     {
+      "id": "ca6592a28996",
+      "title": "Notice for Walk-in Interview for Guest Teachers under the Disha Project",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Korba",
+      "school": "District Collectorate",
+      "start_date": "06/10/2026",
+      "posted_date": "2026-10-06",
+      "end_date": "10/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3d2ddea18f00665ce8623e36bd4e3c7c5/uploads/2026/10/17912661148037.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3d2ddea18f00665ce8623e36bd4e3c7c5/uploads/2026/10/17912661148037.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
       "id": "40a2b14aa0a8",
       "title": "Claims and objections for the posts of part-time Yoga/Sports Teacher/ Instructor and Music Instructor in 8 PMshree schools of the district.",
       "category": "Other",
@@ -382,6 +382,25 @@ window.STATE_DATA = {
         {
           "label": "View (2 MB)",
           "url": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/06/17812626873309.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "ecd3da2e08ef",
+      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Raipur",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "02/06/2026",
+      "posted_date": "2026-06-02",
+      "end_date": "30/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
+      "job_urls": [
+        {
+          "label": "View (650 KB)",
+          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
         }
       ],
       "doc_type": "job"
@@ -485,25 +504,6 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "merit"
-    },
-    {
-      "id": "ecd3da2e08ef",
-      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Raipur",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "02/06/2026",
-      "posted_date": "2026-06-02",
-      "end_date": "30/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
-      "job_urls": [
-        {
-          "label": "View (650 KB)",
-          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
-        }
-      ],
-      "doc_type": "job"
     },
     {
       "id": "211ba132df90",
