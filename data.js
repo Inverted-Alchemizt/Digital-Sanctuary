@@ -1,5 +1,5 @@
 window.STATE_DATA = {
-  "last_updated": "2026-11-16T14:57:43+05:30",
+  "last_updated": "2026-11-17T01:18:19+05:30",
   "jobs": [
     {
       "id": "009c2afeb93a",
@@ -19,6 +19,25 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
+    },
+    {
+      "id": "ded5cb0932f7",
+      "title": "Regarding claims and objections concerning applications received for the engagement of a part-time Yoga/Sports teacher/instructor at PM SHRI Government Primary School, Deurgaon, Tokapal Block, Bastar District (Chhattisgarh).",
+      "category": "Other",
+      "employment_type": "Part-Time",
+      "district": "Bastar",
+      "school": "District Collectorate",
+      "start_date": "27/10/2026",
+      "posted_date": "2026-10-27",
+      "end_date": "30/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf",
+      "job_urls": [
+        {
+          "label": "View (509 KB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf"
+        }
+      ],
+      "doc_type": "merit"
     },
     {
       "id": "06cc599f6c16",
@@ -143,25 +162,6 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "ded5cb0932f7",
-      "title": "Regarding claims and objections concerning applications received for the engagement of a part-time Yoga/Sports teacher/instructor at PM SHRI Government Primary School, Deurgaon, Tokapal Block, Bastar District (Chhattisgarh).",
-      "category": "Other",
-      "employment_type": "Part-Time",
-      "district": "Bastar",
-      "school": "District Collectorate",
-      "start_date": "27/10/2026",
-      "posted_date": "2026-10-27",
-      "end_date": "30/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf",
-      "job_urls": [
-        {
-          "label": "View (509 KB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
       "id": "908d20cd6182",
       "title": "Final list after the interview conducted for the Guest teacher at Kamaar Residential School, Nagri :-Office Collector (Tribal Department) Dhamtari",
       "category": "Other",
@@ -214,25 +214,6 @@ window.STATE_DATA = {
         {
           "label": "View (1 MB)",
           "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/03/17733981365274.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "ca6592a28996",
-      "title": "Notice for Walk-in Interview for Guest Teachers under the Disha Project",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Korba",
-      "school": "District Collectorate",
-      "start_date": "06/10/2026",
-      "posted_date": "2026-10-06",
-      "end_date": "10/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3d2ddea18f00665ce8623e36bd4e3c7c5/uploads/2026/10/17912661148037.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3d2ddea18f00665ce8623e36bd4e3c7c5/uploads/2026/10/17912661148037.pdf"
         }
       ],
       "doc_type": "job"
@@ -330,6 +311,25 @@ window.STATE_DATA = {
       "doc_type": "merit"
     },
     {
+      "id": "ca6592a28996",
+      "title": "Notice for Walk-in Interview for Guest Teachers under the Disha Project",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Korba",
+      "school": "District Collectorate",
+      "start_date": "06/10/2026",
+      "posted_date": "2026-10-06",
+      "end_date": "10/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3d2ddea18f00665ce8623e36bd4e3c7c5/uploads/2026/10/17912661148037.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3d2ddea18f00665ce8623e36bd4e3c7c5/uploads/2026/10/17912661148037.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
       "id": "40a2b14aa0a8",
       "title": "Claims and objections for the posts of part-time Yoga/Sports Teacher/ Instructor and Music Instructor in 8 PMshree schools of the district.",
       "category": "Other",
@@ -382,6 +382,25 @@ window.STATE_DATA = {
         {
           "label": "View (2 MB)",
           "url": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/06/17812626873309.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "ecd3da2e08ef",
+      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Raipur",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "02/06/2026",
+      "posted_date": "2026-06-02",
+      "end_date": "30/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
+      "job_urls": [
+        {
+          "label": "View (650 KB)",
+          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
         }
       ],
       "doc_type": "job"
@@ -487,25 +506,6 @@ window.STATE_DATA = {
       "doc_type": "merit"
     },
     {
-      "id": "ecd3da2e08ef",
-      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Raipur",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "02/06/2026",
-      "posted_date": "2026-06-02",
-      "end_date": "30/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
-      "job_urls": [
-        {
-          "label": "View (650 KB)",
-          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
       "id": "211ba132df90",
       "title": "List of subject-wise selected candidates for the engagement of guest teachers at Eklavya Adarsh ​​Residential School, Pendri.",
       "category": "EMRS",
@@ -596,67 +596,6 @@ window.STATE_DATA = {
         {
           "label": "View (8 MB)",
           "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "736f67a19aae",
-      "title": "Claim-Objection Notice for Appointment of Guest Lecturer/Guest Sports Officer/Others under Government Vijay Bhushan Singh Devkanya College Jashpur –",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "District Collectorate",
-      "start_date": "06/10/2026",
-      "posted_date": "2026-10-06",
-      "end_date": "09/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "b62efcc2af1e",
-      "title": "Selection and waiting list after interview for the post of Guest Lecturer / Guest Teacher in Special Backward Tribal (Pahari Korwa) Residential School Rupsera (Bhadiya), Block Bagicha, District Jashpur (Chhattisgarh) –",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "District Collectorate",
-      "start_date": "01/10/2026",
-      "posted_date": "2026-10-01",
-      "end_date": "08/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "c347e809825f",
-      "title": "Notice regarding interviews for the selection of TGT and PGT guest teachers at the Residential School for Particularly Vulnerable Tribal Groups (Pahari Korwa) in Rupsera (Bhadiya), Bagicha Block.",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "District Collectorate",
-      "start_date": "18/09/2026",
-      "posted_date": "2026-09-18",
-      "end_date": "22/09/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf",
-      "job_urls": [
-        {
-          "label": "View (300 KB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf"
-        },
-        {
-          "label": "List of candidates (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897322382010.pdf"
         }
       ],
       "doc_type": "merit"
@@ -901,6 +840,67 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
+    },
+    {
+      "id": "736f67a19aae",
+      "title": "Claim-Objection Notice for Appointment of Guest Lecturer/Guest Sports Officer/Others under Government Vijay Bhushan Singh Devkanya College Jashpur –",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "06/10/2026",
+      "posted_date": "2026-10-06",
+      "end_date": "09/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "b62efcc2af1e",
+      "title": "Selection and waiting list after interview for the post of Guest Lecturer / Guest Teacher in Special Backward Tribal (Pahari Korwa) Residential School Rupsera (Bhadiya), Block Bagicha, District Jashpur (Chhattisgarh) –",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "01/10/2026",
+      "posted_date": "2026-10-01",
+      "end_date": "08/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "c347e809825f",
+      "title": "Notice regarding interviews for the selection of TGT and PGT guest teachers at the Residential School for Particularly Vulnerable Tribal Groups (Pahari Korwa) in Rupsera (Bhadiya), Bagicha Block.",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "18/09/2026",
+      "posted_date": "2026-09-18",
+      "end_date": "22/09/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf",
+      "job_urls": [
+        {
+          "label": "View (300 KB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf"
+        },
+        {
+          "label": "List of candidates (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897322382010.pdf"
+        }
+      ],
+      "doc_type": "merit"
     },
     {
       "id": "e5b0a257be3b",
