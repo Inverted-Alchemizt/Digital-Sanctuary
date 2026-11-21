@@ -1,5 +1,5 @@
 window.STATE_DATA = {
-  "last_updated": "2026-11-21T15:49:37+05:30",
+  "last_updated": "2026-11-21T23:11:15+05:30",
   "jobs": [
     {
       "id": "009c2afeb93a",
@@ -57,33 +57,6 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
-    },
-    {
-      "id": "06cc599f6c16",
-      "title": "Notice regarding calling for document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Gariyaband",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "07/04/2026",
-      "posted_date": "2026-04-07",
-      "end_date": "15/04/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf"
-        },
-        {
-          "label": "दस्तावेज सत्यापन (4 MB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243994186.pdf"
-        },
-        {
-          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756244197673.pdf"
-        }
-      ],
-      "doc_type": "merit"
     },
     {
       "id": "d8040e043368",
@@ -160,6 +133,33 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
+    },
+    {
+      "id": "06cc599f6c16",
+      "title": "Notice regarding calling for document verification for contractual recruitment on educational and non-educational posts in Swami Atmanand Excellent English Medium Schools",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Gariyaband",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "07/04/2026",
+      "posted_date": "2026-04-07",
+      "end_date": "15/04/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243869744.pdf"
+        },
+        {
+          "label": "दस्तावेज सत्यापन (4 MB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756243994186.pdf"
+        },
+        {
+          "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756244197673.pdf"
+        }
+      ],
+      "doc_type": "merit"
     },
     {
       "id": "908d20cd6182",
@@ -430,25 +430,6 @@ window.STATE_DATA = {
       "doc_type": "merit"
     },
     {
-      "id": "ecd3da2e08ef",
-      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Raipur",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "02/06/2026",
-      "posted_date": "2026-06-02",
-      "end_date": "30/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
-      "job_urls": [
-        {
-          "label": "View (650 KB)",
-          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
       "id": "40a2b14aa0a8",
       "title": "Claims and objections for the posts of part-time Yoga/Sports Teacher/ Instructor and Music Instructor in 8 PMshree schools of the district.",
       "category": "Other",
@@ -501,6 +482,25 @@ window.STATE_DATA = {
         {
           "label": "View (2 MB)",
           "url": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/06/17812626873309.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "ecd3da2e08ef",
+      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Raipur",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "02/06/2026",
+      "posted_date": "2026-06-02",
+      "end_date": "30/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
+      "job_urls": [
+        {
+          "label": "View (650 KB)",
+          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
         }
       ],
       "doc_type": "job"
@@ -565,6 +565,63 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "merit"
+    },
+    {
+      "id": "211ba132df90",
+      "title": "List of subject-wise selected candidates for the engagement of guest teachers at Eklavya Adarsh ​​Residential School, Pendri.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Rajnandgaon",
+      "school": "Eklavya Model Residential School",
+      "start_date": "22/09/2026",
+      "posted_date": "2026-09-22",
+      "end_date": "20/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/09/17900757239614.pdf",
+      "job_urls": [
+        {
+          "label": "View (443 KB)",
+          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/09/17900757239614.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "8a90300e97c9",
+      "title": "Notice – Interviews for the engagement of guest teachers at Eklavya Adarsh ​​Residential School, Pendri, Rajnandgaon, for the 2026-27 academic session.",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Rajnandgaon",
+      "school": "Eklavya Model Residential School",
+      "start_date": "03/09/2026",
+      "posted_date": "2026-09-03",
+      "end_date": "11/09/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/09/17884250251876.pdf",
+      "job_urls": [
+        {
+          "label": "View (3 MB)",
+          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/09/17884250251876.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "bf1cd78a5ba1",
+      "title": "Recruitment – Applications invitation for the arrangement of guest teachers for the academic session 2026-27, Eklavya Model Residential School Pendri, Rajnandgaon",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Rajnandgaon",
+      "school": "Eklavya Model Residential School",
+      "start_date": "02/07/2026",
+      "posted_date": "2026-07-02",
+      "end_date": "17/07/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/07/17829879984245.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/07/17829879984245.pdf"
+        }
+      ],
+      "doc_type": "job"
     },
     {
       "id": "775fa080d3ef",
@@ -642,63 +699,6 @@ window.STATE_DATA = {
         {
           "label": "View (3 MB)",
           "url": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/09/17884207744532.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "211ba132df90",
-      "title": "List of subject-wise selected candidates for the engagement of guest teachers at Eklavya Adarsh ​​Residential School, Pendri.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Rajnandgaon",
-      "school": "Eklavya Model Residential School",
-      "start_date": "22/09/2026",
-      "posted_date": "2026-09-22",
-      "end_date": "20/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/09/17900757239614.pdf",
-      "job_urls": [
-        {
-          "label": "View (443 KB)",
-          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/09/17900757239614.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "8a90300e97c9",
-      "title": "Notice – Interviews for the engagement of guest teachers at Eklavya Adarsh ​​Residential School, Pendri, Rajnandgaon, for the 2026-27 academic session.",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Rajnandgaon",
-      "school": "Eklavya Model Residential School",
-      "start_date": "03/09/2026",
-      "posted_date": "2026-09-03",
-      "end_date": "11/09/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/09/17884250251876.pdf",
-      "job_urls": [
-        {
-          "label": "View (3 MB)",
-          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/09/17884250251876.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "bf1cd78a5ba1",
-      "title": "Recruitment – Applications invitation for the arrangement of guest teachers for the academic session 2026-27, Eklavya Model Residential School Pendri, Rajnandgaon",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Rajnandgaon",
-      "school": "Eklavya Model Residential School",
-      "start_date": "02/07/2026",
-      "posted_date": "2026-07-02",
-      "end_date": "17/07/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/07/17829879984245.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s34ffce04d92a4d6cb21c1494cdfcd6dc1/uploads/2026/07/17829879984245.pdf"
         }
       ],
       "doc_type": "job"
