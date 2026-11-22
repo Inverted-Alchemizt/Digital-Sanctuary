@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-22T08:03:59+05:30",
+  "last_updated": "2026-11-22T15:48:27+05:30",
   "jobs": [
     {
       "id": "009c2afeb93a",
@@ -506,67 +506,6 @@
       "doc_type": "job"
     },
     {
-      "id": "736f67a19aae",
-      "title": "Claim-Objection Notice for Appointment of Guest Lecturer/Guest Sports Officer/Others under Government Vijay Bhushan Singh Devkanya College Jashpur –",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "District Collectorate",
-      "start_date": "06/10/2026",
-      "posted_date": "2026-10-06",
-      "end_date": "09/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "b62efcc2af1e",
-      "title": "Selection and waiting list after interview for the post of Guest Lecturer / Guest Teacher in Special Backward Tribal (Pahari Korwa) Residential School Rupsera (Bhadiya), Block Bagicha, District Jashpur (Chhattisgarh) –",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "District Collectorate",
-      "start_date": "01/10/2026",
-      "posted_date": "2026-10-01",
-      "end_date": "08/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf",
-      "job_urls": [
-        {
-          "label": "View (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "c347e809825f",
-      "title": "Notice regarding interviews for the selection of TGT and PGT guest teachers at the Residential School for Particularly Vulnerable Tribal Groups (Pahari Korwa) in Rupsera (Bhadiya), Bagicha Block.",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Jashpur",
-      "school": "District Collectorate",
-      "start_date": "18/09/2026",
-      "posted_date": "2026-09-18",
-      "end_date": "22/09/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf",
-      "job_urls": [
-        {
-          "label": "View (300 KB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf"
-        },
-        {
-          "label": "List of candidates (2 MB)",
-          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897322382010.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
       "id": "775fa080d3ef",
       "title": "Notice – Regarding the publication of results for the vacant post of Guest Teacher at Eklavya Residential School, Bedma, for the academic session 2026-27. Office of the Principal, Eklavya Adarsh ​​Residential School, Bedma, Development Block, Keshkal, District Kondagaon (Chhattisgarh)",
       "category": "EMRS",
@@ -647,6 +586,105 @@
       "doc_type": "job"
     },
     {
+      "id": "736f67a19aae",
+      "title": "Claim-Objection Notice for Appointment of Guest Lecturer/Guest Sports Officer/Others under Government Vijay Bhushan Singh Devkanya College Jashpur –",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "06/10/2026",
+      "posted_date": "2026-10-06",
+      "end_date": "09/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17912868906535.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "b62efcc2af1e",
+      "title": "Selection and waiting list after interview for the post of Guest Lecturer / Guest Teacher in Special Backward Tribal (Pahari Korwa) Residential School Rupsera (Bhadiya), Block Bagicha, District Jashpur (Chhattisgarh) –",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "01/10/2026",
+      "posted_date": "2026-10-01",
+      "end_date": "08/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf",
+      "job_urls": [
+        {
+          "label": "View (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/10/17908400898310.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "c347e809825f",
+      "title": "Notice regarding interviews for the selection of TGT and PGT guest teachers at the Residential School for Particularly Vulnerable Tribal Groups (Pahari Korwa) in Rupsera (Bhadiya), Bagicha Block.",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Jashpur",
+      "school": "District Collectorate",
+      "start_date": "18/09/2026",
+      "posted_date": "2026-09-18",
+      "end_date": "22/09/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf",
+      "job_urls": [
+        {
+          "label": "View (300 KB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897320341097.pdf"
+        },
+        {
+          "label": "List of candidates (2 MB)",
+          "url": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/09/17897322382010.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "a05e76a1f3c1",
+      "title": "Walk-in interview for the vacant position of Guest Teacher (PGT Economics)",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Surguja",
+      "school": "District Collectorate",
+      "start_date": "15/10/2026",
+      "posted_date": "2026-10-15",
+      "end_date": "20/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "9646718007e0",
+      "title": "Results of walk-in interviews for guest teachers against vacant posts—to be filled temporarily on an honorarium basis—in district-level Eklavya Model Residential Schools for the 2026–27 academic session",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Surguja",
+      "school": "Eklavya Model Residential School",
+      "start_date": "24/07/2026",
+      "posted_date": "2026-07-24",
+      "end_date": "23/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf",
+      "job_urls": [
+        {
+          "label": "View (8 MB)",
+          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
       "id": "211ba132df90",
       "title": "List of subject-wise selected candidates for the engagement of guest teachers at Eklavya Adarsh ​​Residential School, Pendri.",
       "category": "EMRS",
@@ -702,44 +740,6 @@
         }
       ],
       "doc_type": "job"
-    },
-    {
-      "id": "a05e76a1f3c1",
-      "title": "Walk-in interview for the vacant position of Guest Teacher (PGT Economics)",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Surguja",
-      "school": "District Collectorate",
-      "start_date": "15/10/2026",
-      "posted_date": "2026-10-15",
-      "end_date": "20/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "9646718007e0",
-      "title": "Results of walk-in interviews for guest teachers against vacant posts—to be filled temporarily on an honorarium basis—in district-level Eklavya Model Residential Schools for the 2026–27 academic session",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Surguja",
-      "school": "Eklavya Model Residential School",
-      "start_date": "24/07/2026",
-      "posted_date": "2026-07-24",
-      "end_date": "23/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf",
-      "job_urls": [
-        {
-          "label": "View (8 MB)",
-          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf"
-        }
-      ],
-      "doc_type": "merit"
     },
     {
       "id": "3eb2ca01b967",
