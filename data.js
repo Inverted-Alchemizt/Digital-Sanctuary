@@ -1,5 +1,5 @@
 window.STATE_DATA = {
-  "last_updated": "2026-11-26T04:46:00+05:30",
+  "last_updated": "2026-11-26T10:42:55+05:30",
   "jobs": [
     {
       "id": "009c2afeb93a",
@@ -38,101 +38,6 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
-    },
-    {
-      "id": "d8040e043368",
-      "title": "List of Selected/Waitlisted Candidates for Guest Teacher Positions at ‘Chhu Lo Aasman’ Boys’/Girls’ Residential Schools under the Office of the District Education Officer, Dantewada",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dantewada",
-      "school": "District Collectorate",
-      "start_date": "25/09/2026",
-      "posted_date": "2026-09-25",
-      "end_date": "05/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17903256647341.pdf",
-      "job_urls": [
-        {
-          "label": "View (724 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17903256647341.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "bf32bd1b2eb4",
-      "title": "Notice regarding Walk-in Interview for Guest Teacher (English) at ‘Chhu Lo Aasman’ Girls’ Residential Complex, under the Office of the District Education Officer, Dantewada District",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dantewada",
-      "school": "District Collectorate",
-      "start_date": "21.09.2026",
-      "posted_date": "2026-09-21",
-      "end_date": "11/09/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17891257847963.pdf",
-      "job_urls": [
-        {
-          "label": "View (962 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17891257847963.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "76ebf65c5cd2",
-      "title": "Guest Teacher Recruitment – Walk-In Interview",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dantewada",
-      "school": "District Collectorate",
-      "start_date": "07/09/2026",
-      "posted_date": "2026-09-07",
-      "end_date": "11/09/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf",
-      "job_urls": [
-        {
-          "label": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf",
-          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "e74d1053c054",
-      "title": "Walk-in Interview – Recruitment for 01 vacant post of Guest Teacher (English) at “Chhoo Lo Aasman” Kanya Awasiya Vidyalaya, Karli",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dantewada",
-      "school": "District Collectorate",
-      "start_date": "11.09.2026",
-      "posted_date": "2026-09-11",
-      "end_date": "08/09/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf",
-      "job_urls": [
-        {
-          "label": "View (335 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "ded5cb0932f7",
-      "title": "Regarding claims and objections concerning applications received for the engagement of a part-time Yoga/Sports teacher/instructor at PM SHRI Government Primary School, Deurgaon, Tokapal Block, Bastar District (Chhattisgarh).",
-      "category": "Other",
-      "employment_type": "Part-Time",
-      "district": "Bastar",
-      "school": "District Collectorate",
-      "start_date": "27/10/2026",
-      "posted_date": "2026-10-27",
-      "end_date": "30/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf",
-      "job_urls": [
-        {
-          "label": "View (509 KB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf"
-        }
-      ],
-      "doc_type": "merit"
     },
     {
       "id": "908d20cd6182",
@@ -217,6 +122,101 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "merit"
+    },
+    {
+      "id": "ded5cb0932f7",
+      "title": "Regarding claims and objections concerning applications received for the engagement of a part-time Yoga/Sports teacher/instructor at PM SHRI Government Primary School, Deurgaon, Tokapal Block, Bastar District (Chhattisgarh).",
+      "category": "Other",
+      "employment_type": "Part-Time",
+      "district": "Bastar",
+      "school": "District Collectorate",
+      "start_date": "27/10/2026",
+      "posted_date": "2026-10-27",
+      "end_date": "30/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf",
+      "job_urls": [
+        {
+          "label": "View (509 KB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "d8040e043368",
+      "title": "List of Selected/Waitlisted Candidates for Guest Teacher Positions at ‘Chhu Lo Aasman’ Boys’/Girls’ Residential Schools under the Office of the District Education Officer, Dantewada",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dantewada",
+      "school": "District Collectorate",
+      "start_date": "25/09/2026",
+      "posted_date": "2026-09-25",
+      "end_date": "05/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17903256647341.pdf",
+      "job_urls": [
+        {
+          "label": "View (724 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17903256647341.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "bf32bd1b2eb4",
+      "title": "Notice regarding Walk-in Interview for Guest Teacher (English) at ‘Chhu Lo Aasman’ Girls’ Residential Complex, under the Office of the District Education Officer, Dantewada District",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dantewada",
+      "school": "District Collectorate",
+      "start_date": "21.09.2026",
+      "posted_date": "2026-09-21",
+      "end_date": "11/09/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17891257847963.pdf",
+      "job_urls": [
+        {
+          "label": "View (962 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17891257847963.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "76ebf65c5cd2",
+      "title": "Guest Teacher Recruitment – Walk-In Interview",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dantewada",
+      "school": "District Collectorate",
+      "start_date": "07/09/2026",
+      "posted_date": "2026-09-07",
+      "end_date": "11/09/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf",
+      "job_urls": [
+        {
+          "label": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf",
+          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "e74d1053c054",
+      "title": "Walk-in Interview – Recruitment for 01 vacant post of Guest Teacher (English) at “Chhoo Lo Aasman” Kanya Awasiya Vidyalaya, Karli",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dantewada",
+      "school": "District Collectorate",
+      "start_date": "11.09.2026",
+      "posted_date": "2026-09-11",
+      "end_date": "08/09/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf",
+      "job_urls": [
+        {
+          "label": "View (335 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf"
+        }
+      ],
+      "doc_type": "job"
     },
     {
       "id": "ca6592a28996",
@@ -567,6 +567,44 @@ window.STATE_DATA = {
       "doc_type": "merit"
     },
     {
+      "id": "a05e76a1f3c1",
+      "title": "Walk-in interview for the vacant position of Guest Teacher (PGT Economics)",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Surguja",
+      "school": "District Collectorate",
+      "start_date": "15/10/2026",
+      "posted_date": "2026-10-15",
+      "end_date": "20/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf",
+      "job_urls": [
+        {
+          "label": "View (1 MB)",
+          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "9646718007e0",
+      "title": "Results of walk-in interviews for guest teachers against vacant posts—to be filled temporarily on an honorarium basis—in district-level Eklavya Model Residential Schools for the 2026–27 academic session",
+      "category": "EMRS",
+      "employment_type": "Guest",
+      "district": "Surguja",
+      "school": "Eklavya Model Residential School",
+      "start_date": "24/07/2026",
+      "posted_date": "2026-07-24",
+      "end_date": "23/08/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf",
+      "job_urls": [
+        {
+          "label": "View (8 MB)",
+          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
       "id": "775fa080d3ef",
       "title": "Notice – Regarding the publication of results for the vacant post of Guest Teacher at Eklavya Residential School, Bedma, for the academic session 2026-27. Office of the Principal, Eklavya Adarsh ​​Residential School, Bedma, Development Block, Keshkal, District Kondagaon (Chhattisgarh)",
       "category": "EMRS",
@@ -645,44 +683,6 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
-    },
-    {
-      "id": "a05e76a1f3c1",
-      "title": "Walk-in interview for the vacant position of Guest Teacher (PGT Economics)",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Surguja",
-      "school": "District Collectorate",
-      "start_date": "15/10/2026",
-      "posted_date": "2026-10-15",
-      "end_date": "20/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf",
-      "job_urls": [
-        {
-          "label": "View (1 MB)",
-          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/10/17920524522743.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "9646718007e0",
-      "title": "Results of walk-in interviews for guest teachers against vacant posts—to be filled temporarily on an honorarium basis—in district-level Eklavya Model Residential Schools for the 2026–27 academic session",
-      "category": "EMRS",
-      "employment_type": "Guest",
-      "district": "Surguja",
-      "school": "Eklavya Model Residential School",
-      "start_date": "24/07/2026",
-      "posted_date": "2026-07-24",
-      "end_date": "23/08/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf",
-      "job_urls": [
-        {
-          "label": "View (8 MB)",
-          "url": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/07/17849823894918.pdf"
-        }
-      ],
-      "doc_type": "merit"
     },
     {
       "id": "211ba132df90",
