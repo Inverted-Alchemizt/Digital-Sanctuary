@@ -1,5 +1,5 @@
 window.STATE_DATA = {
-  "last_updated": "2026-11-27T05:27:09+05:30",
+  "last_updated": "2026-11-27T12:43:36+05:30",
   "jobs": [
     {
       "id": "009c2afeb93a",
@@ -19,25 +19,6 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "job"
-    },
-    {
-      "id": "ded5cb0932f7",
-      "title": "Regarding claims and objections concerning applications received for the engagement of a part-time Yoga/Sports teacher/instructor at PM SHRI Government Primary School, Deurgaon, Tokapal Block, Bastar District (Chhattisgarh).",
-      "category": "Other",
-      "employment_type": "Part-Time",
-      "district": "Bastar",
-      "school": "District Collectorate",
-      "start_date": "27/10/2026",
-      "posted_date": "2026-10-27",
-      "end_date": "30/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf",
-      "job_urls": [
-        {
-          "label": "View (509 KB)",
-          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf"
-        }
-      ],
-      "doc_type": "merit"
     },
     {
       "id": "6b1bffc7243f",
@@ -81,6 +62,25 @@ window.STATE_DATA = {
         {
           "label": "दस्तावेज सत्यापन प्रारूप (27 KB)",
           "url": "https://cdn.s3waas.gov.in/s3f033ab37c30201f73f142449d037028d/uploads/2026/04/17756244197673.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "ded5cb0932f7",
+      "title": "Regarding claims and objections concerning applications received for the engagement of a part-time Yoga/Sports teacher/instructor at PM SHRI Government Primary School, Deurgaon, Tokapal Block, Bastar District (Chhattisgarh).",
+      "category": "Other",
+      "employment_type": "Part-Time",
+      "district": "Bastar",
+      "school": "District Collectorate",
+      "start_date": "27/10/2026",
+      "posted_date": "2026-10-27",
+      "end_date": "30/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf",
+      "job_urls": [
+        {
+          "label": "View (509 KB)",
+          "url": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/10/17930998968763.pdf"
         }
       ],
       "doc_type": "merit"
@@ -138,82 +138,6 @@ window.STATE_DATA = {
         {
           "label": "View (1 MB)",
           "url": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/03/17733981365274.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "d8040e043368",
-      "title": "List of Selected/Waitlisted Candidates for Guest Teacher Positions at ‘Chhu Lo Aasman’ Boys’/Girls’ Residential Schools under the Office of the District Education Officer, Dantewada",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dantewada",
-      "school": "District Collectorate",
-      "start_date": "25/09/2026",
-      "posted_date": "2026-09-25",
-      "end_date": "05/10/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17903256647341.pdf",
-      "job_urls": [
-        {
-          "label": "View (724 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17903256647341.pdf"
-        }
-      ],
-      "doc_type": "merit"
-    },
-    {
-      "id": "bf32bd1b2eb4",
-      "title": "Notice regarding Walk-in Interview for Guest Teacher (English) at ‘Chhu Lo Aasman’ Girls’ Residential Complex, under the Office of the District Education Officer, Dantewada District",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dantewada",
-      "school": "District Collectorate",
-      "start_date": "21.09.2026",
-      "posted_date": "2026-09-21",
-      "end_date": "11/09/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17891257847963.pdf",
-      "job_urls": [
-        {
-          "label": "View (962 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17891257847963.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "76ebf65c5cd2",
-      "title": "Guest Teacher Recruitment – Walk-In Interview",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dantewada",
-      "school": "District Collectorate",
-      "start_date": "07/09/2026",
-      "posted_date": "2026-09-07",
-      "end_date": "11/09/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf",
-      "job_urls": [
-        {
-          "label": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf",
-          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
-      "id": "e74d1053c054",
-      "title": "Walk-in Interview – Recruitment for 01 vacant post of Guest Teacher (English) at “Chhoo Lo Aasman” Kanya Awasiya Vidyalaya, Karli",
-      "category": "Other",
-      "employment_type": "Guest",
-      "district": "Dantewada",
-      "school": "District Collectorate",
-      "start_date": "11.09.2026",
-      "posted_date": "2026-09-11",
-      "end_date": "08/09/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf",
-      "job_urls": [
-        {
-          "label": "View (335 KB)",
-          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf"
         }
       ],
       "doc_type": "job"
@@ -487,25 +411,6 @@ window.STATE_DATA = {
       "doc_type": "job"
     },
     {
-      "id": "ecd3da2e08ef",
-      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
-      "category": "Swami Atmanand",
-      "employment_type": "Contract",
-      "district": "Raipur",
-      "school": "Swami Atmanand English Medium School",
-      "start_date": "02/06/2026",
-      "posted_date": "2026-06-02",
-      "end_date": "30/06/2026",
-      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
-      "job_urls": [
-        {
-          "label": "View (650 KB)",
-          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
-        }
-      ],
-      "doc_type": "job"
-    },
-    {
       "id": "736f67a19aae",
       "title": "Claim-Objection Notice for Appointment of Guest Lecturer/Guest Sports Officer/Others under Government Vijay Bhushan Singh Devkanya College Jashpur –",
       "category": "Other",
@@ -565,6 +470,25 @@ window.STATE_DATA = {
         }
       ],
       "doc_type": "merit"
+    },
+    {
+      "id": "ecd3da2e08ef",
+      "title": "Notice Regarding the Postponement of Contractual Recruitment at Swami Atmanand School",
+      "category": "Swami Atmanand",
+      "employment_type": "Contract",
+      "district": "Raipur",
+      "school": "Swami Atmanand English Medium School",
+      "start_date": "02/06/2026",
+      "posted_date": "2026-06-02",
+      "end_date": "30/06/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf",
+      "job_urls": [
+        {
+          "label": "View (650 KB)",
+          "url": "https://cdn.s3waas.gov.in/s30584ce565c824b7b7f50282d9a19945b/uploads/2026/06/17804947562281.pdf"
+        }
+      ],
+      "doc_type": "job"
     },
     {
       "id": "211ba132df90",
@@ -978,6 +902,82 @@ window.STATE_DATA = {
         {
           "label": "View (5 MB)",
           "url": "https://cdn.s3waas.gov.in/s39dcb88e0137649590b755372b040afad/uploads/2025/02/2025022818.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "d8040e043368",
+      "title": "List of Selected/Waitlisted Candidates for Guest Teacher Positions at ‘Chhu Lo Aasman’ Boys’/Girls’ Residential Schools under the Office of the District Education Officer, Dantewada",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dantewada",
+      "school": "District Collectorate",
+      "start_date": "25/09/2026",
+      "posted_date": "2026-09-25",
+      "end_date": "05/10/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17903256647341.pdf",
+      "job_urls": [
+        {
+          "label": "View (724 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17903256647341.pdf"
+        }
+      ],
+      "doc_type": "merit"
+    },
+    {
+      "id": "bf32bd1b2eb4",
+      "title": "Notice regarding Walk-in Interview for Guest Teacher (English) at ‘Chhu Lo Aasman’ Girls’ Residential Complex, under the Office of the District Education Officer, Dantewada District",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dantewada",
+      "school": "District Collectorate",
+      "start_date": "21.09.2026",
+      "posted_date": "2026-09-21",
+      "end_date": "11/09/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17891257847963.pdf",
+      "job_urls": [
+        {
+          "label": "View (962 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17891257847963.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "76ebf65c5cd2",
+      "title": "Guest Teacher Recruitment – Walk-In Interview",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dantewada",
+      "school": "District Collectorate",
+      "start_date": "07/09/2026",
+      "posted_date": "2026-09-07",
+      "end_date": "11/09/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf",
+      "job_urls": [
+        {
+          "label": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf",
+          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17887827749697.pdf"
+        }
+      ],
+      "doc_type": "job"
+    },
+    {
+      "id": "e74d1053c054",
+      "title": "Walk-in Interview – Recruitment for 01 vacant post of Guest Teacher (English) at “Chhoo Lo Aasman” Kanya Awasiya Vidyalaya, Karli",
+      "category": "Other",
+      "employment_type": "Guest",
+      "district": "Dantewada",
+      "school": "District Collectorate",
+      "start_date": "11.09.2026",
+      "posted_date": "2026-09-11",
+      "end_date": "08/09/2026",
+      "job_url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf",
+      "job_urls": [
+        {
+          "label": "View (335 KB)",
+          "url": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf"
         }
       ],
       "doc_type": "job"
